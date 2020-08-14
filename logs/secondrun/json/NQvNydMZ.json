@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=NQvNydMZ",
+    "full_url": "https://pastebin.com/NQvNydMZ",
+    "date": "1594474803",
+    "key": "NQvNydMZ",
+    "size": 703,
+    "expire": "0",
+    "title": "tmp.lua",
+    "syntax": "lua",
+    "user": "",
+    "filename": "NQvNydMZ",
+    "pasteid": "NQvNydMZ",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T13:40:03",
+    "MD5": "696ffe5b44b4150d015085307c167b85",
+    "SHA256": "ec558d94a719823482896b6b23e1481ba5b1317a13773fdc4ab12c6c001588b1",
+    "raw_paste": "InvFind = false\r\nInvCount = 1\r\nprint(\"Start\")\r\nwhile true do\r\n    local success, CropData = turtle.inspectDown()\r\n    if success then\r\n        print(\"Crop Growth: \", CropData.metadata)\r\n        if CropData.matadata == 7 then\r\n            print(\"Crop Ready To Harvest\")\r\n            turtle.digDown()\r\n            while InvFind == false do\r\n                turtle.select(InvCount)\r\n                local InvData = turtle.getItemDetail(InvCount)\r\n                if InvData.name == \"minecraft:wheat_seed\" then\r\n                    InvFind = true\r\n                    turtle.placeDown()    \r\n                end\r\n            end\r\n            InvFind = false    \r\n        end\r\n        sleep(10)\r\n    end\r\nend",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

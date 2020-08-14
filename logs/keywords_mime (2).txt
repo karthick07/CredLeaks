@@ -1,0 +1,23 @@
+find -type f -exec bash -c '
+  for f; do
+    file=$(file -- "$f")
+    if [[ $file =~ ^$f:\ ("C source"|"Python script"|"python source"|"node script"|"shell script"|\
+	"swift script"|"Algol 68 source"|"assembler source"|"perl script"|"Bourne-Again shell script"|
+	"C++ source"|"core file"|"DCL command file"|"DOS batch file"|"exported SGML"|"HTML document"|"Java source"|
+	"diff output"|"GIF image data"|"Lisp"|"Lua bytecode"|"makefile script"|"MGR bitmap"|\
+	"Objective-C source"|"Pascal source"|"Perl5"|"PGP message"|"PHP script|"POSIX shell script|\
+	"Ruby script"|"SemOne archive data"|"SMTP mail"|"Windows Registry text"|"XML 1.0") ]]; then
+      echo rm -- "$f"
+    fi
+  done
+' bash {} +
+
+words = [r'(?<!\S)java+(?!\S)',r'(?<!\S)php+(?!\S)',r'(?<!\S)python+(?!\S)',r'(?<!\S)boolean+(?!\S)',
+         r'(?<!\S)bool+(?!\S)', r'(?<!\S)byte+(?!\S)',r'(?<!\S)char+(?!\S)',r'(?<!\S)float+(?!\S)',
+         r'(?<!\S)int+(?!\S)', r'(?<!\S)object+(?!\S)', r'(?<!\S)void+(?!\S)',r'(?<!\S)struct+(?!\S)',
+         r'(?<!\S)namespace+(?!\S)',r'(?<!\S)class+(?!\S)',r'(?<!\S)function+(?!\S)',r'(?<!\S)static+(?!\S)',
+         r'(?<!\S)var+(?!\S)',r'(?<!\S)printf+(?!\S)',r'(?<!\S)package+(?!\S)', r'(?<!\S)implements+(?!\S)',
+         r'(?<!\S)override+(?!\S)',r'(?<!\S)#define+(?!\S)',r'#include',r'(?<!\S)def+(?!\S)',r'(?<!\S)declare+(?!\S)',
+         r'(?<!\S)lambda+(?!\S)',r'(?<!\S)switch+(?!\S)',r'(?<!\S)null+(?!\S)',r'(?<!\S)javascript+(?!\S)',
+         r'(?<!\S)import+(?!\S)',r'(?<!\S)config+(?!\S)',r'(?<!\S)error+(?!\S)',r'(?<!\S)print+(?!\S)',
+         r'(?<!\S)err+(?!\S)',r'(?<!\S)echo+(?!\S)']

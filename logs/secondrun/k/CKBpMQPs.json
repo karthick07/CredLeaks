@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=CKBpMQPs",
+    "full_url": "https://pastebin.com/CKBpMQPs",
+    "date": "1594549005",
+    "key": "CKBpMQPs",
+    "size": 510,
+    "expire": "0",
+    "title": "Shapes",
+    "syntax": "python",
+    "user": "",
+    "filename": "CKBpMQPs",
+    "pasteid": "CKBpMQPs",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-12T10:16:45",
+    "MD5": "077a55c5adad3da05b45c0b663664a8f",
+    "SHA256": "0bdbac48142953383c5c9fc7c12a75c88ef46ce6451dafa34a2c968af9919806",
+    "raw_paste": "from turtle import  Turtle\r\n#functions\r\ndef square(name,length):\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.hideturtle()\r\n    \r\ndef rectangle(name,length):\r\n    name.fd(length)\r\n    name.left(120)\r\n    name.fd(length)\r\n    name.left(120)\r\n    name.fd(length)\r\n    name.hideturtle()\r\n\r\n#create new turtle\r\nsq1 = Turtle()\r\n\r\n#making a square\r\nsquare(sq1,200)\r\n\r\n#making a rectangle\r\nrectangle(sq1,200)",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

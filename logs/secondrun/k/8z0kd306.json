@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=8z0kd306",
+    "full_url": "https://pastebin.com/8z0kd306",
+    "date": "1594644486",
+    "key": "8z0kd306",
+    "size": 3391,
+    "expire": "0",
+    "title": "",
+    "syntax": "xml",
+    "user": "",
+    "filename": "8z0kd306",
+    "pasteid": "8z0kd306",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-13T12:48:06",
+    "MD5": "7e1b43529e9ce1cc769a0a7ea4f3ac55",
+    "SHA256": "8afda9bb40d77ae8d093aec2e7510fff79a38e9c6644508277dbc534aa0f4377",
+    "raw_paste": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\r\n<AssignedAccessConfiguration\r\n    xmlns=\"http://schemas.microsoft.com/AssignedAccess/2017/config\"\r\n    xmlns:r1809=\"http://schemas.microsoft.com/AssignedAccess/201810/config\"\r\n>\r\n    <Profiles>\r\n        <Profile Id=\"{9A2A490F-10F6-4764-974A-43B19E722C23}\">\r\n            <AllAppsList>\r\n                <AllowedApps>\r\n                    <App AppUserModelId=\"Microsoft.BingWeather_8wekyb3d8bbwe!App\" />\r\n                    <App AppUserModelId=\"Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge\" />\r\n                    <App DesktopAppPath=\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" />\r\n                </AllowedApps>\r\n            </AllAppsList>\r\n            <StartLayout>\r\n                <![CDATA[<LayoutModificationTemplate xmlns:defaultlayout=\"http://schemas.microsoft.com/Start/2014/FullDefaultLayout\" xmlns:start=\"http://schemas.microsoft.com/Start/2014/StartLayout\" Version=\"1\" xmlns=\"http://schemas.microsoft.com/Start/2014/LayoutModification\">\r\n                      <LayoutOptions StartTileGroupCellWidth=\"6\" />\r\n                      <DefaultLayoutOverride>\r\n                        <StartLayoutCollection>\r\n                          <defaultlayout:StartLayout GroupCellWidth=\"6\">\r\n                            <start:Group Name=\"Life at a glance\">\r\n                              <start:Tile Size=\"2x2\" Column=\"0\" Row=\"0\" AppUserModelID=\"Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge\" />\r\n                              <start:Tile Size=\"4x2\" Column=\"0\" Row=\"4\" AppUserModelID=\"Microsoft.WindowsStore_8wekyb3d8bbwe!App\" />\r\n                              <!-- A link file is required for desktop applications to show on start layout, the link file can be placed under\r\n                                   \"%AllUsersProfile%\\Microsoft\\Windows\\Start Menu\\Programs\" if the link file is shared for all users or\r\n                                   \"%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\" if the link file is for the specific user only \r\n                                   see document https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop\r\n                              -->\r\n                              <!-- for inbox desktop applications, a link file might already exist and can be used directly -->\r\n                              <start:DesktopApplicationTile Size=\"2x2\" Column=\"2\" Row=\"0\" DesktopApplicationLinkPath=\"%AllUsersProfile%\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk\" />\r\n                              <!-- for 3rd party desktop application, place the link file under appropriate folder -->\r\n                              <start:DesktopApplicationTile Size=\"2x2\" Column=\"4\" Row=\"0\" DesktopApplicationLinkPath=\"%AppData%\\Microsoft\\Windows\\Start Menu\\Programs\\MyLOB.lnk\" />\r\n                            </start:Group>\r\n                          </defaultlayout:StartLayout>\r\n                        </StartLayoutCollection>\r\n                      </DefaultLayoutOverride>\r\n                    </LayoutModificationTemplate>\r\n                ]]>\r\n            </StartLayout>\r\n            <Taskbar ShowTaskbar=\"true\"/>\r\n        </Profile>\r\n    </Profiles>\r\n    <Configs>\r\n        <Config>\r\n            <Account>norip</Account>\r\n            <DefaultProfile Id=\"{9A2A490F-10F6-4764-974A-43B19E722C23}\"/>\r\n        </Config>\r\n\r\n    </Configs>\r\n</AssignedAccessConfiguration>",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

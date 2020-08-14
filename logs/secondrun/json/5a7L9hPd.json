@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=5a7L9hPd",
+    "full_url": "https://pastebin.com/5a7L9hPd",
+    "date": "1594483432",
+    "key": "5a7L9hPd",
+    "size": 606,
+    "expire": "0",
+    "title": "lava",
+    "syntax": "lua",
+    "user": "",
+    "filename": "5a7L9hPd",
+    "pasteid": "5a7L9hPd",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T16:03:52",
+    "MD5": "d01b9ed51b66b7d77a5164bf97b7096d",
+    "SHA256": "5fcd83b5ebbe12cf7f627481ac3d7cd5ac78ea4ee3f3317ae647d614bbcb7f29",
+    "raw_paste": "function forward()\r\n  while turtle.detect() == true do\r\n    turtle.dig()\r\n    os.sleep(0.5)\r\n  end\r\n  turtle.forward()\r\nend\r\n\r\nfunction refuel()\r\n  turtle.select(1)\r\n  turtle.placeDown()\r\n  turtle.refuel()\r\nend\r\n\r\nlocal tArgs = { ... }\r\n\r\nmaxDistance = tonumber(tArgs[1])\r\n\r\nturtle.select(1)\r\nif turtle.getItemCount(1) < 1 then\r\n  print(\"Missing Bucket\")\r\n  error()\r\n  else\r\n  print(\"Gonna Start Getting That Lava\")  \r\nend\r\n\r\nfor i= 1,2 do\r\n  for t=1, maxDistance do\r\n    forward()\r\n    refuel()\r\n  end\r\n  turtle.turnLeft()\r\n  forward()\r\n  refuel()\r\n  turtle.turnLeft()\r\nend\r\n\r\nprint(turtle.getFuelLevel())",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

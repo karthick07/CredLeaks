@@ -1,0 +1,21 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=Ph2V4RX5",
+    "full_url": "https://pastebin.com/Ph2V4RX5",
+    "date": "1594637621",
+    "key": "Ph2V4RX5",
+    "size": 1760,
+    "expire": "0",
+    "title": "",
+    "syntax": "javascript",
+    "user": "",
+    "filename": "Ph2V4RX5",
+    "pasteid": "Ph2V4RX5",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-13T10:53:41",
+    "MD5": "2e651985665b89669a69a59d7e94d874",
+    "SHA256": "1e90f38d41cef655ec34ab8e0f20b5ebe872dd30529e07c38fc0c346e852f3ce",
+    "raw_paste": "let request = require('request');\r\nconst webhook = require(\"webhook-discord\")\r\n\r\nconst Hook = new webhook.Webhook(\"https://discordapp.com/api/webhooks/732025103549726821/P-BVYp9gq00Sfjn7MavxGva24ppWmqqSLtHPCR89lsRZTp3ma-QMciXXFuO7QwDt6hfo\")\r\n\r\n\r\nlet options = {\r\n    'method': 'POST',\r\n    'url': 'https://vente.tryandjudge.com/ScriptPHP/verification.php',\r\n    'headers': {\r\n        'Content-Type': 'application/x-www-form-urlencoded'\r\n    },\r\n    form: {\r\n        'devise': 'EUR',\r\n        'tester': 'serveurcontentprices1'\r\n    }\r\n};\r\n\r\nlet matches;\r\n\r\nfunction sendRequest() {\r\n    return new Promise((resolve, reject) => {\r\n        request(options, function (error, response) {\r\n            if (error) reject(error);\r\n            resolve(response.body);\r\n        })\r\n    })\r\n}\r\n\r\nasync function sendMessageToDiscord() {\r\n    let serveurs = await sendRequest()\r\n\tconst regex = /<td.*>.*?<\\/td>/gm;\r\n\tconst matches = [...serveurs.matchAll(regex)].reduce((acc,match, index) => {\r\n\t\t//console.log(index);\r\n\r\n\t\tif(!(index%3)){\r\n\t\t\tacc.push([match[0].replace('<td>','').replace('</td>','')]);\r\n\t\t} else if(index%3 == 2){\r\n\t\t\tif(match[0] === '<td ><center style=\"color:red\"> Stock complet </center></td>'){\r\n\t\t\t\tacc[(index/3) | 0].push('indisponible')\r\n\t\t\t} else{\r\n\t\t\t\tacc[(index/3) | 0].push('disponible')\r\n\t\t\t}\r\n\r\n\t\t} else{\r\n\t\t\tacc[(index/3) | 0].push(match[0].replace('<td>','').replace('</td>',''))\r\n\t\t}\r\n\t\t//acc.push([match[0]]);\r\n\t\treturn acc;\r\n\t\t\r\n\t}, []);\r\n\tlet message = \"\";\r\n\tfor(const match of matches){\r\n\t\t\r\n\t\tmessage += `Sur **${match[0]}** la vente est **${match[2]}** au prix de **${match[1]}** \\n\\n`\r\n\t}\r\n\t//console.log(matches);\r\n    //console.log(serveurs)\r\n    Hook.success(\"Vente de kamas possible\", `${message}`)\r\n}\r\n\r\nsendMessageToDiscord()",
+    "YaraRule": [
+        "discord_api"
+    ]
+}

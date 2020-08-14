@@ -1,0 +1,2104 @@
+[00:16:06] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[00:16:06] [main/INFO]: Using primary tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[00:16:06] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:16:06] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[00:16:06] [main/INFO]: Bootstrapping LiteLoader 1.12.2
+[00:16:06] [main/INFO]: Registering API provider class com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient
+[00:16:06] [main/INFO]: Spawning API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' ...
+[00:16:06] [main/INFO]: API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' provides API 'liteloader'
+[00:16:06] [main/INFO]: Initialising API 'liteloader' ...
+[00:16:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/home/marcus/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[00:16:06] [main/INFO]: LiteLoader begin PREINIT...
+[00:16:06] [main/INFO]: Initialising Loader properties...
+[00:16:06] [main/INFO]: Setting up logger...
+[00:16:06] [main/INFO]: LiteLoader 1.12.2 starting up...
+[00:16:06] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[00:16:06] [main/INFO]: Java reports OS="linux"
+[00:16:06] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[00:16:06] [main/INFO]: Enumerating class path...
+[00:16:06] [main/INFO]: Class path separator=":"
+[00:16:06] [main/INFO]: Class path entries=(
+   classpathEntry=/home/marcus/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2768/forge-1.12.2-14.23.5.2768.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/mojang/patchy/1.1/patchy-1.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=/home/marcus/.minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
+   classpathEntry=/home/marcus/.minecraft/versions/1.12.2/1.12.2.jar
+)
+[00:16:06] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[00:16:06] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/home/marcus/.minecraft/mods]
+[00:16:06] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [/home/marcus/.minecraft/mods/1.12.2]
+[00:16:06] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@726386ed]
+[00:16:06] [main/INFO]: Discovering valid mod files in folder /home/marcus/.minecraft/mods
+[00:16:06] [main/INFO]: Discovering valid mod files in folder /home/marcus/.minecraft/mods/1.12.2
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'modid-1.0.jar'
+[00:16:06] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'HealthBar-1.12-1.0.7-23.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'dabmod-1.1.0-1.12.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'mod-combatradar-1.1-mc1.12.2.litemod'
+[00:16:06] [main/INFO]: Considering valid mod file: /home/marcus/.minecraft/mods/1.12.2/mod-combatradar-1.1-mc1.12.2.litemod
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'clientcommands-1.12-20190126-snapshot.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'mod_macros_0.15.4_for_1.12.1.litemod'
+[00:16:06] [main/INFO]: Considering valid mod file: /home/marcus/.minecraft/mods/1.12.2/mod_macros_0.15.4_for_1.12.1.litemod
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'BetterSprinting++MC-1.12.2++v2.1.1.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'LunatriusCore-1.12.2-1.2.0.42-universal.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_E2.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'hud-1.3.9-1.12.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'worldedit-forge-mc1.12-6.1.8-dist.jar'
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'mod-gammabright-3.7-mc1.12.2.litemod'
+[00:16:06] [main/INFO]: Considering valid mod file: /home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod
+[00:16:06] [main/INFO]: Inspecting jar metadata in 'The 5zig Mod v3.12.5 for Minecraft 1.12.2.jar'
+[00:16:06] [main/INFO]: Discovering tweaks on class path...
+[00:16:06] [main/INFO]: Registering discovered mod files in folder /home/marcus/.minecraft/mods
+[00:16:06] [main/INFO]: Adding newest valid mod file '/home/marcus/.minecraft/mods/1.12.2/mod-combatradar-1.1-mc1.12.2.litemod' at revision 147.0000
+[00:16:06] [main/INFO]: Registering events.json for mod with id macros
+[00:16:06] [main/INFO]: Adding newest valid mod file '/home/marcus/.minecraft/mods/1.12.2/mod_macros_0.15.4_for_1.12.1.litemod' at revision 1540.0000
+[00:16:06] [main/INFO]: Adding newest valid mod file '/home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod' at revision 6.0000
+[00:16:06] [main/INFO]: Registering discovered mod files in folder /home/marcus/.minecraft/mods/1.12.2
+[00:16:06] [main/INFO]: Mod file 'OptiFine_1.12.2_HD_U_E2.jar' provides tweakClass 'optifine.OptiFineForgeTweaker', adding to Launch queue with priority -1000
+[00:16:06] [main/INFO]: tweakClass 'optifine.OptiFineForgeTweaker' was successfully added
+[00:16:07] [main/INFO]: ClassPathUtilities: attempting to inject file:/home/marcus/.minecraft/mods/1.12.2/OptiFine_1.12.2_HD_U_E2.jar into LaunchClassLoader
+[00:16:07] [main/INFO]: Mod file 'The 5zig Mod v3.12.5 for Minecraft 1.12.2.jar' provides tweakClass 'eu.the5zig.mod.asm.ClassTweaker', adding to Launch queue with priority -900
+[00:16:07] [main/INFO]: tweakClass 'eu.the5zig.mod.asm.ClassTweaker' was successfully added
+[00:16:07] [main/INFO]: ClassPathUtilities: attempting to inject file:/home/marcus/.minecraft/mods/1.12.2/The%205zig%20Mod%20v3.12.5%20for%20Minecraft%201.12.2.jar into LaunchClassLoader
+[00:16:07] [main/INFO]: Registering mixin config mixins.combatradar.json for mod-combatradar-1.1-mc1.12.2.litemod
+[00:16:07] [main/INFO]: Registering mixin config mixins.macros.json for mod_macros_0.15.4_for_1.12.1.litemod
+[00:16:07] [main/INFO]: Compatibility level set to JAVA_8
+[00:16:07] [main/INFO]: Initialising LiteLoader Mixins
+[00:16:07] [main/INFO]: LiteLoader PREINIT complete
+[00:16:07] [main/INFO]: Injecting cascaded tweakers...
+[00:16:07] [main/INFO]: Injecting tweak class optifine.OptiFineForgeTweaker with priority -1000
+[00:16:07] [main/INFO]: Injecting tweak class eu.the5zig.mod.asm.ClassTweaker with priority -900
+[00:16:07] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.transformers.event.EventProxyTransformer'
+[00:16:07] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.launch.LiteLoaderTransformer'
+[00:16:07] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.client.transformers.CrashReportTransformer'
+[00:16:07] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[00:16:07] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[00:16:07] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[00:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:16:07] [main/INFO]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[00:16:07] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Linux:amd64:4.15.0-65-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[00:16:07] [main/INFO]: Searching /home/marcus/.minecraft/mods for mods
+[00:16:07] [main/INFO]: Searching /home/marcus/.minecraft/mods/1.12.2 for mods
+[00:16:07] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in BetterSprinting++MC-1.12.2++v2.1.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:16:07] [main/WARN]: The coremod BetterSprintingCore (chylex.bettersprinting.system.core.BetterSprintingCore) is not signed!
+[00:16:07] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in clientcommands-1.12-20190126-snapshot.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:16:07] [main/WARN]: The coremod net.earthcomputer.clientcommands.core.ClientCommandsLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:16:07] [main/WARN]: The coremod ClientCommandsLoadingPlugin (net.earthcomputer.clientcommands.core.ClientCommandsLoadingPlugin) is not signed!
+[00:16:07] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_E2.jar
+[00:16:07] [main/INFO]: Loading tweaker eu.the5zig.mod.asm.ClassTweaker from The 5zig Mod v3.12.5 for Minecraft 1.12.2.jar
+[00:16:07] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:16:07] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:16:07] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[00:16:07] [main/INFO]: Loading tweak class name eu.the5zig.mod.asm.ClassTweaker
+[00:16:07] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[00:16:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:16:07] [main/WARN]: Tweak class name optifine.OptiFineForgeTweaker has already been visited -- skipping
+[00:16:07] [main/WARN]: Tweak class name eu.the5zig.mod.asm.ClassTweaker has already been visited -- skipping
+[00:16:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:16:07] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[00:16:07] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[00:16:07] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[00:16:07] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[00:16:07] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: /home/marcus/.minecraft/mods/1.12.2/OptiFine_1.12.2_HD_U_E2.jar
+[00:16:07] [main/INFO]: Calling tweak class eu.the5zig.mod.asm.ClassTweaker
+[00:16:07] [main/INFO]: Minecraft Version: 1.12.2-LiteLoader1.12.2-1.12.2-forge1.12.2-14.23.5.2768
+[00:16:07] [main/INFO]: Forge detected!
+[00:16:07] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:16:07] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@301d8120
+[00:16:07] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:16:07] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[00:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:16:08] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:16:08] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[00:16:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:16:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:16:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:16:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:16:09] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:16:09] [main/WARN]: Tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker has already been visited -- skipping
+[00:16:09] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:16:09] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[00:16:09] [main/INFO]: Injecting downstream transformers
+[00:16:09] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[00:16:09] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[00:16:09] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[00:16:09] [main/INFO]: Parsing events for mod with id macros
+[00:16:09] [main/INFO]: macros contains Accessor definitions, injecting into classpath...
+[00:16:09] [main/INFO]: Registering events for mod with id macros
+[00:16:09] [main/INFO]: FML detected, switching to searge mappings
+[00:16:09] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:16:10] [main/INFO]: [net.minecraft.client.main.Main:main:55]: Completely ignored arguments: [NeoFascist, , ef5fd9229eec4f699ca368e06d5c03f3, , mojang, , 1.12, eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyZTZhMDFiYWVhNDVmNTQ3YmU1NDgzMmFiYWViNDE3ZSIsIm5iZiI6MTU3MTM0NzE2OCwieWdndCI6IjAxZjMxNWQ5ZDIyMzQ1YmE5N2ZiNTEwY2M5MDY0YjRlIiwic3ByIjoiZWY1ZmQ5MjI5ZWVjNGY2OTljYTM2OGUwNmQ1YzAzZjMiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTcxNTE5OTY4LCJpYXQiOjE1NzEzNDcxNjh9.h2CFGL-aPfT1mPyiTZ510iRBFxS80x5kJsEsbr-hXtg, Forge]
+[00:16:10] [main/INFO]: Setting user: NeoFascist
+[00:16:14] [main/INFO]: [OptiFine] *** Reflector Forge ***
+[00:16:14] [main/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[00:16:14] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[00:16:15] [main/INFO]: [OptiFine] *** Reflector Vanilla ***
+[00:16:15] [main/INFO]: LWJGL Version: 2.9.4
+[00:16:15] [main/INFO]: [OptiFine] 
+[00:16:15] [main/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_E2
+[00:16:15] [main/INFO]: [OptiFine] Build: 20180728-185429
+[00:16:15] [main/INFO]: [OptiFine] OS: Linux (amd64) version 4.15.0-65-generic
+[00:16:15] [main/INFO]: [OptiFine] Java: 1.8.0_181, Oracle Corporation
+[00:16:15] [main/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[00:16:15] [main/INFO]: [OptiFine] LWJGL: 2.9.4
+[00:16:15] [main/INFO]: [OptiFine] OpenGL: Mesa DRI Intel(R) HD Graphics 530 (Skylake GT2) , version 3.0 Mesa 18.0.5, Intel Open Source Technology Center
+[00:16:15] [main/INFO]: [OptiFine] OpenGL Version: 3.0.0
+[00:16:15] [main/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[00:16:15] [main/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[00:16:15] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[00:16:15] [main/INFO]: [Shaders] ShadersMod version: 2.4.12
+[00:16:15] [main/INFO]: [Shaders] OpenGL Version: 3.0 Mesa 18.0.5
+[00:16:15] [main/INFO]: [Shaders] Vendor:  Intel Open Source Technology Center
+[00:16:15] [main/INFO]: [Shaders] Renderer: Mesa DRI Intel(R) HD Graphics 530 (Skylake GT2) 
+[00:16:15] [main/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  -  - 
+[00:16:15] [main/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[00:16:15] [main/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[00:16:15] [main/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[00:16:15] [main/INFO]: [Shaders] Load ShadersMod configuration.
+[00:16:15] [main/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[00:16:15] [main/INFO]: [Shaders] No shaderpack loaded.
+[00:16:15] [main/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[00:16:15] [main/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_E2, enabling compatibility features
+[00:16:15] [main/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.15.0-65-generic
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 298678928 bytes (284 MB) / 536870912 bytes (512 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 7 total; -Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+ClientCommandsLoadingPlugin (clientcommands-1.12-20190126-snapshot.jar)
+  net.earthcomputer.clientcommands.core.ProxyTransformer
+  net.earthcomputer.clientcommands.core.NetHandlerTransformer
+  net.earthcomputer.clientcommands.core.IntegratedServerRaceFixTransformer
+  net.earthcomputer.clientcommands.core.RenderManagerTransformer
+BetterSprintingCore (BetterSprinting++MC-1.12.2++v2.1.1.jar)
+  chylex.bettersprinting.system.core.TransformerEntityPlayerSP
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.0.5' Renderer: 'Mesa DRI Intel(R) HD Graphics 530 (Skylake GT2) '
+[00:16:16] [main/INFO]: MinecraftForge v14.23.5.2768 Initialized
+[00:16:16] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:16:16] [main/INFO]: Replaced 1036 ore ingredients
+[00:16:16] [main/INFO]: Searching /home/marcus/.minecraft/mods for mods
+[00:16:16] [main/INFO]: Searching /home/marcus/.minecraft/mods/1.12.2 for mods
+[00:16:16] [VersionCheck/INFO]: [OptiFine] Version found: D3
+[00:16:17] [main/WARN]: Mod bettersprinting is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.1
+[00:16:17] [main/INFO]: Forge Mod Loader has identified 12 mods to load
+[00:16:17] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettersprinting, clientcommands, cdabm, healthbar, hud, lunatriuscore, vengeance, worldedit] at CLIENT
+[00:16:17] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettersprinting, clientcommands, cdabm, healthbar, hud, lunatriuscore, vengeance, worldedit] at SERVER
+[00:16:18] [main/INFO]: Reloading ResourceManager: The 5zig Mod, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Sprinting, FMLFileResourcePack:Earthcomputer's Client Command Mod, FMLFileResourcePack:MrCrayfish's Dab Mod, FMLFileResourcePack:Health Bar, FMLFileResourcePack:Better HUD, FMLFileResourcePack:LunatriusCore, FMLFileResourcePack:Vengeance, FMLFileResourcePack:WorldEdit, Meezoid v3
+[00:16:18] [main/INFO]: Processing ObjectHolder annotations
+[00:16:18] [main/INFO]: Found 706 ObjectHolder annotations
+[00:16:18] [main/INFO]: Identifying ItemStackHolder annotations
+[00:16:18] [main/INFO]: Found 0 ItemStackHolder annotations
+[00:16:18] [main/INFO]: Configured a dormant chunk cache size of 0
+[00:16:18] [Forge Version Check/INFO]: [healthbar] Starting version check at https://raw.githubusercontent.com/SilentChaos512/HealthBar/master/update.json
+[00:16:18] [main/INFO]: Applying holder lookups
+[00:16:18] [main/INFO]: Holder lookups applied
+[00:16:18] [main/INFO]: Applying holder lookups
+[00:16:18] [main/INFO]: Holder lookups applied
+[00:16:18] [main/INFO]: Applying holder lookups
+[00:16:18] [main/INFO]: Holder lookups applied
+[00:16:18] [main/INFO]: Applying holder lookups
+[00:16:18] [main/INFO]: Holder lookups applied
+[00:16:18] [main/INFO]: Injecting itemstacks
+[00:16:18] [main/INFO]: Itemstack injection complete
+[00:16:18] [main/INFO]: [OptiFine] *** Reloading textures ***
+[00:16:18] [main/INFO]: [OptiFine] Resource packs: Meezoid v3
+[00:16:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[00:16:19] [main/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[00:16:19] [main/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[00:16:19] [Thread-3/INFO]: Using sync timing. 200 frames of Display.update took 35449622 nanos
+[00:16:19] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[00:16:19] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:16:19] [Thread-4/INFO]: OpenAL initialized.
+[00:16:19] [Forge Version Check/INFO]: [healthbar] Found status: BETA Target: null
+[00:16:19] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:16:19] [Sound Library Loader/INFO]: Sound engine started
+[00:16:19] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Target: null
+[00:16:19] [Forge Version Check/INFO]: [bettersprinting] Starting version check at https://raw.githubusercontent.com/chylex/Better-Sprinting/master/UpdateInfo.json
+[00:16:20] [Forge Version Check/INFO]: [bettersprinting] Found status: OUTDATED Target: 3.0.1
+[00:16:21] [main/INFO]: [OptiFine] Multitexture: false
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass black/glass_black.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass blue/glass_blue.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass brown/glass_brown.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass cyan/glass_cyan.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass gray/glass_gray.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass green/glass_green.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light blue/glass_light_blue.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass lime/glass_lime.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass magenta/glass_magenta.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass orange/glass_orange.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass pink/glass_pink.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass purple/glass_purple.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass red/glass_red.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass silver/glass_silver.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass white/glass_white.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass yellow/glass_yellow.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_clear/glass.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_black/glass_black.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_blue/glass_blue.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_brown/glass_brown.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_cyan/glass_cyan.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_gray/glass_gray.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_green/glass_green.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_light_blue/glass_light_blue.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_lime/glass_lime.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_magenta/glass_magenta.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_orange/glass_orange.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_pink/glass_pink.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_purple/glass_purple.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_red/glass_red.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_silver/glass_silver.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_white/glass_white.properties
+[00:16:21] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_yellow/glass_yellow.properties
+[00:16:21] [main/INFO]: [OptiFine] Multipass connected textures: false
+[00:16:21] [main/INFO]: [OptiFine] Multipass connected textures: false
+[00:16:21] [main/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[00:16:22] [main/INFO]: [OptiFine] Custom loader sprites: 3
+[00:16:22] [main/INFO]: [OptiFine] Sprite dependencies: 5
+[00:16:23] [main/INFO]: Created: 4096x2048 textures-atlas
+[00:16:23] [main/INFO]: [OptiFine] Animated sprites: 23
+[00:16:24] [main/INFO]: JInput Component Registry is initialising...
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/ERROR]: The jar file /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[00:16:24] [main/INFO]: Inspecting Mouse controller Mad Catz Mad Catz M.M.O.TE on USB port...
+[00:16:24] [main/INFO]: Inspecting Stick controller Mad Catz Mad Catz M.M.O.TE on Unknown...
+[00:16:24] [main/INFO]: JInput Component Registry initialised, found 2 controller(s) 45 component(s)
+[00:16:24] [main/INFO]: LiteLoader begin INIT...
+[00:16:24] [main/INFO]: Baking listener list for CoreProvider with 2 listeners
+[00:16:24] [main/INFO]: Injecting external mods into class path...
+[00:16:24] [main/INFO]: Successfully injected mod file '/home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod' into classpath
+[00:16:24] [main/INFO]: Injecting external mods into class path...
+[00:16:24] [main/INFO]: Discovering mods on class path...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2768/forge-1.12.2-14.23.5.2768.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/mojang/patchy/1.1/patchy-1.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/versions/1.12.2/1.12.2.jar...
+[00:16:24] [main/INFO]: Discovering mods in valid mod files...
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/mods/1.12.2/mod-combatradar-1.1-mc1.12.2.litemod...
+[00:16:24] [main/INFO]: Found 1 potential matches
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/mods/1.12.2/mod_macros_0.15.4_for_1.12.1.litemod...
+[00:16:24] [main/INFO]: Found 1 potential matches
+[00:16:24] [main/INFO]: Searching /home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod...
+[00:16:24] [main/INFO]: Found 1 potential matches
+[00:16:24] [main/INFO]: Discovering mods in valid mod files...
+[00:16:24] [main/INFO]: Mod class discovery completed
+[00:16:24] [main/INFO]: LiteLoader begin POSTINIT...
+[00:16:24] [main/INFO]: Inhibiting sound handler reload
+[00:16:24] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[00:16:24] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[00:16:24] [main/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[00:16:24] [main/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[00:16:24] [main/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[00:16:24] [main/INFO]: Discovered 3 total mod(s), injected 2 tweak(s)
+[00:16:24] [main/INFO]: Loading mod from com.aleksey.combatradar.LiteModCombatRadar
+[00:16:24] [main/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[00:16:24] [main/INFO]: Successfully added mod Combat Radar version 1.1.0
+[00:16:24] [main/INFO]: Adding "/home/marcus/.minecraft/mods/1.12.2/mod-combatradar-1.1-mc1.12.2.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Setting up "mod-combatradar-1.1-mc1.12.2.litemod" as mod resource pack with identifier "Combat Radar"
+[00:16:24] [main/INFO]: Successfully added "/home/marcus/.minecraft/mods/1.12.2/mod-combatradar-1.1-mc1.12.2.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Loading mod from net.eq2online.macros.LiteModMacros
+[00:16:24] [main/INFO]: Successfully added mod Macro / Keybind Mod version 0.15.4
+[00:16:24] [main/INFO]: Adding "/home/marcus/.minecraft/mods/1.12.2/mod_macros_0.15.4_for_1.12.1.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Setting up "mod_macros_0.15.4_for_1.12.1.litemod" as mod resource pack with identifier "Macro / Keybind Mod"
+[00:16:24] [main/INFO]: Successfully added "/home/marcus/.minecraft/mods/1.12.2/mod_macros_0.15.4_for_1.12.1.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Loading mod from com.shadowhawk.gammabright.LiteModGammabright
+[00:16:24] [main/INFO]: Successfully added mod Gammabright version 3.7
+[00:16:24] [main/INFO]: Adding "/home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Setting up "mod-gammabright-3.7-mc1.12.2.litemod" as mod resource pack with identifier "Gammabright"
+[00:16:24] [main/INFO]: Successfully added "/home/marcus/.minecraft/mods/1.12.2/mod-gammabright-3.7-mc1.12.2.litemod" to active resource pack set
+[00:16:24] [main/INFO]: Initialising mod Combat Radar version 1.1.0
+[00:16:24] [main/INFO]: [CombatRadar]: JourneyMap is NOT found
+[00:16:24] [main/INFO]: [CombatRadar]: VoxelMap is NOT found
+[00:16:24] [main/INFO]: [CombatRadar]: mod enabled
+[00:16:24] [main/INFO]: Initialising mod Macro / Keybind Mod version 0.15.4
+[00:16:24] [main/INFO]: loading localisations for en_gb
+[00:16:24] [main/INFO]: loading localisations for en_gb
+[00:16:24] [main/INFO]: loading localisations for en_us
+[00:16:24] [main/INFO]: Forge ClientCommandHandler was found, outbound commands will be processed by Forge
+[00:16:25] [main/INFO]: Loading macro templates...
+[00:16:25] [main/INFO]: Using config dir /liteconfig/common/macros/
+[00:16:25] [main/INFO]: Script engine initialised, registered 128 script action(s)
+[00:16:26] [main/INFO]: Script engine initialised, registered 68 script action(s)
+[00:16:26] [main/INFO]: Loading chat filter templates...
+[00:16:26] [main/INFO]: Initialising mod Gammabright version 3.7
+[00:16:26] [main/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[00:16:26] [main/INFO]: Listener Macro / Keybind Mod is registering MessageBus channel macros:version
+[00:16:26] [main/INFO]: Listener Macro / Keybind Mod is registering MessageBus channel macros:variable
+[00:16:26] [main/INFO]: Applying holder lookups
+[00:16:26] [main/INFO]: Holder lookups applied
+[00:16:26] [main/INFO]: Loading HUD settings from /home/marcus/.minecraft/config/hud.txt
+[00:16:26] [main/INFO]: Injecting itemstacks
+[00:16:26] [main/INFO]: Itemstack injection complete
+[00:16:26] [main/INFO]: WorldEdit for Forge (version 6.1.8) is loaded
+[00:16:27] [main/INFO]: Forge Mod Loader has successfully loaded 12 mods
+[00:16:27] [main/INFO]: Narrator library successfully loaded
+[00:16:27] [main/INFO]: Initializing the 5zig Mod!
+[00:16:27] [main/INFO]: Forge detected!
+[00:16:27] [main/INFO]: Loaded Configurations!
+[00:16:27] [Tray/WARN]: System Tray is NOT Supported!
+[00:16:27] [main/INFO]: Loading Language files...
+[00:16:27] [main/INFO]: Loaded 6 languages! Using Language en_US!
+[00:16:28] [main/INFO]: Loaded 23 modules containing 155 items!
+[00:16:28] [Update language thread/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.ClassCastException: com.google.gson.JsonNull cannot be cast to com.google.gson.JsonArray
+[00:16:28] [main/INFO]: Loaded The 5zig Mod v3.12.5! (took 727 ms)
+[00:16:28] [Update language thread/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at eu.the5zig.mod.I18n$2.run(I18n.java:314)
+[00:16:28] [Update language thread/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[00:16:28] [Update language thread/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[00:16:28] [Update language thread/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:748)
+[00:16:28] [Update Thread/ERROR]: Could not check for latest 5zig Mod Version!
+java.lang.NullPointerException: null
+	at eu.the5zig.mod.util.Updater.run(Updater.java:42) [Updater.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:16:28] [main/INFO]: Reloading ResourceManager: The 5zig Mod, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Sprinting, FMLFileResourcePack:Earthcomputer's Client Command Mod, FMLFileResourcePack:MrCrayfish's Dab Mod, FMLFileResourcePack:Health Bar, FMLFileResourcePack:Better HUD, FMLFileResourcePack:LunatriusCore, FMLFileResourcePack:Vengeance, FMLFileResourcePack:WorldEdit, LiteLoader, Combat Radar, Macro / Keybind Mod, Gammabright, Macros.CustomIcons, Macros.CustomSounds, Macros Icon Thumbnails, Meezoid v3
+[00:16:28] [main/INFO]: [OptiFine] *** Reloading textures ***
+[00:16:28] [main/INFO]: [OptiFine] Resource packs: Meezoid v3
+[00:16:28] [main/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[00:16:28] [main/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[00:16:29] [5zig Netty Bootstrap/INFO]: Connecting to 5zig.net:28499
+[00:16:29] [main/INFO]: [OptiFine] Multitexture: false
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass black/glass_black.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass blue/glass_blue.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass brown/glass_brown.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass cyan/glass_cyan.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass gray/glass_gray.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass green/glass_green.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light blue/glass_light_blue.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass lime/glass_lime.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass magenta/glass_magenta.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass orange/glass_orange.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass pink/glass_pink.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass purple/glass_purple.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass red/glass_red.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass silver/glass_silver.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass white/glass_white.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass yellow/glass_yellow.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_clear/glass.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_black/glass_black.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_blue/glass_blue.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_brown/glass_brown.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_cyan/glass_cyan.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_gray/glass_gray.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_green/glass_green.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_light_blue/glass_light_blue.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_lime/glass_lime.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_magenta/glass_magenta.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_orange/glass_orange.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_pink/glass_pink.properties
+[00:16:29] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_purple/glass_purple.properties
+[00:16:30] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_red/glass_red.properties
+[00:16:30] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_silver/glass_silver.properties
+[00:16:30] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_white/glass_white.properties
+[00:16:30] [main/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_stained/glass_yellow/glass_yellow.properties
+[00:16:30] [main/INFO]: [OptiFine] Multipass connected textures: false
+[00:16:30] [main/INFO]: [OptiFine] Multipass connected textures: false
+[00:16:30] [main/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[00:16:30] [main/INFO]: [OptiFine] Custom loader sprites: 3
+[00:16:30] [main/INFO]: [OptiFine] Sprite dependencies: 5
+[00:16:30] [main/INFO]: Created: 4096x2048 textures-atlas
+[00:16:30] [main/INFO]: [OptiFine] Animated sprites: 23
+[00:16:31] [main/INFO]: loading localisations for en_gb
+[00:16:31] [main/INFO]: loading localisations for en_us
+[00:16:31] [main/INFO]: Calling late init for mod Macro / Keybind Mod
+[00:16:31] [main/INFO]: Baking listener list for ViewportListener with 1 listeners
+[00:16:31] [main/INFO]: Sound handler reload inhibit removed
+[00:16:31] [main/INFO]: Reloading sound handler
+[00:16:31] [main/INFO]: SoundSystem shutting down...
+[00:16:31] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[00:16:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[00:16:31] [main/INFO]: Baking listener list for GameLoopListener with 1 listeners
+[00:16:31] [main/INFO]: Loaded 0 Chats and Group Chats!
+[00:16:31] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[00:16:31] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:16:31] [Thread-11/INFO]: OpenAL initialized.
+[00:16:31] [main/INFO]: Baking listener list for RenderListener with 1 listeners
+[00:16:31] [main/INFO]: [OptiFine] *** Reloading custom textures ***
+[00:16:32] [main/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[00:16:32] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[00:16:32] [Sound Library Loader/INFO]: Sound engine started
+[00:16:32] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[00:16:32] [main/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
+[00:16:33] [main/INFO]: Baking listener list for TickObserver with 3 listeners
+[00:16:33] [main/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[00:16:33] [main/INFO]: Baking listener list for Tickable with 3 listeners
+[00:16:33] [main/INFO]: JInput Component Registry is initialising...
+[00:16:33] [main/INFO]: Inspecting Mouse controller Mad Catz Mad Catz M.M.O.TE on USB port...
+[00:16:33] [main/INFO]: Inspecting Stick controller Mad Catz Mad Catz M.M.O.TE on Unknown...
+[00:16:33] [main/INFO]: JInput Component Registry initialised, found 2 controller(s) 45 component(s)
+[00:16:36] [main/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[00:16:36] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[00:16:36] [Server thread/INFO]: Generating keypair
+[00:16:37] [Server thread/ERROR]: This world was saved with mod minebot-mod which appears to be missing, things may not work well
+[00:16:37] [Server thread/ERROR]: This world was saved with mod mod_autofish which appears to be missing, things may not work well
+[00:16:37] [Server thread/ERROR]: This world was saved with mod neat which appears to be missing, things may not work well
+[00:16:37] [Server thread/ERROR]: This world was saved with mod xray which appears to be missing, things may not work well
+[00:16:37] [Server thread/INFO]: Injecting existing registry data into this server instance
+[00:16:37] [Server thread/INFO]: Applying holder lookups
+[00:16:37] [Server thread/INFO]: Holder lookups applied
+[00:16:37] [Server thread/INFO]: Loading dimension 0 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@51a4c8ee)
+[00:16:37] [Server thread/INFO]: Loaded 488 advancements
+[00:16:37] [Server thread/INFO]: Loading dimension -1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@51a4c8ee)
+[00:16:37] [Server thread/INFO]: Loading dimension 1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@51a4c8ee)
+[00:16:37] [Server thread/INFO]: Preparing start region for level 0
+[00:16:38] [Server thread/INFO]: Preparing spawn area: 52%
+[00:16:39] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[00:16:39] [Server thread/INFO]: Baking listener list for ServerTickable with 0 listeners
+[00:16:39] [Server thread/INFO]: Unloading dimension -1
+[00:16:39] [Netty Server IO #1/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[00:16:39] [Netty Server IO #1/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
+[00:16:39] [Server thread/INFO]: Unloading dimension 1
+[00:16:39] [Server thread/INFO]: Changing view distance to 14, from 10
+[00:16:39] [Netty Local Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[00:16:39] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[00:16:39] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[00:16:39] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[00:16:39] [Netty Server IO #1/INFO]: Client protocol version 2
+[00:16:39] [Netty Server IO #1/INFO]: Client attempting to join with 12 mods : minecraft@1.12.2,vengeance@1.1,FML@8.0.99.99,forge@14.23.5.2768,hud@1.3.9,healthbar@1.0.7,worldedit@6.1.8,clientcommands@1.12-20190126-snapshot,cdabm@1.1.0,mcp@9.42,lunatriuscore@1.2.0.42,bettersprinting@2.1.1
+[00:16:39] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[00:16:39] [Server thread/INFO]: [Server thread] Server side modded connection established
+[00:16:39] [Server thread/INFO]: NeoFascist[local:E:ca61abc7] logged in with entity id 475 at (-253.9562674439379, 86.0, 180.28245901428144)
+[00:16:40] [main/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[00:16:40] [Server thread/INFO]: NeoFascist joined the game
+[00:16:40] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:16:40] [main/INFO]: Baking listener list for JoinGameListener with 1 listeners
+[00:16:40] [Server thread/INFO]: Saving and pausing game...
+[00:16:41] [main/INFO]: Baking listener list for PreRenderListener with 0 listeners
+[00:16:41] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:16:41] [main/INFO]: Baking listener list for PostRenderListener with 1 listeners
+[00:16:41] [main/INFO]: Baking listener list for HUDRenderListener with 0 listeners
+[00:16:41] [main/INFO]: [CHAT] §b[MACROS] Using config §aDefault Configuration
+[00:16:41] [Thread-20/INFO]: [CHAT] §a [Better Sprinting 2.1.1]§r
+[00:16:41] [Thread-20/INFO]: [CHAT]  Found update §a3.0.1§r for MC 1.12.2, released 16 Jul 2019.
+[00:16:41] [Thread-20/INFO]: [CHAT]  You are currently 4 versions behind.
+[00:16:41] [Thread-20/INFO]: [CHAT]  §6Click to download: https://bsprint.chylex.com
+[00:16:41] [main/INFO]: Update check did not find an update.
+[00:16:41] [main/INFO]: Baking listener list for WorldObserver with 2 listeners
+[00:16:41] [main/INFO]: Baking listener list for ChatListener with 1 listeners
+[00:16:41] [main/INFO]: [CHAT] §6§lPress R to Dab!
+[00:16:41] [main/INFO]: Loaded 85 advancements
+[00:16:41] [Server thread/INFO]: Baking listener list for PlayerMoveListener with 0 listeners
+[00:16:42] [main/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[00:16:45] [Server thread/INFO]: Saving and pausing game...
+[00:16:45] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:16:46] [Server thread/INFO]: Stopping server
+[00:16:46] [Server thread/INFO]: Saving players
+[00:16:46] [Server thread/INFO]: NeoFascist lost connection: Disconnected
+[00:16:46] [Server thread/INFO]: NeoFascist left the game
+[00:16:46] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[00:16:46] [Server thread/INFO]: Saving worlds
+[00:16:46] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:16:46] [Server thread/INFO]: Unloading dimension 0
+[00:16:46] [Server thread/INFO]: Applying holder lookups
+[00:16:46] [Server thread/INFO]: Holder lookups applied
+[00:16:49] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[00:16:49] [Server thread/INFO]: Generating keypair
+[00:16:49] [Server thread/WARN]: FMLServerStartingEvent occurred when FMLServerStoppingEvent hasn't
+[00:16:49] [Server thread/INFO]: Injecting existing registry data into this server instance
+[00:16:50] [Server thread/INFO]: Applying holder lookups
+[00:16:50] [Server thread/INFO]: Holder lookups applied
+[00:16:50] [Server thread/INFO]: Loading dimension 0 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@37621ded)
+[00:16:50] [Server thread/INFO]: Loaded 488 advancements
+[00:16:50] [Server thread/INFO]: Loading dimension -1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@37621ded)
+[00:16:50] [Server thread/INFO]: Loading dimension 1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@37621ded)
+[00:16:50] [Server thread/INFO]: Preparing start region for level 0
+[00:16:50] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[00:16:51] [Server thread/INFO]: Unloading dimension -1
+[00:16:51] [Server thread/INFO]: Unloading dimension 1
+[00:16:51] [Server thread/INFO]: Changing view distance to 14, from 10
+[00:16:51] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[00:16:51] [Netty Server IO #3/INFO]: Client protocol version 2
+[00:16:51] [Netty Server IO #3/INFO]: Client attempting to join with 12 mods : minecraft@1.12.2,vengeance@1.1,FML@8.0.99.99,forge@14.23.5.2768,hud@1.3.9,healthbar@1.0.7,worldedit@6.1.8,clientcommands@1.12-20190126-snapshot,cdabm@1.1.0,mcp@9.42,lunatriuscore@1.2.0.42,bettersprinting@2.1.1
+[00:16:51] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[00:16:51] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[00:16:51] [Server thread/INFO]: [Server thread] Server side modded connection established
+[00:16:51] [Server thread/INFO]: NeoFascist[local:E:2577ee82] logged in with entity id 1250 at (-254.71315567859452, 86.0, 182.09189380032825)
+[00:16:51] [Server thread/INFO]: NeoFascist joined the game
+[00:16:51] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:16:51] [Server thread/INFO]: Saving and pausing game...
+[00:16:51] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:16:51] [main/INFO]: [CHAT] §b[MACROS] Using config §aDefault Configuration
+[00:16:52] [main/INFO]: Loaded 85 advancements
+[00:16:57] [Server thread/INFO]: Saving and pausing game...
+[00:16:57] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:16:59] [5zig Netty Bootstrap/ERROR]: An Exception occurred while connecting to 5zig.net:28499
+io.netty.channel.ConnectTimeoutException: connection timed out: 5zig.net/194.169.211.46:28499
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:267) ~[AbstractNioChannel$AbstractNioUnsafe$1.class:4.1.9.Final]
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38) ~[PromiseTask$RunnableAdapter.class:4.1.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:120) ~[ScheduledFutureTask.class:4.1.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[AbstractEventExecutor.class:4.1.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[SingleThreadEventExecutor.class:4.1.9.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442) ~[NioEventLoop.class:4.1.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[SingleThreadEventExecutor$5.class:4.1.9.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:16:59] [5zig Netty Bootstrap/INFO]: Reconnecting in 66 seconds...
+[00:16:59] [main/ERROR]: [AccessorTransformer] Method getItemsList for net.eq2online.macros.core.overlays.IContainerCreative could not locate target member, the method will be ABSTRACT!
+[00:17:09] [main/INFO]: Baking listener list for PacketHandler with 1 listeners
+[00:17:12] [main/INFO]: Baking listener list for OutboundChatFilter with 1 listeners
+[00:17:12] [Server thread/INFO]: Baking listener list for ServerChatFilter with 0 listeners
+[00:17:12] [Server thread/INFO]: [NeoFascist: Set own game mode to Survival Mode]
+[00:17:12] [main/INFO]: [CHAT] Your game mode has been updated to Survival Mode
+[00:17:13] [main/INFO]: Baking listener list for PlayerClickListener with 0 listeners
+[00:17:13] [Server thread/INFO]: Baking listener list for PlayerInteractionListener with 0 listeners
+[00:17:13] [Server thread/INFO]: NeoFascist blew up
+[00:17:14] [main/INFO]: [CHAT] NeoFascist blew up
+[00:17:16] [Server thread/INFO]: Saving and pausing game...
+[00:17:16] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:17:16] [Server thread/INFO]: Stopping server
+[00:17:16] [Server thread/INFO]: Saving players
+[00:17:16] [Server thread/INFO]: NeoFascist lost connection: Disconnected
+[00:17:16] [Server thread/INFO]: NeoFascist left the game
+[00:17:16] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[00:17:16] [Server thread/INFO]: Saving worlds
+[00:17:16] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:17:17] [Server thread/INFO]: Unloading dimension 0
+[00:17:17] [Server thread/INFO]: Applying holder lookups
+[00:17:17] [Server thread/INFO]: Holder lookups applied
+[00:17:21] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[00:17:21] [Server thread/INFO]: Generating keypair
+[00:17:21] [Server thread/WARN]: FMLServerStartingEvent occurred when FMLServerStoppingEvent hasn't
+[00:17:21] [Server thread/INFO]: Injecting existing registry data into this server instance
+[00:17:21] [Server thread/INFO]: Applying holder lookups
+[00:17:21] [Server thread/INFO]: Holder lookups applied
+[00:17:21] [Server thread/INFO]: Loading dimension 0 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@2bc26846)
+[00:17:21] [Server thread/INFO]: Loaded 488 advancements
+[00:17:21] [Server thread/INFO]: Loading dimension -1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@2bc26846)
+[00:17:21] [Server thread/INFO]: Loading dimension 1 (PackTest world) (net.minecraft.server.integrated.IntegratedServer@2bc26846)
+[00:17:21] [Server thread/INFO]: Preparing start region for level 0
+[00:17:22] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[00:17:22] [Server thread/INFO]: Unloading dimension -1
+[00:17:22] [Server thread/INFO]: Unloading dimension 1
+[00:17:22] [Server thread/INFO]: Changing view distance to 14, from 10
+[00:17:22] [Netty Local Client IO #2/INFO]: Server protocol version 2
+[00:17:22] [Netty Server IO #5/INFO]: Client protocol version 2
+[00:17:22] [Netty Server IO #5/INFO]: Client attempting to join with 12 mods : minecraft@1.12.2,vengeance@1.1,FML@8.0.99.99,forge@14.23.5.2768,hud@1.3.9,healthbar@1.0.7,worldedit@6.1.8,clientcommands@1.12-20190126-snapshot,cdabm@1.1.0,mcp@9.42,lunatriuscore@1.2.0.42,bettersprinting@2.1.1
+[00:17:22] [Netty Local Client IO #2/INFO]: [Netty Local Client IO #2] Client side modded connection established
+[00:17:22] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[00:17:22] [Server thread/INFO]: [Server thread] Server side modded connection established
+[00:17:22] [Server thread/INFO]: NeoFascist[local:E:3e63d8c4] logged in with entity id 2419 at (-249.08376168793492, 63.0, 247.10712536001418)
+[00:17:22] [Server thread/INFO]: NeoFascist joined the game
+[00:17:23] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:23] [main/INFO]: [CHAT] §b[MACROS] Using config §aDefault Configuration
+[00:17:23] [main/INFO]: Loaded 85 advancements
+[00:17:24] [Server thread/INFO]: Saving and pausing game...
+[00:17:24] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:17:25] [Server thread/INFO]: Stopping server
+[00:17:25] [Server thread/INFO]: Saving players
+[00:17:25] [Server thread/INFO]: NeoFascist lost connection: Disconnected
+[00:17:25] [Server thread/INFO]: NeoFascist left the game
+[00:17:25] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[00:17:25] [Server thread/INFO]: Saving worlds
+[00:17:25] [Server thread/INFO]: Saving chunks for level 'PackTest world'/overworld
+[00:17:25] [Server thread/INFO]: Unloading dimension 0
+[00:17:25] [Server thread/INFO]: Applying holder lookups
+[00:17:25] [Server thread/INFO]: Holder lookups applied
+[00:17:27] [Netty Client IO #5/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettersprinting, clientcommands, cdabm, healthbar, hud, lunatriuscore, vengeance, worldedit] at SERVER
+[00:17:27] [Netty Client IO #4/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettersprinting, clientcommands, cdabm, healthbar, hud, lunatriuscore, vengeance, worldedit] at SERVER
+[00:17:28] [Netty Client IO #0/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bettersprinting, clientcommands, cdabm, healthbar, hud, lunatriuscore, vengeance, worldedit] at SERVER
+[00:17:31] [main/INFO]: Connecting to eu.hivemc.com, 25565
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketTitle
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.SPacketChat
+[00:17:32] [main/INFO]: [CHAT] 
+[00:17:32] [main/INFO]: [CHAT]                      The Best Experience: 1.8
+[00:17:32] [main/INFO]: [CHAT] 
+[00:17:32] [main/INFO]: [CHAT]            For the best Hive experience, we'd recommend
+[00:17:32] [main/INFO]: [CHAT]                     using 1.8 versions of Minecraft.
+[00:17:32] [main/INFO]: [CHAT] 
+[00:17:32] [main/INFO]: [CHAT]           Want to change versions? Find out here!
+[00:17:32] [main/INFO]: [CHAT] 
+[00:17:32] [Netty Epoll Client IO #0/INFO]: Aborting client handshake "VANILLA"
+[00:17:32] [Netty Epoll Client IO #0/INFO]: [Netty Epoll Client IO #0] Client side vanilla connection established
+[00:17:32] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] monkey_bubba joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] JREhrich joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Killerzone64 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] WereWolf2k16 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Hamshook joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] hurehaba joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] path107 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] CocoLoco joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Zestical joined the game
+[00:17:33] [main/INFO]: onConnectToServer: eu.hivemc.com:25,565
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Angiethepandie joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] PuceBiscuit7616 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] GreatPieMan joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] WsGo joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Im_Ded_Yay joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] samiZaynBOSS joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] N8V4Eviil joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Olimoto1er joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] AhmedTheArab joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] agutierrez07 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] NixkNaps joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Cryptic_Clarity joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] LazyLight joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] glossyoongi joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Kraken_Toots joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] deathsuki joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] TheHuyTo joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] eyebrows__ joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] TBHTrinity joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] LauraTeodoro joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Sof1a1608 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] _GhostofSparta_ joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] princessbeans02 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] MineMindTV joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] jasonloveseggs joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] xXFake_SmileXx joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] creeper_quinn1 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Fako4212 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] FeedtheHawk joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] madimuesa joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] RidaJ joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] EhSenpai joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Keridwen03 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] jm1002 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] HumanReiji joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Sillygizmo30 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] TheCreepyTwo159 joined the game
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] JoJoe6 joined the game
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] WsGo appeared on radar at [x:-26, y:15, z:100]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Im_Ded_Yay appeared on radar at [x:-40, y:15, z:89]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] samiZaynBOSS appeared on radar at [x:7, y:15, z:94]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] §8NPC-jqoPzK joined the game at [x:-30, y:15, z:83]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] N8V4Eviil appeared on radar at [x:-34, y:15, z:90]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] JREhrich appeared on radar at [x:7, y:15, z:96]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] creeper_quinn1 appeared on radar at [x:41, y:16, z:75]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] Zestical appeared on radar at [x:0, y:15, z:94]
+[00:17:33] [main/INFO]: [CHAT] [CombatRadar] WereWolf2k16 appeared on radar at [x:-34, y:15, z:91]
+[00:17:34] [main/INFO]: [CHAT] [CombatRadar] creeper_quinn1 disappeared from radar at [x:44, y:21, z:46]
+[00:17:34] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:34] [main/INFO]: [CHAT] [CombatRadar] EinsDennis joined the game at [x:-33, y:16, z:91]
+[00:17:36] [main/INFO]: [CHAT] [CombatRadar] MineMindTV left the game
+[00:17:36] [main/INFO]: [CHAT] [CombatRadar] EinsDennis left the game at [x:-33, y:15, z:91]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ Vote for a map! Use /v # or click here.
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 1. FunFair [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 2. Spectral [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 3. Fallen Bridges [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 4. Hermit Sands: Revisited [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 5. Puerto Tereza [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] ▍ TIMV ▏ 6. Random map [0 Votes]
+[00:17:38] [main/INFO]: [CHAT] NeoFascist wants to investigate!
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:38] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:39] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Im_Ded_Yay left the game at [x:-40, y:15, z:89]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] agutierrez07 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Cryptic_Clarity left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] LazyLight left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] glossyoongi left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Kraken_Toots left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] TheHuyTo left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] xBassii joined the game at [x:23, y:88, z:-23]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] eyebrows__ left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] LauraTeodoro left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] CocoLoco left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] _GhostofSparta_ left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Sqeoopy joined the game at [x:33, y:87, z:-29]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] jasonloveseggs left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] xXFake_SmileXx left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Killerzone64 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] FeedtheHawk left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] yujyux joined the game at [x:17, y:90, z:-26]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Keridwen03 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] jm1002 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] HumanReiji left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] WereWolf2k16 left the game at [x:-34, y:15, z:91]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] DeluxeG4 joined the game at [x:23, y:86, z:-23]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] WereWolf_SK joined the game at [x:28, y:87, z:-27]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Sillygizmo30 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] JoJoe6 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Angiethepandie left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] WsGo left the game at [x:-26, y:15, z:100]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Matt_Gr8 joined the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] PuceBiscuit7616 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] GreatPieMan left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] monkey_bubba left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] iSpookyi joined the game at [x:23, y:87, z:-31]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] samiZaynBOSS left the game at [x:7, y:15, z:94]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] §8NPC-jqoPzK left the game at [x:-30, y:15, z:83]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] N8V4Eviil left the game at [x:-34, y:15, z:90]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Olimoto1er left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] AhmedTheArab left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] NixkNaps left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Hamshook left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] hurehaba left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] deathsuki left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] JREhrich left the game at [x:7, y:15, z:96]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Theaquasurf joined the game at [x:31, y:89, z:-32]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] TBHTrinity left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Sof1a1608 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] princessbeans02 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] creeper_quinn1 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Fako4212 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] iSpookyDuckling joined the game at [x:19, y:88, z:-28]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] madimuesa left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] RidaJ left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] EhSenpai left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] Zestical left the game at [x:0, y:15, z:94]
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] path107 left the game
+[00:17:39] [main/INFO]: [CHAT] [CombatRadar] TheCreepyTwo159 left the game
+[00:17:39] [main/INFO]: [CHAT] §e390§8 ▍ §3Inspector §9yujyux§8 » §fnooooo
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Plageus88 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Zach_Attack78 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] curreee joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] DevitoMilos joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] UpperJeans joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] xBassii left the game at [x:23, y:86, z:-23]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] leiton1245 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Seanezzzz joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] pasuteruato joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Ximbass joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] CeeAyBee joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Sqeoopy left the game at [x:33, y:87, z:-29]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Bellezo joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Saaaanji joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Jumbo_Slice joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Nikhil42 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] yujyux left the game at [x:17, y:90, z:-26]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] decasouthport joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] JettLong7787 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] DeluxeG4 left the game at [x:23, y:86, z:-23]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] BlitzingBlaze joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] KiraFlexington joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] WereWolf_SK left the game at [x:28, y:87, z:-27]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] ikmorris joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] joseph92600 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] AlmaLarsenDK joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] llsmith joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Matt_Gr8 left the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] iSpookyi left the game at [x:23, y:87, z:-31]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] merenorahjean joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] pIumii joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] GoldWho joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Snaptraxxxx joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] johnbrohn joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] chesterbnington joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] RockThatClock joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] J0ELS0N joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] jbjb32560 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] CG_Aqxis joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] ya_meleh1 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Pensado joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] The_RedstonePick joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Svarscik_Gaming joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] 2004philipb joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Theaquasurf left the game at [x:30, y:90, z:-32]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] JQLB2012 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Rosso65 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Chippyyyyy joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] PawpsiCherry joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] 0nz joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Ur_Bed_Is_Gone joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Isabelhxx joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] NathyH2011 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] KoyukiHinashi joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] iSpookyDuckling left the game at [x:19, y:88, z:-28]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Sloth_Gamer66 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] HailAristotska joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Schnipey joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Graveful joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Niicolasz joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] aras888 joined the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] WaterKING_ joined the game
+[00:17:42] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:42] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] DevitoMilos left the game
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] §8NPC-rsuuFu joined the game at [x:-30, y:15, z:83]
+[00:17:42] [main/INFO]: [CHAT] [CombatRadar] Ur_Bed_Is_Gone appeared on radar at [x:41, y:15, z:81]
+[00:17:43] [main/INFO]: [CHAT] [CombatRadar] fingaweg joined the game
+[00:17:43] [main/INFO]: [CHAT] §9curreee » porcodio?
+[00:17:43] [main/INFO]: [CHAT] [CombatRadar] fingaweg left the game
+[00:17:43] [main/INFO]: [CHAT] [CombatRadar] aras888 left the game
+[00:17:43] [main/INFO]: [CHAT] Kicked whilst connecting to TIMV4: [AAC] > Wait a few seconds before logging back in.
+[00:17:44] [main/INFO]: [CHAT] §9decasouthport » maybe chester was pulled out of regular school cause kids kept calling him a retard
+[00:17:45] [main/INFO]: [CHAT] [CombatRadar] Graveful left the game
+[00:17:45] [main/INFO]: [CHAT] [CombatRadar] aras888 joined the game
+[00:17:45] [main/INFO]: [CHAT] [CombatRadar] Zach_Attack78 left the game
+[00:18:05] [5zig Netty Bootstrap/INFO]: Connecting to 5zig.net:28499
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ Vote for a map! Use /v # or click here.
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 1. Spectral [0 Votes]
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 2. FunFair [0 Votes]
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 3. Sky Ship [1 Votes]
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 4. Hermit Sands: Classic [0 Votes]
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 5. Mineville: Revamped [0 Votes]
+[00:18:27] [main/INFO]: [CHAT] ▍ TIMV ▏ 6. Random map [1 Votes]
+[00:18:27] [main/INFO]: [CHAT] NeoFascist wants to investigate!
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Jonatha_mani joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Johnald_Wickens joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] FlumsBrady joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Plageus88 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] curreee left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Dreamiie joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Qkei joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] UpperJeans left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Mulala joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] leiton1245 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Seanezzzz left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] pasuteruato left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Ximbass left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] CeeAyBee left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Bellezo left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Saaaanji left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Viennaa joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Jumbo_Slice left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Nikhil42 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] §8NPC-rsuuFu left the game at [x:-30, y:15, z:83]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] decasouthport left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] JettLong7787 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] BlitzingBlaze left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] KiraFlexington left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] ikmorris left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] joseph92600 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] AsternDestroyer joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] AlmaLarsenDK left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] llsmith left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Dachshund_Wombat joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] merenorahjean left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] pIumii left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] GoldWho left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Snaptraxxxx left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Minecraft_DaVa joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] johnbrohn left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] chesterbnington left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] RockThatClock left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] J0ELS0N left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] jbjb32560 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] CG_Aqxis left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] ya_meleh1 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Pensado left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] The_RedstonePick left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Svarscik_Gaming left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] TheRealJuan3 joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] 2004philipb left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] JQLB2012 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Rosso65 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Chippyyyyy left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] PawpsiCherry left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] 0nz left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Ur_Bed_Is_Gone left the game at [x:41, y:15, z:81]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Isabelhxx left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] NathyH2011 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] KoyukiHinashi left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Its_Katieee joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Sloth_Gamer66 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] TheBANZAIBoy joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] HailAristotska left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] 112O joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Schnipey left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Scottobot joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] mspant joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] TheGameHackerYT joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] YUHayYUHayYUHay joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Niicolasz left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] aras888 left the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] kimsbooty joined the game
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] WaterKING_ left the game
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [5zig Texture Downloader #0/ERROR]: Couldn't download http texture
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_181]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_181]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_181]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_181]
+	at ResourceManager$1.run(ResourceManager.java:117) [ResourceManager$1.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[00:18:27] [Netty Epoll Client IO #0/ERROR]: NetworkDispatcher exception
+io.netty.channel.unix.Errors$NativeIoException: syscall:write(..) failed: Broken pipe
+	at io.netty.channel.unix.FileDescriptor.writeAddress(..)(Unknown Source) ~[FileDescriptor.class:4.1.9.Final]
+[00:18:27] [Netty Epoll Client IO #0/INFO]: [net.minecraft.network.NetworkManager:exceptionCaught:-1]: io.netty.channel.unix.Errors$NativeIoException: syscall:write(..) failed: Broken pipe
+[00:18:27] [Netty Epoll Client IO #0/INFO]: [net.minecraft.network.NetworkManager:exceptionCaught:-1]: 	at io.netty.channel.unix.FileDescriptor.writeAddress(..)(Unknown Source)
+[00:18:27] [Netty Epoll Client IO #0/INFO]: [net.minecraft.network.NetworkManager:exceptionCaught:-1]: java.nio.channels.ClosedChannelException
+[00:18:27] [Netty Epoll Client IO #0/INFO]: [net.minecraft.network.NetworkManager:exceptionCaught:-1]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Johnald_Wickens appeared on radar at [x:-1, y:86, z:-28]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Dreamiie appeared on radar at [x:30, y:89, z:-24]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Qkei appeared on radar at [x:27, y:88, z:-25]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Viennaa appeared on radar at [x:15, y:89, z:-28]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Dachshund_Wombat appeared on radar at [x:33, y:87, z:-29]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Minecraft_DaVa appeared on radar at [x:24, y:92, z:-38]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Its_Katieee appeared on radar at [x:23, y:87, z:-29]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] TheBANZAIBoy appeared on radar at [x:20, y:88, z:-35]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] 112O appeared on radar at [x:16, y:92, z:-31]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] Scottobot appeared on radar at [x:-13, y:87, z:-28]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] mspant appeared on radar at [x:-12, y:87, z:-28]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] TheGameHackerYT appeared on radar at [x:10, y:88, z:-29]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] YUHayYUHayYUHay appeared on radar at [x:33, y:87, z:-29]
+[00:18:27] [main/INFO]: [CHAT] [CombatRadar] kimsbooty appeared on radar at [x:26, y:90, z:-20]
+[00:18:28] [main/INFO]: Applying holder lookups
+[00:18:28] [main/INFO]: Holder lookups applied
+[00:18:32] [main/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[00:18:32] [main/INFO]: Baking listener list for ShutdownObserver with 3 listeners
+[00:18:32] [main/INFO]: Stopping The 5zig Mod!
+[00:18:32] [main/INFO]: Stopping!
+[00:18:32] [main/INFO]: SoundSystem shutting down...
+[00:18:33] [main/WARN]: Author: Paul Lamb, www.paulscode.com

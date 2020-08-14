@@ -1,0 +1,21 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=0hdh3jcq",
+    "full_url": "https://pastebin.com/0hdh3jcq",
+    "date": "1594480078",
+    "key": "0hdh3jcq",
+    "size": 733,
+    "expire": "0",
+    "title": "",
+    "syntax": "sql",
+    "user": "",
+    "filename": "0hdh3jcq",
+    "pasteid": "0hdh3jcq",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T15:07:58",
+    "MD5": "981981c8516321c5754c6acb81df203f",
+    "SHA256": "051a00931ff176eddcba050790b2f9bebab2271a1ff58effcfab0121b04cc0cb",
+    "raw_paste": "-- ----------------------------\r\n-- Table structure for cms_news\r\n-- ----------------------------\r\nDROP TABLE IF EXISTS `cms_news`;\r\nCREATE TABLE `cms_news` (\r\n`id` int(11) NOT NULL AUTO_INCREMENT,\r\n`title` varchar(255) COLLATE latin1_general_ci DEFAULT NULL,\r\n`shortstory` text COLLATE latin1_general_ci,\r\n`longstory` text COLLATE latin1_general_ci,\r\n`published` int(10) NOT NULL DEFAULT '0',\r\n`image` varchar(255) COLLATE latin1_general_ci DEFAULT '/Public/Images/news/TS_Web60.png',\r\n`campaign` int(1) NOT NULL DEFAULT '0',\r\n`campaignimg` varchar(255) COLLATE latin1_general_ci NOT NULL,\r\n`author` int(6) NOT NULL DEFAULT '1',\r\nPRIMARY KEY (`id`)\r\n) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;",
+    "YaraRule": [
+        "db_structure"
+    ]
+}

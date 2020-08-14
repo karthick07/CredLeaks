@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=GG6B4AW8",
+    "full_url": "https://pastebin.com/GG6B4AW8",
+    "date": "1594642037",
+    "key": "GG6B4AW8",
+    "size": 761,
+    "expire": "1594642637",
+    "title": "",
+    "syntax": "groovy",
+    "user": "",
+    "filename": "GG6B4AW8",
+    "pasteid": "GG6B4AW8",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-13T12:07:17",
+    "MD5": "4e11a8582ac4a904ca32d77d3ba81397",
+    "SHA256": "d2f6a1645e6b5d10f6d1719aadf40f2527d93959cb5749532b00c91815860134",
+    "raw_paste": "\r\n      \tif (schedule_type_value.equals(\"M\u011bs\u00ed\u010dn\u00ed\")) {date_shift = 1} //Word representation of value for Monthly schedule and the number of days for shifting\r\n      \tif (schedule_type_value.equals(\"\u010ctvrtletn\u00ed\")) {date_shift = 3} //Word representation of value for Quaterly schedule and the number of days for shifting\r\n      \tif (schedule_type_value.equals(\"P\u016flro\u010dn\u00ed\")) {date_shift = 6} //Word representation of value for Halfyearly schedule and the number of days for shifting\r\n      \tif (schedule_type_value.equals(\"Ro\u010dn\u00ed\")) {date_shift = 12} //Word representation of value for Yearly schedule and the number of days for shifting\r\n      else {logger.severe (\"Someone changed Insight enum and have no idea what he or she is doing. Ask the author to fix that.\")}",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

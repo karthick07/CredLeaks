@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=Q8tL7HaU",
+    "full_url": "https://pastebin.com/Q8tL7HaU",
+    "date": "1594452352",
+    "key": "Q8tL7HaU",
+    "size": 2284,
+    "expire": "0",
+    "title": "xml",
+    "syntax": "xml",
+    "user": "",
+    "filename": "Q8tL7HaU",
+    "pasteid": "Q8tL7HaU",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T07:25:52",
+    "MD5": "68a7002a305661f723205c8fe164e28c",
+    "SHA256": "4b02e0a1e01765c5d4f4132f6efd1666f2eaeba91d66c966eb464c5ea5f4ff79",
+    "raw_paste": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/rl_toolbar\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\"\r\n    android:background=\"@color/white\">\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"?attr/actionBarSize\"\r\n        android:orientation=\"horizontal\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/img_back\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_gravity=\"center_horizontal|center_vertical\"\r\n            android:layout_marginStart=\"@dimen/_14sdp\"\r\n            android:contentDescription=\"TODO\"\r\n            android:padding=\"@dimen/_4sdp\"\r\n            app:srcCompat=\"@drawable/backbutton_black\"\r\n            tools:ignore=\"VectorDrawableCompat\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/txt_title\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_centerHorizontal=\"true\"\r\n            android:layout_centerVertical=\"true\"\r\n            android:layout_gravity=\"center_horizontal|center_vertical\"\r\n            android:layout_weight=\"1\"\r\n            android:fontFamily=\"@font/nunito_bold\"\r\n            android:gravity=\"center_vertical\"\r\n            android:textAlignment=\"center\"\r\n            android:textColor=\"@android:color/black\"\r\n            android:textSize=\"18sp\"\r\n            tools:ignore=\"RtlCompat\"\r\n            tools:text=\"Title\" />\r\n\r\n        <ImageView\r\n            android:id=\"@+id/img_back2\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_gravity=\"center_horizontal|center_vertical\"\r\n            android:layout_marginStart=\"@dimen/_14sdp\"\r\n            android:contentDescription=\"TODO\"\r\n            android:padding=\"@dimen/_4sdp\"\r\n            android:visibility=\"invisible\"\r\n            app:srcCompat=\"@drawable/backbutton_black\"\r\n            tools:ignore=\"VectorDrawableCompat\" />\r\n    </LinearLayout>\r\n</RelativeLayout>",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

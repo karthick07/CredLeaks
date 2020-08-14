@@ -1,0 +1,189 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 19/10/19 1:12
+Description: Rendering Block Entity
+
+java.lang.NullPointerException: Rendering Block Entity
+	at com.direwolf20.buildinggadgets.client.renderer.EffectBlockTER.render(EffectBlockTER.java:44) ~[?:3.0.5] {re:classloading}
+	at com.direwolf20.buildinggadgets.client.renderer.EffectBlockTER.func_199341_a(EffectBlockTER.java:18) ~[?:3.0.5] {re:classloading}
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.func_203602_a(TileEntityRendererDispatcher.java:139) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.func_180546_a(TileEntityRendererDispatcher.java:117) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.WorldRenderer.func_215326_a(WorldRenderer.java:601) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_181560_a(GameRenderer.java:713) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_78471_a(GameRenderer.java:640) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:494) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:890) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:384) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(SourceFile:155) [?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:56) [forge-1.14.4-28.1.60.jar:28.1] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$426/1017792343.call(Unknown Source) [forge-1.14.4-28.1.60.jar:28.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.direwolf20.buildinggadgets.client.renderer.EffectBlockTER.render(EffectBlockTER.java:44)
+	at com.direwolf20.buildinggadgets.client.renderer.EffectBlockTER.func_199341_a(EffectBlockTER.java:18)
+
+-- Block Entity Details --
+Details:
+	Name: buildinggadgets:effect_block_tile // com.direwolf20.buildinggadgets.common.tiles.EffectBlockTileEntity
+	Block: Block{buildinggadgets:effect_block}
+	Block location: World: (-428,73,-35), Chunk: (at 4,4,13 in -27,-3; contains blocks -432,0,-48 to -417,255,-33), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Block: Block{buildinggadgets:effect_block}
+	Block location: World: (-428,73,-35), Chunk: (at 4,4,13 in -27,-3; contains blocks -432,0,-48 to -417,255,-33), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.func_203602_a(TileEntityRendererDispatcher.java:139)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.func_180546_a(TileEntityRendererDispatcher.java:117)
+	at net.minecraft.client.renderer.WorldRenderer.func_215326_a(WorldRenderer.java:601)
+	at net.minecraft.client.renderer.GameRenderer.func_181560_a(GameRenderer.java:713)
+	at net.minecraft.client.renderer.GameRenderer.func_78471_a(GameRenderer.java:640)
+
+-- Affected level --
+Details:
+	All players: 5 total; [ClientPlayerEntity['Buuz135'/263573, l='MpServer', x=-427.06, y=71.00, z=-26.47], RemoteClientPlayerEntity['tterrag'/252764, l='MpServer', x=-454.08, y=35.00, z=-47.98], RemoteClientPlayerEntity['progwml6'/289312, l='MpServer', x=-547.73, y=13.00, z=167.48], RemoteClientPlayerEntity['Rorax'/303261, l='MpServer', x=-455.55, y=35.00, z=-32.77], RemoteClientPlayerEntity['Soaryn'/195795, l='MpServer', x=-344.25, y=66.00, z=75.25]]
+	Chunk stats: Client Chunk Cache: 1521, 1222
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: MpServer
+	Level seed: 0
+	Level generator: ID 07 - biomesoplenty, ver 0. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (-220,70,-82), Chunk: (at 4,4,14 in -14,-6; contains blocks -224,0,-96 to -209,255,-81), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 2818331 game time, 3732981 day time
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Server brand: forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.func_72914_a(ClientWorld.java:410)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:1750)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:400)
+	at net.minecraft.client.main.Main.main(SourceFile:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:56)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$426/1017792343.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 837405888 bytes (798 MB) / 2147483648 bytes (2048 MB) up to 2147483648 bytes (2048 MB)
+	CPUs: 12
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	ModLauncher: 4.1.0+62+5bfa59b
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.1.60.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.60.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.1.60.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.1.60.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.1.60.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.1
+	Forge: net.minecraftforge:28.1.60
+	FML Language Providers: 
+		javafml@28.1
+		minecraft@1
+	Mod List: 
+		serverpackutility.jar Server Pack Locator Utility mod {serverpacklocatorutility@1.0 DONE}
+		absoluteunits-1.0.0.jar Absolute Units {absoluteunits@1.0.0 DONE}
+		BiomesOPlenty-1.14.4-9.0.0.254-universal.jar Biomes O' Plenty {biomesoplenty@1.14.4-9.0.0.254 DONE}
+		bluepower-1.14.4-0.3.135-alpha-universal.jar Blue Power {bluepower@0.3.135-alpha DONE}
+		buildinggadgets-3.0.5.jar Building Gadgets {buildinggadgets@3.0.5 DONE}
+		CapabilityProxy-1.14.4-2.1.4.jar CapabilityProxy {capabilityproxy@2.1.4 DONE}
+		cofh_core-1.14.4-0.0.2a.jar CoFH Core {cofh_core@0.0.2a DONE}
+		coloredpower-1.14.4-1.0.6.jar Colored Power {coloredpower@1.14.4-1.0.6 DONE}
+		ColossalChests-1.14.4-1.7.3.jar ColossalChests {colossalchests@1.7.3 DONE}
+		CommonCapabilities-1.14.4-2.4.4.jar CommonCapabilities {commoncapabilities@2.4.4 DONE}
+		compressed_items-1.14.4-1.1.jar Compressed Items {compressed_items@1.14.4-1.1 DONE}
+		create-mc1.14.4_v0.1.1.jar Create {create@0.1.1 DONE}
+		curios-FORGE-1.14.4-1.0.3.jar Curios API {curios@FORGE-1.14.4-1.0.3 DONE}
+		CyclopsCore-1.14.4-1.5.5.jar Cyclops Core {cyclopscore@1.5.5 DONE}
+		EnergeticSheep-1.14.4-1.1.5.jar EnergeticSheep {energeticsheep@1.1.5 DONE}
+		engineersdecor-1.14.4-1.0.14-b1.jar Engineer's Decor {engineersdecor@1.0.14-b1 DONE}
+		ensorcellation-1.14.4-0.0.2a.jar Ensorcellation {ensorcellation@0.0.2a DONE}
+		EverlastingAbilities-1.14.4-1.5.5.jar EverlastingAbilities {everlastingabilities@1.5.5 DONE}
+		extlights-1.6.jar Extended Lights {extlights@1.6 DONE}
+		Flopper-1.14.4-1.0.4.jar Flopper {flopper@1.0.4 DONE}
+		industrial-foregoing-1.14.4-2.0.0-6408612.jar Industrial Foregoing {industrialforegoing@NONE DONE}
+		inventorysorter-1.14.4-16.2.0.jar Simple Inventory Sorter {inventorysorter@16.2.0 DONE}
+		ironchest-1.14.4-9.1.5.jar Iron Chests {ironchest@1.14.3-9.0.3 DONE}
+		ironshulkerboxes-1.14.4-3.1.12.jar Iron Shulker Boxes {ironshulkerbox@1.14.4-3.1.12 DONE}
+		jei-1.14.4-6.0.0.18.jar Just Enough Items {jei@6.0.0.18 DONE}
+		Mantle-1.14.4-1.4.32.jar Mantle {mantle@1.4.32 DONE}
+		mcjtylib-1.14-3.5.8-alpha.jar McJtyLib {mcjtylib@NONE DONE}
+		mightyarchitect-mc1.14.4_v0.5.jar The Mighty Architect {mightyarchitect@0.5 DONE}
+		minicoal2-1.14.4-b2-universal.jar MiniCoal 2 {minicoal2@1.14.4-b2-universal DONE}
+		mininggadgets-1.0.jar Mining Gadgets {mininggadgets@1.0 DONE}
+		modularforcefieldsystem-1.0.1.jar Modular Forcefield System {modularforcefieldsystem@1.0.1 DONE}
+		Morpheus-1.14.4-4.2.43.jar Morpheus {morpheus@version DONE}
+		mysticallib-1.14.4-1.4.jar Mystical Lib {mysticallib@1.14.4-1.4 DONE}
+		mysticalworld-1.14.4-1.5.2.jar Mystical World {mysticalworld@1.14.4-1.5.2 DONE}
+		portality-1.14.4-2.0.0-5f9c6a1.jar Portality {portality@NONE DONE}
+		refinedstorage-1.7+5.jar Refined Storage {refinedstorage@1.7+5 DONE}
+		restrictions-1.14-1.3.5-alpha.jar Restrictions {restrictions@NONE DONE}
+		rftoolsbase-1.14-0.0.5-alpha.jar RFToolsBase {rftoolsbase@NONE DONE}
+		rftoolsbuilder-1.14-1.2.4-alpha.jar RFToolsBuilder {rftoolsbuilder@NONE DONE}
+		rftoolspower-1.14-1.2.5-alpha.jar RFToolsPower {rftoolspower@NONE DONE}
+		rftoolsutility-1.14-1.2.5-alpha.jar RFToolsUtility {rftoolsutility@NONE DONE}
+		rsgauges-1.14.4-1.1.8-b4.jar Redstone Gauges and Switches {rsgauges@1.1.8-b4 DONE}
+		simplytea-2.0.3.jar Simply Tea {simplytea@2.0.3 DONE}
+		StructuredCrafting-1.14.4-0.2.1.jar StructuredCrafting {structuredcrafting@0.2.1 DONE}
+		superiorshields-1.14.4-2.0.0.jar Superior Shields {superiorshields@1.14.4-2.0.0 DONE}
+		TConstruct-1.14.4-3.0.1.5.jar Tinkers' Construct {tconstruct@3.0.1.5 DONE}
+		theoneprobe-1.14-1.4.37.jar The One Probe {theoneprobe@NONE DONE}
+		titanium-1.14.4-2.2.1-20191012.212510-9.jar Titanium {titanium@1.14.4-2.2.1-SNAPSHOT DONE}
+		TMechworks-1.14.4-2.0-beta3.jar Tinkers' Mechworks {tmechworks@2.0-beta3 DONE}
+		tombstone-4.1.5-1.14.4.jar Corail Tombstone {tombstone@4.1.5 DONE}
+		TreeGrowingSimulator2020-1.0.0-beta+28.jar Tree Growing Simulator 2020 {treegrowingsimulator@1.0.0-beta+28 DONE}
+		Tropicraft-8.0.0-alpha+45.jar Tropicraft {tropicraft@8.0.0-alpha+45 DONE}
+		forge-1.14.4-28.1.60-universal.jar Forge {forge@28.1.60 DONE}
+		forge-1.14.4-28.1.60-client.jar Minecraft {minecraft@1.14.4 DONE}
+	Pulsar/tconstruct loaded Pulses: 
+		- tinker_common (Enabled/Forced)
+		- tinker_fluids (Enabled/Forced)
+		- tinker_world (Enabled/Not Forced)
+		- tinker_gadgets (Enabled/Not Forced)
+
+	Launched Version: 1.14.4-serverpacklocator
+	LWJGL: 3.2.2 build 10
+	OpenGL: Radeon RX 580 Series GL version 4.6.13571 Compatibility Profile Context 19.9.2 26.20.13003.1007, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 2600 Six-Core Processor

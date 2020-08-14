@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=44tUnvvX",
+    "full_url": "https://pastebin.com/44tUnvvX",
+    "date": "1594486868",
+    "key": "44tUnvvX",
+    "size": 593,
+    "expire": "0",
+    "title": "exflo.lua",
+    "syntax": "lua",
+    "user": "",
+    "filename": "44tUnvvX",
+    "pasteid": "44tUnvvX",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T17:01:08",
+    "MD5": "c36055ed0ec05548a72c30983f6f99c3",
+    "SHA256": "2946107261f141b5c938961a609fdf9aec888c750d5f21d58ecaea8a56aa923b",
+    "raw_paste": "function grab()\r\n    for i=1,20 do\r\n    turtle.dig()\r\n    turtle.digUp()\r\n    turtle.digDown()\r\n    turtle.forward()\r\n    end\r\n    turtle.turnLeft()\r\n    turtle.dig()\r\n    turtle.digUp()\r\n    turtle.digDown()\r\n    turtle.forward()\r\n    turtle.turnLeft()\r\n    for i=1,20 do\r\n        turtle.dig()\r\n        turtle.digUp()\r\n        turtle.digDown()\r\n        turtle.forward()\r\n    end\r\n    turtle.turnRight()\r\n    turtle.dig()\r\n    turtle.digUp()\r\n    turtle.digDown()\r\n    turtle.forward()\r\n    turtle.turnRight()\r\nend\r\nfor i=1,2 do\r\ngrab()\r\nend\r\nfor i=1,3 do\r\nturtle.digDown()\r\nturtle.down()\r\nend",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

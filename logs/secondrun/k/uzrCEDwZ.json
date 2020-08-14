@@ -1,0 +1,21 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=uzrCEDwZ",
+    "full_url": "https://pastebin.com/uzrCEDwZ",
+    "date": "1594497967",
+    "key": "uzrCEDwZ",
+    "size": 1168,
+    "expire": "0",
+    "title": "",
+    "syntax": "lua",
+    "user": "",
+    "filename": "uzrCEDwZ",
+    "pasteid": "uzrCEDwZ",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T20:06:07",
+    "MD5": "80d35d7a64f5ca2aaaa6bd28519761fb",
+    "SHA256": "071e35506e9fbbcca175dbbaa9ab2f0ab540a6a5474d0b1177883f6f106013c5",
+    "raw_paste": "--// Services\r\n\r\nlocal HttpService = game:GetService('HttpService')\r\nlocal ReplicatedStorage = game:GetService('ReplicatedStorage')\r\n\r\n--// Variables\r\n\r\n\r\nlocal Webhook = 'https://discordapp.com/api/webhooks/705786499857121411/mWPyS5m-rvZ4eE0LWeIs1Mzggfv0c48KZStC7_HbbRazQBgTeekhc0uw2BWjYQO1nGcp'\r\nlocal RunService = game:GetService(\"RunService\")\r\n\r\n\r\nfunction ReturnTeamPlayers(TeamName)\r\n\tfor i,v in pairs(game.Teams:FindFirstChild(TeamName):GetPlayers()) do\r\n\t\treturn {name = v.Name, inline = true}\r\n\tend\r\nend\r\n--// Functions\r\nMatchStatistics = function()\r\n\t\r\n\r\n\r\n\t    local PlayerData = {\r\n        [\"username\"] = \"MATCH RESULTS:\",\r\n        [\"embeds\"] = {{\r\n            [\"color\"] = tonumber(16711680)\r\n,\r\n            [\"title\"] = \"Team Statistics\",\r\n\t\t\t[\"description\"] = \"Statistics of the match:\",\r\n    \r\n\t\t\tfields = {\r\n\t\t\t\tReturnTeamPlayers(\"Red\")\r\n                  \r\n\r\n            },\r\n        }}\r\n    }\r\n\r\n    local JSON = HttpService:JSONEncode(PlayerData)\r\n    HttpService:PostAsync(\r\n        Webhook, \r\n        JSON, \r\n        Enum.HttpContentType.ApplicationJson\r\n    ) \r\n \r\nend\r\n\r\n\r\n\r\ngame.Players.PlayerAdded:Connect(function(plr)\r\n\tMatchStatistics()\r\nend)",
+    "YaraRule": [
+        "discord_api"
+    ]
+}

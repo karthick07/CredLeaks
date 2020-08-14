@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=YD2UL08i",
+    "full_url": "https://pastebin.com/YD2UL08i",
+    "date": "1594448242",
+    "key": "YD2UL08i",
+    "size": 1465,
+    "expire": "0",
+    "title": "tnrail.lua",
+    "syntax": "lua",
+    "user": "",
+    "filename": "YD2UL08i",
+    "pasteid": "YD2UL08i",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T06:17:22",
+    "MD5": "559cafafb04b73e809e03ead616d291a",
+    "SHA256": "bb86e07184159ad1d4ebc9187bfcdf6c41bd2441257b20395420d8d4551bb07d",
+    "raw_paste": "local args = {...}\r\nlocal len = args[1]\r\nlocal torchSpace = 5\r\nlocal tOffs = 0\r\nlocal went = 0\r\n\r\nif turtle.getFuelLevel() < 200 then \r\n  turtle.select(1)\r\n  turtle.refuel()\r\nend\r\n\r\nfunction dig()\r\n  if turtle.detect() then\r\n    turtle.dig()\r\n  end\r\nend\r\n\r\nfunction digUp()\r\n  if turtle.detectUp() then\r\n    turtle.digUp()\r\n  end\r\nend\r\n\r\nfunction digDown()\r\n  if turtle.detectDown() then\r\n    turtle.digDown()\r\n  end\r\nend\r\n\r\nfunction digOne(pRail)\r\n  dig()\r\n  turtle.forward()\r\n  went = went + 1\r\n  digDown()\r\n  if pRail then\r\n    digDown()\r\n    turtle.down()\r\n    turtle.turnLeft()\r\n    dig()\r\n    turtle.select(13)\r\n    turtle.place()\r\n    turtle.up()\r\n    turtle.select(14)\r\n    turtle.placeDown()\r\n    dig()\r\n    turtle.select(16)\r\n    turtle.place()\r\n    turtle.turnRight()\r\n  else\r\n    turtle.select(15)\r\n    if turtle.placeDown() == false then\r\n      turtle.down()\r\n      turtle.select(2)\r\n      turtle.placeDown()\r\n      turtle.up()\r\n      turtle.select(15)\r\n      turtle.placeDown()\r\n    end\r\n  end\r\n  for i = 13, 16 do\r\n    if turtle.getItemCount(i) == 0 then\r\n      return false\r\n    end\r\n  end\r\n  return true     \r\nend\r\n\r\nwhile turtle.detect() == false do\r\n  turtle.forward()\r\n  tOffs = tOffs + 1\r\nend\r\n\r\nfor i = 0, len do\r\n  local sp = (tOffs + i) % torchSpace == 0\r\n  if digOne(sp) == false then\r\n    break\r\n  end\r\nend\r\n\r\nturtle.turnLeft()\r\nturtle.turnLeft()\r\nfor i = 0, went + tOffs do\r\n  turtle.forward()\r\nend\r\nturtle.turnRight()\r\nturtle.turnRight()",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

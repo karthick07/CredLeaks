@@ -1,0 +1,21 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=AjaJuwQw",
+    "full_url": "https://pastebin.com/AjaJuwQw",
+    "date": "1594544226",
+    "key": "AjaJuwQw",
+    "size": 2404,
+    "expire": "0",
+    "title": "",
+    "syntax": "css",
+    "user": "",
+    "filename": "AjaJuwQw",
+    "pasteid": "AjaJuwQw",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-12T08:57:06",
+    "MD5": "9ea93e730ed0529c428f5fd46ee9d554",
+    "SHA256": "3316336bc52e21e13f2d55a496342b41fc928316a3dc3c47aa8aeac411279d7d",
+    "raw_paste": "@import url(\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap\");\r\n\r\n/* -- GENERAL -------------------------- */\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: sans-serif;\r\n}\r\n* {\r\n  font-family: \"Titillium Web\";\r\n  box-sizing: border-box;\r\n  max-width: 100%;\r\n}\r\n.clear {\r\n  clear: both;\r\n}\r\n\r\n/* -- PRINT SETUP ---------------------- */\r\n@page {\r\n  margin: 0 0 0 0;\r\n}\r\nbody {\r\n  max-width: 23cm;\r\n  margin: auto;\r\n}\r\n#print-table table td,\r\n#print-table table th {\r\n  border: 1.5px solid black;\r\n  border-collapse: collapse;\r\n}\r\n#print-table > thead > tr {\r\n  background: none;\r\n}\r\n#print-table > thead > tr > td,\r\n#print-table > tbody > tr > td,\r\n#print-table > tfoot > tr > td {\r\n  padding: 0;\r\n}\r\n#print-table > thead > tr > td {\r\n  padding-bottom: 50px;\r\n}\r\n#print-table > tfoot > tr > td {\r\n  padding-top: 20px;\r\n}\r\n\r\n/* -- TYPO ----------------------------- */\r\np {\r\n  margin: 0;\r\n  padding: 0;\r\n  line-height: 1.2em;\r\n  margin-bottom: 0.2em;\r\n}\r\n\r\n/* -- STYLING --------------------------- */\r\n#time-header {\r\n  background: #c7c8ca;\r\n}\r\n#time-header img {\r\n  float: right;\r\n  max-height: 3.1cm;\r\n  padding: 0.8cm 1.2cm;\r\n}\r\n#address-company {\r\n  padding-top: 1.11cm;\r\n  padding-left: 1.2cm;\r\n}\r\n#time-info {\r\n  float: right;\r\n  width: 8cm;\r\n  padding-right: 1.2cm;\r\n}\r\n#time-content {\r\n  clear: both;\r\n  padding-top: 0.8cm;\r\n  padding-left: 1.1cm;\r\n  padding-right: 1.1cm;\r\n}\r\n\r\n/* -- DESCRIPTION ----------------------- */\r\n.description {\r\n  float: left;\r\n  width: 4cm;\r\n}\r\n.description .value {\r\n  float: left;\r\n}\r\n.value + .description {\r\n  clear: both;\r\n  line-height: 1em;\r\n}\r\n.value + .description + .value {\r\n  line-height: 1em;\r\n}\r\n\r\n/* -- TABLES ---------------------------- */\r\ntable {\r\n  width: 100%;\r\n  border-collapse: collapse;\r\n}\r\nthead tr {\r\n  background: #c7c8ca;\r\n}\r\ntd,\r\nth {\r\n  padding: 0.1cm 0.1cm 0.05cm 0.1cm;\r\n}\r\ntd:last-child {\r\n  width: 2.95cm;\r\n}\r\n\r\n/* -- FOOTER ---------------------------- */\r\n.footer {\r\n  padding: 0.1cm 1.2cm;\r\n  padding-bottom: 0.9cm;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n.table-footer {\r\n  visibility: hidden;\r\n}\r\n@media print {\r\n  .real-footer {\r\n    position: fixed;\r\n    left: 0;\r\n    bottom: 0;\r\n    right: 0;\r\n  }\r\n}",
+    "YaraRule": [
+        "db_connection"
+    ]
+}

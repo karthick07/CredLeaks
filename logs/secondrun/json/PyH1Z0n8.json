@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=PyH1Z0n8",
+    "full_url": "https://pastebin.com/PyH1Z0n8",
+    "date": "1594496843",
+    "key": "PyH1Z0n8",
+    "size": 1792,
+    "expire": "0",
+    "title": "maker.lua",
+    "syntax": "lua",
+    "user": "",
+    "filename": "PyH1Z0n8",
+    "pasteid": "PyH1Z0n8",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T19:47:23",
+    "MD5": "ca8ad96a5d43e6ef13de32a61885f9ac",
+    "SHA256": "009f2fe4763218061e342b9ab627dd43b11f80365bdc496bc40129b8e017bcd1",
+    "raw_paste": "-- maker!\n--\nos.loadAPI(\"nav.lua\")\nos.loadAPI(\"general.lua\")\n\nRECIPE_DATA = \"recipes.data\"\nINVENTORY_DATA = \"inventory.data\"\nRECIPE_CHANNEL = 23\n\nlocal recipes = general.read_data(RECIPE_DATA)\nlocal inventory = general.read_data(INVENTORY_DATA)\n\nfunction get_item_position(name)\n    for i,item in ipairs(inventory) do\n        if item.name == name then\n            local temp_item = item.pos\n            temp_item.d = 1 -- terrible hack\n            return temp_item\n        end\n    end\n    print(\"Failed to find item in inventory!\")\nend\n\nfunction get_item(slot, name, count)\n    print(\"getting \" .. count .. \" \" .. name .. \" for slot \" .. slot)\n    local pos = get_item_position(name)\n    nav.go_to(pos)\n    turtle.select(slot)\n    turtle.suck(count)\nend\n\nfunction fill_recipe(recipe)\n    for i,item in ipairs(recipe.items) do\n        get_item(item.slot, item.name, item.count)\n    end\nend\n\nfunction drop_off_creations()\n    local slot = 0\n    while slot < 16 do\n        slot = slot + 1\n        turtle.select(slot)\n        local item = turtle.getItemDetail()\n        if item then\n            local pos = get_item_position(item.name)\n            nav.go_to(pos)\n            nav.dump(64)\n        end\n    end\nend\n\nfunction do_craft()\n    local outslots = {4,8,12,13,14,15,16}\n\n    for i,slot in ipairs(outslots) do\n        turtle.select(slot)\n        turtle.craft(64)\n    end\nend\n\nfunction get_recipe_from_recipes(name)\n    for i,recipe in ipairs(recipes) do\n        if recipe.name == name then\n            return recipe\n        end\n    end\n    print(\"uh no recipe with that name\")\n    os.exit()\nend\n\nfunction craft(name)\n    recipe = get_recipe_from_recipes(name)\n    fill_recipe(recipe)\n    do_craft()\n    drop_off_creations()\nend\n\nif arg[1] ~= nil then\n    -- default move\n    craft(arg[1])\nend",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

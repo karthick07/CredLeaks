@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=K3aEQPi9",
+    "full_url": "https://pastebin.com/K3aEQPi9",
+    "date": "1594634616",
+    "key": "K3aEQPi9",
+    "size": 921,
+    "expire": "0",
+    "title": "",
+    "syntax": "csharp",
+    "user": "",
+    "filename": "K3aEQPi9",
+    "pasteid": "K3aEQPi9",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-13T10:03:36",
+    "MD5": "86c1730c72699ee4c41fa5ba7fff7471",
+    "SHA256": "049c9c91e50325c416d245e4bd92627f4ef1192a7447e9bdaead49cc74995d72",
+    "raw_paste": "private void SortLeaderboard()\r\n    {\r\n        Dictionary<string, PlayableData> bufferDict = new Dictionary<string, PlayableData>(leaderboard);\r\n        leaderboard = leaderboard.OrderByDescending(pair => pair.Value.cars).ToDictionary(pair => pair.Key, pair => pair.Value);\r\n\r\n\r\n        bool isSorted = bufferDict.Equals(leaderboard);\r\n       // bool isSorted = Enumerable.SequenceEqual(bufferDict, leaderboard);\r\n\r\n        Debug.Log($\"Leaderboard is sorted = {isSorted}\");\r\n\r\n        if (isSorted)\r\n        {\r\n            if (leaderboard.Count > 0)\r\n            {\r\n                MoveCrown(leaderboard.FirstOrDefault().Key);\r\n\r\n                Debug.Log($\"[Crown] Leaderboard first = {leaderboard.FirstOrDefault().Key} | {leaderboard.FirstOrDefault().Value.cars}\");\r\n            }\r\n            //PrintLeaderboardToConsole();\r\n        }\r\n\r\n        interfaceController.UpdateGameLeaderboard(leaderboard, isSorted);\r\n    }",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

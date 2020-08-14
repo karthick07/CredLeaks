@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=iqvgV6gm",
+    "full_url": "https://pastebin.com/iqvgV6gm",
+    "date": "1594548945",
+    "key": "iqvgV6gm",
+    "size": 533,
+    "expire": "0",
+    "title": "shapes",
+    "syntax": "python",
+    "user": "",
+    "filename": "iqvgV6gm",
+    "pasteid": "iqvgV6gm",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-12T10:15:45",
+    "MD5": "cc7bccc199a458cc70cd4535b88306e5",
+    "SHA256": "8f0b875a49542ae724241d3a693b004f1177fbba4a777330609b006f7d55a30e",
+    "raw_paste": "from turtle import  Turtle\r\n#functions\r\ndef square(name,length):\r\n    #name.goto(0,50)\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.right(90)\r\n    name.fd(length)\r\n    name.hideturtle()\r\n    \r\ndef rectangle(name,length):\r\n    name.fd(length)\r\n    name.left(120)\r\n    name.fd(length)\r\n    name.left(120)\r\n    name.fd(length)\r\n    name.hideturtle()\r\n\r\n#create new turtle\r\nsq1 = Turtle()\r\n\r\n#making a square\r\n#square(sq1,200)\r\n\r\n#making a rectangle\r\nrectangle(sq1,200)",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

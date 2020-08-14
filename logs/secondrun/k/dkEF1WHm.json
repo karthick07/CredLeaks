@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=dkEF1WHm",
+    "full_url": "https://pastebin.com/dkEF1WHm",
+    "date": "1594537627",
+    "key": "dkEF1WHm",
+    "size": 1959,
+    "expire": "0",
+    "title": "wheat_farmer",
+    "syntax": "lua",
+    "user": "Assemb1y_",
+    "filename": "dkEF1WHm",
+    "pasteid": "dkEF1WHm",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-12T07:07:07",
+    "MD5": "a94f81a8c22a26d2c3e2e3d8190a2640",
+    "SHA256": "c3b0d142e1db6883bba6284b07ef533fc9d70b706cdb1c0c36406a52cb93371c",
+    "raw_paste": "function customDig()\r\n    pass, data = turtle.inspectDown()\r\n\r\n    if pass then\r\n        if data.state.age == 7 then\r\n            turtle.digDown()\r\n            turtle.select(1)\r\n            turtle.placeDown()\r\n            turtle.select(2)\r\n            turtle.placeDown()\r\n        end\r\n    else\r\n        turtle.select(1)\r\n        turtle.placeDown()\r\n        turtle.select(2)\r\n        turtle.placeDown()\r\n    end\r\n\t    turtle.suckDown()\r\nend\r\n\r\nfunction customMove()\r\n    local moved = false\r\n\r\n    while moved == false do\r\n        moved = turtle.forward()\r\n\r\n        if moved == false then\r\n            turtle.dig()\r\n        end\r\n    end\r\nend\r\n\r\nfunction digStrip()\r\n    for i = 1, 8 do\r\n        customDig()\r\n        turtle.forward()\r\n    end\r\nend\r\n\r\nfunction hookLeft()\r\n    customDig()\r\n    turtle.turnLeft()\r\n    turtle.forward()\r\n    turtle.turnLeft()\r\nend\r\n\r\nfunction hookRight()\r\n    customDig()\r\n    turtle.turnRight()\r\n    turtle.forward()\r\n    turtle.turnRight()\r\nend\r\n\r\nfunction restart()\r\n    turtle.turnLeft()\r\n\r\n    for i = 1, 8 do\r\n        turtle.forward()\r\n    end\r\n\r\n    for i = 1, 16 do\r\n        turtle.select(i)\r\n        turtle.drop()\r\n    end\r\n\r\n    turtle.turnLeft()\r\n    turtle.forward()\r\n    turtle.turnRight()\r\n\r\n    turtle.select(1)\r\n    turtle.suck()\r\n    turtle.select(2)\r\n    turtle.suck()\r\n\r\n    turtle.turnRight()\r\n    turtle.forward()\r\n    turtle.turnRight()\r\nend\r\n\r\nfunction slice()\r\n    for i = 1, 4 do\r\n        digStrip()\r\n        hookRight()\r\n        digStrip()\r\n        hookLeft()\r\n    end\r\n    digStrip()\r\n    turtle.turnLeft()\r\n    digStrip()\r\n    restart()\r\nend\r\n\r\nfunction refuel()\r\n    turtle.turnLeft()\r\n    turtle.select(3)\r\n    turtle.suck()\r\n    turtle.refuel()\r\n    turtle.select(1)\r\n    turtle.turnRight()\r\n\r\nend\r\n\r\nfunction main()\r\n    refuel()\r\n\r\n    while true do\r\n        os.sleep(1800)\r\n        slice()\r\n\r\n        if turtle.getFuelLevel() <= 300 then\r\n            refuel()\r\n        end\r\n    end\r\nend\r\n\r\nmain()",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

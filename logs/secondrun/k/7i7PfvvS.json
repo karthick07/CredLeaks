@@ -1,0 +1,25 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=7i7PfvvS",
+    "full_url": "https://pastebin.com/7i7PfvvS",
+    "date": "1594490656",
+    "key": "7i7PfvvS",
+    "size": 851,
+    "expire": "0",
+    "title": "ACCOUNTS SPOTIFY PREMIUM",
+    "syntax": "python",
+    "user": "biuhiu",
+    "filename": "7i7PfvvS",
+    "pasteid": "7i7PfvvS",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T18:04:16",
+    "MD5": "44b8cb25a5577e1f1fc79ae8da1fac95",
+    "SHA256": "da68d1e4f33046b3e39e9891dbd6067bcde5e8f411b75f9ff17cf3983714b7ce",
+    "raw_paste": "drstrange01@hotmail.com 3569851426\r\nandreiterns0253@gmail.com   09499535568\r\nzaitsev2020@hotmail.com sniperm4n\r\npromonster18@gmail.com  francisnicole1\r\nlowchris368@gmail.com   95412536522\r\nuberman5@gmail.com  5459423845\r\ncontrax8@gmail.com  rap8ingood\r\nghajini1199@hotmail.com 11991199\r\njordielnino23@hotmail.com   thebestman856\r\nupgrade54@gmail.com danielbrown5\r\nbluelive84@gmail.com    lanadannes4\r\nremixman6@gmail.com remix6man6\r\nchelebi31@gmail.com 18954515421\r\nfullbilgi@gmail.com agit2131\r\nlawpaul1@gmail.com  paul1law1\r\nmrchallenger3@gmail.com jackjones333\r\njokerboss2000@hotmail.com   yusuf2005\r\nscreamshouttt@gmail.com 64851325454\r\nbrand2020@gmail.com 123456789\r\nyoutuber911@gmail.com   911911911\r\nutheneravip@gmail.com   vipcocacc\r\nmajorking5@gmail.com    55major55\r\nlinda95@gmail.com   linda5526321145\r\nmichael2019@hotmail.com 0234587412abc",
+    "YaraRule": [
+        "email_list",
+        "email_filter"
+    ],
+    "total_emails": 24,
+    "unique_emails": 24,
+    "unique_domains": 2
+}

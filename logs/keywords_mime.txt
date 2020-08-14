@@ -1,0 +1,13 @@
+find -type f -exec bash -c '
+  for f; do
+    file=$(file -- "$f")
+    if [[ $file =~ ^$f:\ ("C source"|"Python script"|"python source"|"node script"|"shell script"|\
+	"swift script"|"Algol 68 source"|"assembler source"|"perl script"|"Bourne-Again shell script"|
+	"C++ source"|"core file"|"DCL command file"|"DOS batch file"|"exported SGML"|"HTML document"|"Java source"|
+	"diff output"|"GIF image data"|"Lisp"|"Lua bytecode"|"makefile script"|"MGR bitmap"|\
+	"Objective-C source"|"Pascal source"|"Perl5"|"PGP message"|"PHP script|"POSIX shell script|\
+	"Ruby script"|"SemOne archive data"|"SMTP mail"|"Windows Registry text"|"XML 1.0") ]]; then
+      echo rm -- "$f"
+    fi
+  done
+' bash {} +

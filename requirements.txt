@@ -1,0 +1,7 @@
+requests>=2.20.0
+elasticsearch>=5.0.0,<6.0.0
+splunk-sdk
+yara-python
+pandas==1.0.5
+scikit-learn==0.23.1
+nltk==3.5 

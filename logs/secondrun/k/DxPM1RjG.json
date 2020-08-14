@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=DxPM1RjG",
+    "full_url": "https://pastebin.com/DxPM1RjG",
+    "date": "1594546104",
+    "key": "DxPM1RjG",
+    "size": 1534,
+    "expire": "1594632504",
+    "title": "",
+    "syntax": "cpp",
+    "user": "",
+    "filename": "DxPM1RjG",
+    "pasteid": "DxPM1RjG",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-12T09:28:24",
+    "MD5": "dacdf32f96a6c6fd37dc7fc5daa435c9",
+    "SHA256": "3b49cfcf62015fbf7896485bddca4e912a7c0f7cb6b76e9aeab3d7a1b1f6d92b",
+    "raw_paste": "#pragma once\r\n\r\n#include <istream>\r\n#include <ostream>\r\n#include <set>\r\n#include <list>\r\n#include <vector>\r\n#include <map>\r\n#include <mutex>\r\n#include <future>\r\n#include <string>\r\n\r\nusing namespace std;\r\n\r\ntemplate <typename T>\r\nclass Synchronized {\r\npublic:\r\n    explicit Synchronized(T initial = T())\r\n        : value(move(initial))\r\n    {\r\n    }\r\n\r\n    struct Access {\r\n        T& ref_to_value;\r\n        lock_guard<mutex> guard;\r\n    };\r\n\r\n    Access GetAccess() {\r\n        return { value, lock_guard(m) };\r\n    }\r\n\r\nprivate:\r\n    T value;\r\n    mutex m;\r\n};\r\n\r\nclass InvertedIndex {\r\npublic:\r\n  void Add(const string& document);\r\n\r\n  //list<size_t> Lookup(const string& word) const;\r\n  vector<pair<size_t, size_t>> Lookup(const string& word) const;\r\n\r\n  const string& GetDocument(size_t id) const {\r\n    return docs[id];\r\n  }\r\n\r\n  size_t GetDocsSize() {\r\n      return docs.size();\r\n  }\r\n\r\nprivate:\r\n  //map<string, list<size_t>> index;\r\n  map<string, vector<pair<size_t, size_t>>> index;\r\n  vector<string> docs;\r\n};\r\n\r\n\r\nclass SearchServer {\r\npublic:\r\n  SearchServer() = default;\r\n  explicit SearchServer(istream& document_input);\r\n  void UpdateDocumentBase(istream& document_input);\r\n  //void UpdateIndexSinglTread(istream& document_input);\r\n  void AddQueriesStream(istream& query_input, ostream& search_results_output);\r\n  //void AddQueriesSinglTread(istream& query_input, ostream& search_results_output);\r\n  //vector<future<void>> futures;\r\nprivate:\r\n    Synchronized<InvertedIndex> index;\r\n    vector<future<void>> futures;\r\n};",
+    "YaraRule": [
+        "enable_org23",
+        "core_keywords"
+    ]
+}

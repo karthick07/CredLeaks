@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=s8nCsUX1",
+    "full_url": "https://pastebin.com/s8nCsUX1",
+    "date": "1594482916",
+    "key": "s8nCsUX1",
+    "size": 1232,
+    "expire": "0",
+    "title": "qu",
+    "syntax": "lua",
+    "user": "",
+    "filename": "s8nCsUX1",
+    "pasteid": "s8nCsUX1",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T15:55:16",
+    "MD5": "7d19b26fcff8a3c29791b2d1c61d9324",
+    "SHA256": "4981b4d012729aaff3831d0e5c8029c368e1a36c67039c107d6ec97cb8e41db7",
+    "raw_paste": "print(\"f=\")\r\nf = read()\r\nprint(\"l=\")\r\nl = read()\r\nprint(\"h=\")\r\nh = read()\r\nlocal function st()\r\n dddd = 'minecraft:stone'\r\n fff,item = turtle.inspectUp()\r\n sdsd = item['name']\r\n  if sdsd == dddd then\r\n  else\r\n   turtle.digUp()\r\n   if turtle.getItemCount(1) > 2 then\r\n   turtle.placeUp()\r\n  end\r\n end\r\n fff,item = turtle.inspectDown()\r\n sdsd = item['name']\r\n if sdsd == dddd then\r\n else\r\n  turtle.digDown()\r\n  if turtle.getItemCount(1) > 2 then\r\n   turtle.placeDown()\r\n  end\r\n end\r\n while not turtle.forward() do\r\n  turtle.dig()\r\n end\r\nend\r\n\r\nlocal function line()\r\n for j = 1, f, 1 do\r\n  st()\r\n end\r\nend\r\n\r\nlocal function pla()\r\n for i = 1, l, 2 do\r\n  line()\r\n  turtle.turnRight()\r\n  st()\r\n  turtle.turnRight()\r\n  line()\r\n  turtle.turnLeft()\r\n  st()\r\n  turtle.turnLeft()\r\n end\r\n turtle.turnLeft()\r\n for g = 1, l, 1 do\r\n  st()\r\n end\r\n turtle.turnRight()\r\nend\r\n\r\n\r\nturtle.digDown()\r\nturtle.down()\r\n\r\nfor gg = 1, h-7, 3 do\r\npla()\r\nif turtle.getItemCount(13)>=1 then\r\nfor kl = 1, gg, 1 do\r\nturtle.digUp()\r\nturtle.up()\r\nend\r\nfor kj = 2, 16, 1 do\r\nturtle.select(kj)\r\nturtle.dropUp()\r\nend\r\nturtle.select(1)\r\nfor kl = 1, gg, 1 do\r\nturtle.digDown()\r\nturtle.down()\r\nend\r\nend\r\n\r\nfor rr = 1, 3, 1 do\r\nturtle.digDown()\r\nturtle.down()\r\n\r\nend\r\nend",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

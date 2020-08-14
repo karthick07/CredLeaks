@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=aJJChUmr",
+    "full_url": "https://pastebin.com/aJJChUmr",
+    "date": "1594628500",
+    "key": "aJJChUmr",
+    "size": 733,
+    "expire": "0",
+    "title": "Save",
+    "syntax": "lua",
+    "user": "",
+    "filename": "aJJChUmr",
+    "pasteid": "aJJChUmr",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-13T08:21:40",
+    "MD5": "9a76c44ab8b4a82f274668abff952824",
+    "SHA256": "4cf20af7b4f7967bc9718df9e6bc13d199017ef4fc8226e5fa892167654c7c79",
+    "raw_paste": "function Why()\r\n  while turtle.detect() do\r\n  turtle.dig()\r\n  os.sleep(0.5)\r\n end\r\n turtle.forward()\r\n while turtle.detectDown() or turtle.detectUp() do\r\n   turtle.digUp()\r\n   turtle.digDown()\r\n  end\r\n end \r\n  \r\n    \r\n function placeTorch()\r\n   turtle.down()\r\n   turtle.back() \r\n   turtle.select(16)\r\n   turtle.placeUp()\r\n   turtle.forward()\r\n   turtle.up()\r\nend\r\n  \r\n local run = 0\r\n local j = 0\r\n local k = 0\r\n \r\n term.write(\" Branch length: \")\r\n run = read()\r\n \r\n for i= 1, run do\r\n   k = i - 1\r\n   j = k % 10\r\n   if j == 1 then\r\n    placeTorch() \r\n      end \r\n     Why()\r\n end\r\n \r\n turtle.select(16)\r\n turtle.placeUp()\r\n turtle.turnRight()\r\n turtle.turnRight()\r\n \r\n   for i = 1, run do\r\n   turtle.down()\r\n   turtle.forward()\r\nend",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}

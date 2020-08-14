@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=fzszCqz6",
+    "full_url": "https://pastebin.com/fzszCqz6",
+    "date": "1594483838",
+    "key": "fzszCqz6",
+    "size": 452,
+    "expire": "1626019838",
+    "title": "Hacked",
+    "syntax": "json",
+    "user": "",
+    "filename": "fzszCqz6",
+    "pasteid": "fzszCqz6",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T16:10:38",
+    "MD5": "9ef625b307b3b0edc9290cfdff60ec42",
+    "SHA256": "61d7defbcc308dc2c5b4908ea6aacddd03fa9180f181ec21740fd406ba7a73be",
+    "raw_paste": "\u00a0<HTML>\r\n<head>\r\n<title>Hacked By Master.Monster</title>\r\n\r\n<meta name=\"description\" content=\"You Got Hacked by Mr.Cyber's ? Where the\u00a0security\u00a0!\" />\r\n</head>\r\n\r\n<body\u00a0BGCOLOR=\"black\">\u00a0\r\n\r\n<center><FONT COLOR=\"blue\"><FONT SIZE=6><blink>Hacked By Mr.Cyber's</blink></FONT></FONT></center>\r\n\r\n<center><img src=\"http://www.mrconservative.com/files/2014/01/2014.01.03-mrconservative-52c7336a7aa18.jpg\" width=\"860\" height=\"264\"\"><center>\r\n</body>\r\n</HTML>\u00a0\u00a0",
+    "YaraRule": [
+        "hacked",
+        "core_keywords"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=kiWEKqUk",
+    "full_url": "https://pastebin.com/kiWEKqUk",
+    "date": "1594488347",
+    "key": "kiWEKqUk",
+    "size": 2650,
+    "expire": "0",
+    "title": "",
+    "syntax": "sql",
+    "user": "",
+    "filename": "kiWEKqUk",
+    "pasteid": "kiWEKqUk",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T17:25:47",
+    "MD5": "47ef7167588ac0a1ea725984296b1ed0",
+    "SHA256": "a2667075b2a8187fdb9e348a60327b209e08132194140e784bc541eb3fa28797",
+    "raw_paste": "create table dbo.products(\r\n  id number not null,\r\n  name varchar2(255) null,\r\n\r\n  constraint pk_products_id primary key(id)\r\n);\r\n\r\ncreate table dbo.categories(\r\n  id number not null,\r\n  name varchar2(255) null,\r\n\r\n  constraint pk_categories_id primary key(id)\r\n);\r\n\r\ncreate table dbo.products_map(\r\n  product_id number not null,\r\n  category_id number not null,\r\n\r\n  constraint fk_products_map_product_id foreign key (product_id) references dbo.products(id),\r\n  constraint fk_products_map_category_id foreign key (category_id) references dbo.categories(id)\r\n);\r\n\r\ninsert into dbo.categories (id, name) values (1,'\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b');\r\ninsert into dbo.categories (id, name) values (2,'\u041e\u0434\u0435\u0436\u0434\u0430');\r\ninsert into dbo.categories (id, name) values (3,'\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u044b');\r\n\r\ninsert into dbo.products (id, name) values (1,'\u0414\u0440\u0435\u043b\u044c');\r\ninsert into dbo.products (id, name) values (2,'\u041c\u043e\u043b\u043e\u0442\u043e\u043a');\r\ninsert into dbo.products (id, name) values (3,'\u041f\u0438\u043b\u0430');\r\ninsert into dbo.products (id, name) values (4,'\u0414\u0436\u0438\u043d\u0441\u044b');\r\ninsert into dbo.products (id, name) values (5,'\u0420\u0443\u0431\u0430\u0448\u043a\u0430');\r\ninsert into dbo.products (id, name) values (6,'\u041a\u0443\u0440\u0442\u043a\u0430');\r\ninsert into dbo.products (id, name) values (7,'\u041c\u044f\u0441\u043e');\r\ninsert into dbo.products (id, name) values (8,'\u041c\u043e\u043b\u043e\u043a\u043e');\r\ninsert into dbo.products (id, name) values (9,'\u0425\u043b\u0435\u0431');\r\ninsert into dbo.products (id, name) values (10,'\u0421\u044c\u0435\u0434\u043e\u0431\u043d\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430 :)');\r\ninsert into dbo.products (id, name) values (11,'\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0431\u043e\u0442\u0438\u043d\u043a\u0438');\r\ninsert into dbo.products (id, name) values (12,'\u0422\u043e\u0432\u0430\u0440 \u0431\u0435\u0437 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438');\r\n\r\ninsert into dbo.products_map(product_id, category_id) values (1,1);\r\ninsert into dbo.products_map(product_id, category_id) values (2,1);\r\ninsert into dbo.products_map(product_id, category_id) values (3,1);\r\ninsert into dbo.products_map(product_id, category_id) values (4,2);\r\ninsert into dbo.products_map(product_id, category_id) values (5,2);\r\ninsert into dbo.products_map(product_id, category_id) values (6,2);\r\ninsert into dbo.products_map(product_id, category_id) values (7,3);\r\ninsert into dbo.products_map(product_id, category_id) values (8,3);\r\ninsert into dbo.products_map(product_id, category_id) values (9,3);\r\ninsert into dbo.products_map(product_id, category_id) values (10,2);\r\ninsert into dbo.products_map(product_id, category_id) values (10,3);\r\ninsert into dbo.products_map(product_id, category_id) values (11,1);\r\ninsert into dbo.products_map(product_id, category_id) values (11,2);\r\ninsert into dbo.products_map(product_id, category_id) values (11,2);\r\n\r\nselect p.name || ' - ' || c.name as result\r\nfrom dbo.products p\r\nleft join dbo.products_map on p.id = products_map.product_id\r\nleft join dbo.categories c on products_map.category_id = c.id",
+    "YaraRule": [
+        "db_structure"
+    ]
+}

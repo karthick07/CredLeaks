@@ -1,0 +1,857 @@
+2019-10-15 22:18:49 1iKZpn-001qc3-Rz Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 22:18:49 1iKZpn-001qc3-Rz Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 22:18:49 1iKZpn-001qc3-Rz Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 22:18:49 1iKZpn-001qc3-Rz Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 22:18:50 1iKZpn-001qc3-Rz => hlverifications@anz.com <HLVerifications@anz.com> F=<mike@financewa.com.au> R=send_to_gateway T=remote_smtp S=532178 H=cm.websitewelcome.com [100.42.49.18] I=[198.57.247.192] X=TLSv1.2:AES256-GCM-SHA384:256 CV=yes DN="/OU=Domain Control Validated/OU=Hosted by HostGator.com, LLC./OU=PositiveSSL Wildcard/CN=*.websitewelcome.com" C="250 2.0.0 KZppiKGATW4frKZppiwISF mail accepted for delivery"
+2019-10-15 22:20:31 1iKZrS-001rHN-Fk <= HLVerifications@anz.com H=mail1.bemta25.messagelabs.com [195.245.230.3]:45652 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=5249 id=ffd90bb9cd69441d80e6a77626f45bbc@EXIAU020HWT151.oceania.corp.anz.com T="Thank you for your email" from <HLVerifications@anz.com> for mike@financewa.com.au
+2019-10-15 22:20:31 1iKZrS-001rHN-Fk == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 22:38:11 1iKa8Y-0021WI-HS <= caroline.morling@stgeorge.com.au H=mail1.bemta26.messagelabs.com [85.158.142.1]:58977 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=17007 id=42BCE024B5D7714C8585B5F031DD30801102BB06@PWMXS0027.btfin.com T="Join Us for CBRE #2" from <caroline.morling@stgeorge.com.au> for mike@financewa.com.au
+2019-10-15 22:38:11 1iKa8Y-0021WI-HS == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:12:05 1iKZl7-001oNA-D1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:12:05 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:05 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:12:07 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-15 23:14:24 H=(nervenerve.icu) [160.20.109.51]:55823 I=[192.254.233.244]:25 F=<pepper@nervenerve.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (nervenerve.icu) [160.20.109.51]:55823 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://psbl.surriel.com/listing?ip=160.20.109.51"
+2019-10-15 23:14:51 1iKai1-002Kun-HP <= Carine.SHS@education.wa.edu.au H=mx9.det.wa.edu.au [203.14.52.25]:57456 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=2297 id=1282140754.4879.1571199271825@e7359svin1350.resources.internal T="Secondary Task Mark Report for Lucy Holmes" from <Carine.SHS@education.wa.edu.au> for mike@financewa.com.au
+2019-10-15 23:14:51 1iKai1-002Kun-HP == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:26:09 1iKast-002QJ3-Qt <= ambition@blindalarm.icu H=(blindalarm.icu) [160.20.109.52]:15605 I=[192.254.233.244]:25 P=esmtp S=30333 id=aNPw14szRnjvtIaEe4l7wId6mnG42-AT63G5lzh6Yc0.bXcBI-Dn0J9R6bLwdCxLh1egsRH-kTVgziwZBBuVUcQ@blindalarm.icu T="Best affordable Drone out in 2019" from <ambition@blindalarm.icu> for mike@financewa.com.au
+2019-10-15 23:26:09 1iKast-002QJ3-Qt == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:27:46 1iKauX-002R4d-Dm <= mike@financewa.com.au H=([192.168.18.17]) [144.139.121.96]:52248 I=[198.57.247.192]:587 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no A=dovecot_plain:mike@financewa.com.au S=9278 id=BC2C8326-0C08-4823-9A7A-CC8561402895@financewa.com.au T="Test 1227" from <mike@financewa.com.au> for mike@financewa.com.au
+2019-10-15 23:27:46 1iKauX-002R4d-Dm == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:30:02 1iKawi-002RrV-2Y <= Tracey.Smith2@anz.com H=mail1.bemta25.messagelabs.com [195.245.230.3]:41545 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=106375 id=DB6289489FFEA04D96F09CC254AC54D30171EDCB1F@EXUAU182FRM201.oceania.corp.anz.com T="RE: Emery, Denva Jay  016350 377318131" from <Tracey.Smith2@anz.com> for mike@financewa.com.au
+2019-10-15 23:30:02 1iKawi-002RrV-2Y == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-15 23:47:32 1iKbDf-002Zkq-VH <= mike@financewa.com.au H=(MIKELAPTOP) [144.139.121.96]:33822 I=[192.254.233.244]:465 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no A=dovecot_login:mike@financewa.com.au S=85070 id=!&!AAAAAAAAAAAuAAAAAAAAAFPQnZDeXrJIjzx0SKpEZuEBANlTnCJhprtFudq2LHCBs8EBACQA//8AABAAAABnnoTXfIh2QamcQwUN9WMOAQAAAAA=@financewa.com.au T="RE: Bridging/Relocation/Go Between" from <mike@financewa.com.au> for paul.eckermann@afghomeloans.com.au
+2019-10-15 23:47:32 1iKbDf-002Zkq-VH Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 23:47:32 1iKbDf-002Zkq-VH Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 23:47:32 1iKbDf-002Zkq-VH Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 23:47:32 1iKbDf-002Zkq-VH Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-15 23:47:33 1iKbDf-002Zkq-VH => paul.eckermann@afghomeloans.com.au F=<mike@financewa.com.au> R=send_to_gateway T=remote_smtp S=87402 H=cm.websitewelcome.com [100.42.49.18] I=[198.57.247.192] X=TLSv1.2:AES256-GCM-SHA384:256 CV=yes DN="/OU=Domain Control Validated/OU=Hosted by HostGator.com, LLC./OU=PositiveSSL Wildcard/CN=*.websitewelcome.com" C="250 2.0.0 KbDgiXKsBHunhKbDhi9eG1 mail accepted for delivery"
+2019-10-16 00:00:37 1iKbQL-002gFR-0c <= paul.eckermann@afghomeloans.com.au H=mail-eopbgr1360114.outbound.protection.outlook.com (AUS01-ME1-obe.outbound.protection.outlook.com) [40.107.136.114]:21190 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=23085 id=MEAPR01MB387781D1BA8F17CF599D2296CF920@MEAPR01MB3877.ausprd01.prod.outlook.com T="Read: Bridging/Relocation/Go Between" from <paul.eckermann@afghomeloans.com.au> for mike@financewa.com.au
+2019-10-16 00:00:37 1iKbQL-002gFR-0c == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 00:03:12 1iKbSo-002jQB-0Z <= paul.eckermann@afghomeloans.com.au H=mail-eopbgr1360139.outbound.protection.outlook.com (AUS01-ME1-obe.outbound.protection.outlook.com) [40.107.136.139]:1056 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=99065 id=MEAPR01MB3877711DFF5FBFA5F9D3B5DFCF920@MEAPR01MB3877.ausprd01.prod.outlook.com T="RE: Bridging/Relocation/Go Between" from <paul.eckermann@afghomeloans.com.au> for mike@financewa.com.au
+2019-10-16 00:03:12 1iKbSo-002jQB-0Z == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 00:29:26 H=(ranchdirty.icu) [160.20.109.53]:48727 I=[192.254.233.244]:25 F=<reliable@ranchdirty.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (ranchdirty.icu) [160.20.109.53]:48727 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://psbl.surriel.com/listing?ip=160.20.109.53"
+2019-10-16 00:31:42 H=(180-87-224-207.IKFPowernet.ikftel.com) [180.87.224.207]:35368 I=[192.254.233.244]:25 F=<tiler77@nfmail.com> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (180-87-224-207.IKFPowernet.ikftel.com) [180.87.224.207]:35368 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamcop.net/w3m?action=checkblock&ip=180.87.224.207"
+2019-10-16 00:52:12 1iKcEF-0038iY-NA <= 1axbuztqpslwgvc54tqwydysbbg3bfjjb28zjy-mike=financewa.com.au@bf01a.hubspotemail.net H=pgg18b.bf01a.hubspotemail.net [54.174.52.249]:59585 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=43645 id=1571204742783.313dda42-285e-4598-a4fc-15b6f8319954@bf01a.hubspotemail.net T="AFG Home Loans Alpha: Residential Lending Policy Changes" from <1axbuztqpslwgvc54tqwydysbbg3bfjjb28zjy-mike=financewa.com.au@bf01a.hubspotemail.net> for mike@financewa.com.au
+2019-10-16 00:52:12 1iKcEF-0038iY-NA == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:02:24 1iKcO8-003FFS-8g <= NoReply-Connect@education.wa.edu.au H=mx8.det.wa.edu.au [203.14.52.24]:60337 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=7248 id=167280742.6604501571205727282.JavaMail.connect@cplx-ap23.det.wa.edu.au T="New Notice \"Year 10 Health Education Summary Term 4\" by Patricia\n Merson" from <NoReply-Connect@education.wa.edu.au> for mike@financewa.com.au
+2019-10-16 01:02:25 1iKcO8-003FFS-8g == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:03:19 1iKcP0-003FjX-EF <= bounce-103_HTML-4793668-33892-100016251-49@bounce.em.scoopon.com.au H=mta.em.scoopon.com.au [13.111.98.70]:38472 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=61498 id=9e827e0f-d10a-4e7d-af60-7d0df03d5d60@dfw1s10mta413.xt.local T="\360\237\216\201 Stocking Fillers $15 & Under - Start Ticking Off Your Xmas Lists!" from <bounce-103_HTML-4793668-33892-100016251-49@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-16 01:03:19 1iKcP0-003FjX-EF == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:03:46 1iKcPR-003FvA-AS <= bounce-10_HTML-20924544-6986-100003324-873@bounce.email.anaconda.com.au H=mta.email.anaconda.com.au [13.111.20.218]:33913 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=69209 id=8270633c-911e-439b-b2d5-db33563795c8@dfw1s10mta60.xt.local T="Michael, Your $20 Anaconda Gift Voucher is waiting inside!" from <bounce-10_HTML-20924544-6986-100003324-873@bounce.email.anaconda.com.au> for mike@financewa.com.au
+2019-10-16 01:03:46 1iKcPR-003FvA-AS == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:08:29 1iKcU0-003I1t-LH <= app25.3729320630.a7a058de@clients.taguchimail.com H=clients.taguchimail.com [4.30.61.219]:57298 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=64289 id=6C.E2.36325.1D3B6AD5@clients.taguchimail.com T="\360\237\215\225 Pizza Night! 50% Off Large Pizzas*" from <app25.3729320630.a7a058de@clients.taguchimail.com> for mike@financewa.com.au
+2019-10-16 01:08:29 1iKcU0-003I1t-LH == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:12:45 H=(motifsteak.icu) [160.20.109.55]:55682 I=[192.254.233.244]:25 F=<dressing@motifsteak.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (motifsteak.icu) [160.20.109.55]:55682 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://psbl.surriel.com/listing?ip=160.20.109.55"
+2019-10-16 01:30:47 1iKcpa-003T7l-QQ <= penalty@ariseloose.icu H=(ariseloose.icu) [160.20.109.56]:43399 I=[192.254.233.244]:25 P=esmtp S=13479 id=6PyDUctzrlAOkaMKKfyesR4NTjqYSUX5wwpui6lRxN8.DjWpxYb_DXwybaKlSaivbKmLsIZIR9YK5J_nD6H1WN4@ariseloose.icu T="Greek Ritual REVERSES Diabetes (do this before bed)" from <penalty@ariseloose.icu> for mike@financewa.com.au
+2019-10-16 01:30:47 1iKcpa-003T7l-QQ == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:32:14 1iKcr0-003TeB-6x <= danmurphys.53843@envfrm.rsys5.com H=omp.email.dansnews.com.au [199.7.206.101]:38703 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=58411 id=0.1.5F.BCA.1D583EB6AE72EFC.0@omp.email.dansnews.com.au T="Hi Michael - BEATEN! Woodstock Bourbon & Cola 4.8% Cans 375mL at the lowest price!" from <danmurphys.53843@envfrm.rsys5.com> for mike@financewa.com.au
+2019-10-16 01:32:14 1iKcr0-003TeB-6x == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:49:04 1iKd7H-003aIJ-Qq <= bounce-4027585_HTML-1559774270-22730235-10849173-12@bounce.communications.macquarie.com H=mta.communications.macquarie.com [136.147.139.117]:45145 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=41854 id=bounce-4027585_HTML-1559774270-22730235-10849173-12@bounce.communications.macquarie.com T="New serviceability calculator" from <bounce-4027585_HTML-1559774270-22730235-10849173-12@bounce.communications.macquarie.com> for mike@financewa.com.au
+2019-10-16 01:49:04 1iKd7H-003aIJ-Qq == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:52:05 1iKcpa-003T7l-QQ == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 01:52:05 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:05 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 01:52:07 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 02:04:44 1iKdMS-003hYE-0N <= state@organkoran.icu H=(organkoran.icu) [160.20.109.57]:10182 I=[192.254.233.244]:25 P=esmtp S=11406 id=SXibZx5feHsEvD95KrrbpeEwBC1fcKsDX81QL1gmzDw.lzN3CcaplhHn9pzc4LJLKT2UphLo5eaSPVryuEZ7Fuw@organkoran.icu T="\342\235\244\357\270\217Chat with new members today!\360\237\222\213" from <state@organkoran.icu> for mike@financewa.com.au
+2019-10-16 02:04:44 1iKdMS-003hYE-0N == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 02:42:40 1iKdxA-003zkW-3s <= 0100016dd384a3e0-e3a08077-cc1f-4041-902c-7bce8f5ec4a8-000000@amazonses.com H=a10-179.smtp-out.amazonses.com [54.240.10.179]:52070 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-SHA256:128 CV=no S=24117 id=0100016dd384a3e0-e3a08077-cc1f-4041-902c-7bce8f5ec4a8-000000@email.amazonses.com T="Summer Haven Reminder" from <0100016dd384a3e0-e3a08077-cc1f-4041-902c-7bce8f5ec4a8-000000@amazonses.com> for mike@financewa.com.au
+2019-10-16 02:42:40 1iKdxA-003zkW-3s == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:01:48 1iKeFe-0048dR-H2 <= coles@specials.coles.com.au H=omp.specials.coles.com.au [199.7.202.32]:52866 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=32289 id=0.1.39.75E.1D583F7ED9B64BA.0@omp.specials.coles.com.au T="Mike, don't miss FREE delivery October!" from <coles@specials.coles.com.au> for mike@financewa.com.au
+2019-10-16 03:01:48 1iKeFe-0048dR-H2 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:01:59 1iKeFq-0048fZ-F1 <= b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au H=mta127d9.r.grouponmail.com.au [50.115.219.127]:10614 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=26990 id=121936576.30747280.1571212906134.JavaMail.rocketman@push-dispatcher20 T="\342\200\274\357\270\217 ATTN: You could save up to an EXTRA 30% off with this promo code" from <b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au> for mike@financewa.com.au
+2019-10-16 03:01:59 1iKeFq-0048fZ-F1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:02:34 1iKeGP-004957-NQ <= bounce-20473_HTML-752492021-2971951-1341602-230@bounce.mailings.ticketmaster.com.au H=mta.mailings.ticketmaster.com.au [199.122.127.235]:59640 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=63695 id=1bcb8c31-5d5e-4cb3-9e1a-1530297ab6c8@las1s04mta885.xt.local T="Get your fix of all the hottest tix with your weekly TicketAlert!" from <bounce-20473_HTML-752492021-2971951-1341602-230@bounce.mailings.ticketmaster.com.au> for mike@financewa.com.au
+2019-10-16 03:02:34 1iKeGP-004957-NQ == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:17:19 1iKeUg-004EwX-IR <= campaign@e.qantas.com H=(r253.e.qantas.com) [63.140.44.54]:9481 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=74474 id=NM646474A460121AD80qantas_mid_prod1@e.qantas.com T="Up to 750,000 reasons to join Qantas Business Rewards free by 30 Nov" from <campaign@e.qantas.com> for mike@financewa.com.au
+2019-10-16 03:17:19 1iKeUg-004EwX-IR == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:19:33 H=(gianthorse.icu) [160.20.109.58]:58713 I=[192.254.233.244]:25 F=<paul@gianthorse.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (gianthorse.icu) [160.20.109.58]:58713 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://psbl.surriel.com/listing?ip=160.20.109.58"
+2019-10-16 03:30:52 1iKehn-004KOA-BG <= NoReply-Connect@education.wa.edu.au H=mx8.det.wa.edu.au [203.14.52.24]:52281 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=7832 id=1603970317.7380061571214633663.JavaMail.connect@cplx-ap23.det.wa.edu.au T="New Notice \"2019 Secondary Schools Triathlon\" by Patricia Merson" from <NoReply-Connect@education.wa.edu.au> for mike@financewa.com.au
+2019-10-16 03:30:52 1iKehn-004KOA-BG == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:32:58 1iKejp-004L8a-VO <= bounce-mc.us14_62400921.898999-f766abfd6a@mail117.us4.mcsv.net H=mail117.us4.mcsv.net [205.201.128.117]:27763 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=80394 id=93eef3cb1b7c66c0cb63f9df9.f766abfd6a.20191016083235.2f7a5a02f8.bb2197aa@mail117.us4.mcsv.net T="Go for 2&5 Track and Field Season - Program B" from <bounce-mc.us14_62400921.898999-f766abfd6a@mail117.us4.mcsv.net> for mike@financewa.com.au
+2019-10-16 03:32:58 1iKejp-004L8a-VO == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:36:14 H=(sweetfault.icu) [160.20.109.59]:32732 I=[192.254.233.244]:25 F=<pile@sweetfault.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (sweetfault.icu) [160.20.109.59]:32732 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamhaus.org/query/ip/160.20.109.59/32"
+2019-10-16 03:37:06 1iKenp-004MkA-Ej <= bounces-MA-2-157-224fa751-3421-4c46-aa34-70f5cc30521e@sc2.connect.match.com H=b.mx.sc2.connect.match.com [208.83.243.186]:51192 I=[192.254.233.244]:25 P=esmtp S=172839 id=WA3MAVA010BWF84KtG40027f473@wa3mava010.IACP.DC T="You have 16 new matches: Bonnie, 48 from Rockingham,\n Australia...see more." from <bounces-MA-2-157-224fa751-3421-4c46-aa34-70f5cc30521e@sc2.connect.match.com> for mike@financewa.com.au
+2019-10-16 03:37:06 1iKenp-004MkA-Ej == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 03:45:40 H=alyssum.mta.dotmailer.com [94.143.106.199]:37225 I=[192.254.233.244]:25 X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no F=<bo-48VC-K68S-5EFQDN-C0RHY@spinsamba-updates.com> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - alyssum.mta.dotmailer.com [94.143.106.199]:37225 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamcop.net/w3m?action=checkblock&ip=94.143.106.199"
+2019-10-16 04:11:01 1iKfKe-000DVF-Hc <= tisha@bladeblack.icu H=(bladeblack.icu) [160.20.109.60]:48777 I=[192.254.233.244]:25 P=esmtp S=8689 id=gNBBnrsW2leYnPkMOyoMsYqJxljy3y0voPhn3aAT69Q.DQAxjcVP2a-78bDkQEPemQCNq-l51sUkMcAaLvmWT1Q@bladeblack.icu T="Best Smartphone on the market with all the latest technology" from <tisha@bladeblack.icu> for mike@financewa.com.au
+2019-10-16 04:11:01 1iKfKe-000DVF-Hc == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 04:12:17 1iKfLt-000E3e-3f <= alex@valuedopinions.com.au H=mx5.researchnow-usa.com [63.241.211.176]:48648 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=23533 id=1324963933.6717357.1571217125205@utruprdctc01v T="Reward offered for new survey" from <alex@valuedopinions.com.au> for mike@financewa.com.au
+2019-10-16 04:12:17 1iKfLt-000E3e-3f == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 04:32:05 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:05 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:06 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:06 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:32:07 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 04:57:29 1iKg3c-000YLj-KS <= haloa@groanstool.icu H=(groanstool.icu) [160.20.109.61]:53557 I=[192.254.233.244]:25 P=esmtp S=17057 id=m8sO5mSAIY1FduoKvHKrvFSflJhiNX4kWm9YnO6yt40.uo9vLQfCNqSFFYDIfxzOj3z5l4nIxDhmvHeqmEVN824@groanstool.icu T="Best drone for 2019!" from <haloa@groanstool.icu> for mike@financewa.com.au
+2019-10-16 04:57:29 1iKg3c-000YLj-KS == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 05:16:14 1iKgLk-000hRv-Kv <= noreplyBML@anz.com H=mail1.bemta25.messagelabs.com [195.245.230.7]:62369 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=181919 id=5176EF05CE70AB4195BEE5C0724C573B210E4B9C@EXUSG029IBS205.asia.corp.anz.com T="Insufficient_advice 800720440" from <noreplyBML@anz.com> for mike@financewa.com.au
+2019-10-16 05:16:14 1iKgLk-000hRv-Kv == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 05:17:12 1iKgMh-000hy7-Vf <= noreplyBML@anz.com H=mail1.bemta26.messagelabs.com [85.158.142.112]:59660 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=20770 id=5176EF05CE70AB4195BEE5C0724C573B210E4BAE@EXUSG029IBS205.asia.corp.anz.com T="Application Number Changed from <800720440  > to\n <715786794/715786803 >" from <noreplyBML@anz.com> for mike@financewa.com.au
+2019-10-16 05:17:12 1iKgMh-000hy7-Vf == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 05:25:31 1iKgUi-000lSk-NG <= graves13@iinet.net.au H=hfcrelay.icp-osb-irony-out2.external.iinet.net.au [203.59.1.82]:65486 I=[192.254.233.244]:25 P=esmtp S=73163 id=000001d5840b$fbf769a0$f3e63ce0$@iinet.net.au T="Next Week Venues + Strive Entry reminder" from <graves13@iinet.net.au> for mike@financewa.com.au nicholas@financewa.com.au
+2019-10-16 05:25:31 1iKgUi-000lSk-NG == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 05:31:55 H=(shootlevel.icu) [160.20.109.3]:20375 I=[192.254.233.244]:25 F=<info@shootlevel.icu> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (shootlevel.icu) [160.20.109.3]:20375 is in an RBL on csi.cloudmark.com/reset-request/?ip=160.20.109.3 , see Poor Reputation Sender"
+2019-10-16 06:01:00 1iKh34-0010bb-F2 <= b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au H=mta117d9.r.grouponmail.com.au [50.115.219.117]:14812 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=121510 id=831217582.31605491.1571223645787.JavaMail.rocketman@push-dispatcher24 T="\360\237\222\206 Your Pamper Zone Awaits WITH up to 30% off..." from <b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au> for mike@financewa.com.au
+2019-10-16 06:01:00 1iKh34-0010bb-F2 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 06:01:19 1iKh3O-0011JX-4q <= bounce-26_HTML-4793668-33910-100016251-21@bounce.em.scoopon.com.au H=mta7.em.scoopon.com.au [13.111.98.76]:41292 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=138467 id=985ba8fb-793f-461e-a257-3733d6238bd6@dfw1s10mta414.xt.local T="School Holidays To-Do List - Done!" from <bounce-26_HTML-4793668-33910-100016251-21@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-16 06:01:19 1iKh3O-0011JX-4q == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 07:12:05 1iKbSo-002jQB-0Z == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 07:12:05 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:05 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:12:07 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 07:13:54 1iKiBd-001adk-6l <= Greg.Hatfield@ststephens.wa.edu.au H=mail.syd.seqta.com.au [54.66.249.142]:35478 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=17030 id=1727565779.128.1571228019720.JavaMail.root@seqta1 T="Synthesis Tomorrow!" from <Greg.Hatfield@ststephens.wa.edu.au> for mike@financewa.com.au
+2019-10-16 07:13:54 1iKiBd-001adk-6l == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 09:13:14 H=(ribboncup.best) [193.111.77.25]:3647 I=[192.254.233.244]:25 F=<pitch@ribboncup.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (ribboncup.best) [193.111.77.25]:3647 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.25 , see Poor Reputation Sender"
+2019-10-16 09:48:37 H=(lackadd.best) [193.111.77.26]:28093 I=[192.254.233.244]:25 F=<unrefundable@lackadd.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (lackadd.best) [193.111.77.26]:28093 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.26 , see Poor Reputation Sender"
+2019-10-16 09:52:05 1iKgMh-000hy7-Vf == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 09:52:05 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:05 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 09:52:08 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 10:30:21 H=(monkice.best) [193.111.77.27]:47935 I=[192.254.233.244]:25 F=<facility@monkice.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (monkice.best) [193.111.77.27]:47935 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.27 , see Poor Reputation Sender"
+2019-10-16 10:55:31 H=itknowledz.com [149.56.202.72]:52766 I=[192.254.233.244]:25 X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no F=<bounce@itknowledz.com> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - itknowledz.com [149.56.202.72]:52766 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamcop.net/w3m?action=checkblock&ip=149.56.202.72"
+2019-10-16 11:18:51 H=(acidjob.best) [193.111.77.28]:53822 I=[192.254.233.244]:25 F=<equal@acidjob.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (acidjob.best) [193.111.77.28]:53822 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.28 , see Poor Reputation Sender"
+2019-10-16 12:01:40 H=(husbandbay.best) [193.111.77.29]:50887 I=[192.254.233.244]:25 F=<pitch@husbandbay.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (husbandbay.best) [193.111.77.29]:50887 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.29 , see Poor Reputation Sender"
+2019-10-16 12:32:05 1iKeGP-004957-NQ == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 12:32:05 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:05 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:06 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:08 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:08 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:08 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:08 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:10 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:11 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:12 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:12 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:12 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:13 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:13 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:13 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:13 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:13 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:20 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:21 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:22 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:22 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 12:32:22 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 13:18:55 H=(familyfar.best) [193.111.77.30]:35676 I=[192.254.233.244]:25 F=<tautology@familyfar.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (familyfar.best) [193.111.77.30]:35676 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.30 , see Poor Reputation Sender"
+2019-10-16 13:41:00 H=(37.230.163.20.leadertelecom.ru) [37.230.163.20]:55588 I=[192.254.233.244]:25 F=<ThomasMyersiulue@leadertelecom.ru> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (37.230.163.20.leadertelecom.ru) [37.230.163.20]:55588 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamhaus.org/query/ip/37.230.163.20/32"
+2019-10-16 13:50:10 1iKoN6-000gJO-V1 <= bounces+150049-40ef-mike=financewa.com.au@email.kogan.com H=o1.email.kogan.com [208.117.49.47]:7597 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=123156 id=157125176628.18132.12190655285250410564@workerxx-i-05656ccf32a31f1aa.int.prod.aws.kogan.com T="PRICE DROP: Kogan Mighty 2200W Cyclonic Vacuum Cleaner With Turbo\n Brush" from <bounces+150049-40ef-mike=financewa.com.au@email.kogan.com> for mike@financewa.com.au
+2019-10-16 13:50:10 1iKoN6-000gJO-V1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 14:17:08 H=(swopton.best) [193.111.77.31]:16500 I=[192.254.233.244]:25 F=<nixes@swopton.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (swopton.best) [193.111.77.31]:16500 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.31 , see Poor Reputation Sender"
+2019-10-16 14:40:53 1iKpAC-0012qf-J1 <= m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2swa8ij92oc86y@bounce.linkedin.com H=maile-aa.linkedin.com [108.174.3.193]:53413 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=90804 id=709139243.2551393.1571254840881.JavaMail.app@lva1-app47472.prod.linkedin.com T="Mike, do you know Guy Lehmann?" from <m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2swa8ij92oc86y@bounce.linkedin.com> for mike@financewa.com.au
+2019-10-16 14:40:53 1iKpAC-0012qf-J1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 14:52:54 H=(lacevat.best) [193.111.77.32]:23063 I=[192.254.233.244]:25 F=<sniff@lacevat.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (lacevat.best) [193.111.77.32]:23063 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.32 , see Poor Reputation Sender"
+2019-10-16 15:01:37 1iKpUG-001E0h-2Y <= online@e.bigw.com.au H=mta833.chtah.net [63.236.77.19]:44539 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=118929 id=489.470107035.201910162001246153331.0001990490@e.bigw.com.au T="Outdoor Season Is Here" from <online@e.bigw.com.au> for mike@financewa.com.au
+2019-10-16 15:01:37 1iKpUG-001E0h-2Y == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 15:10:56 H=(swopton.best) [193.111.77.31]:4939 I=[192.254.233.244]:25 F=<mayor@swopton.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (swopton.best) [193.111.77.31]:4939 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamhaus.org/query/ip/193.111.77.31/32"
+2019-10-16 15:12:05 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:05 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:09 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:09 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:09 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:09 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:09 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKpAC-0012qf-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKoN6-000gJO-V1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKpUG-001E0h-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:12:10 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 15:40:49 H=(heavencut.best) [193.111.77.34]:32919 I=[192.254.233.244]:25 F=<ample@heavencut.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (heavencut.best) [193.111.77.34]:32919 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.34 , see Poor Reputation Sender"
+2019-10-16 16:02:38 1iKqRJ-001e11-Cm <= mailer-daemon@news.sounds-good-man.com H=bm07p.be-mail.it [185.153.110.7]:45306 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=62339 id=112432.253.1096.1370850@news.sounds-good-man.com T="99.8% Accuracy and profit daily" from <mailer-daemon@news.sounds-good-man.com> for mike@financewa.com.au
+2019-10-16 16:02:38 1iKqRJ-001e11-Cm == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 16:04:12 1iKqSp-001eXk-Ex <= noreply@ex.seek.com.au H=p1-108050.ex.seek.com.au [38.107.108.50]:36222 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=41908 id=100334.412619995.201910162104004821388.0063999412@ex.seek.com.au T="Michael, clever answers to 3 curly interview questions" from <noreply@ex.seek.com.au> for mike@financewa.com.au
+2019-10-16 16:04:12 1iKqSp-001eXk-Ex == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 16:08:47 H=(gatedry.best) [193.111.77.35]:59595 I=[192.254.233.244]:25 F=<emery@gatedry.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (gatedry.best) [193.111.77.35]:59595 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.35 , see Poor Reputation Sender"
+2019-10-16 16:24:03 H=(springcry.best) [193.111.77.36]:54229 I=[192.254.233.244]:25 F=<salon@springcry.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (springcry.best) [193.111.77.36]:54229 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.36 , see Poor Reputation Sender"
+2019-10-16 17:01:04 H=(painterhay.best) [193.111.77.37]:35817 I=[192.254.233.244]:25 F=<keitel@painterhay.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (painterhay.best) [193.111.77.37]:35817 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.37 , see Poor Reputation Sender"
+2019-10-16 17:07:29 1iKrS4-0027Oq-SB <= bo-b59kbd6axk0d9jaug4dwdqq2s076zb@b.email.americanexpress.com H=mta605.email.americanexpress.com [38.100.169.109]:45254 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=75098 id=b59kbd6axk0d9jaug4dwdqq2s076zb.14787200355.3939@mta605.email.americanexpress.com T="Michael, save on Uber now with American Express" from <bo-b59kbd6axk0d9jaug4dwdqq2s076zb@b.email.americanexpress.com> for mike@financewa.com.au
+2019-10-16 17:07:29 1iKrS4-0027Oq-SB == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 17:16:10 1iKraT-002B09-8m <= 0100016dd6a45704-db6bb96c-22a4-4342-9c65-c1d91d5b771b-000000@amazonses.com H=a10-165.smtp-out.amazonses.com [54.240.10.165]:46724 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-SHA256:128 CV=no S=38825 id=0100016dd6a45704-db6bb96c-22a4-4342-9c65-c1d91d5b771b-000000@email.amazonses.com T="Don't Miss the Opportunity | AWSome Day Online Conference" from <0100016dd6a45704-db6bb96c-22a4-4342-9c65-c1d91d5b771b-000000@amazonses.com> for mike@financewa.com.au
+2019-10-16 17:16:10 1iKraT-002B09-8m == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 17:29:38 H=(dumppat.best) [193.111.77.38]:20466 I=[192.254.233.244]:25 F=<suk@dumppat.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (dumppat.best) [193.111.77.38]:20466 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.38 , see Poor Reputation Sender"
+2019-10-16 17:52:07 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKpUG-001E0h-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKqRJ-001e11-Cm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKraT-002B09-8m == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKqSp-001eXk-Ex == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKpAC-0012qf-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKoN6-000gJO-V1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKrS4-0027Oq-SB == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 17:52:07 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 18:14:22 1iKsUn-002aox-J1 <= bounce-26_HTML-4166541-33937-100016247-743@bounce.em.luxuryescapes.com H=mta3.em.luxuryescapes.com [13.111.98.67]:41283 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=205939 id=130569a6-c4ed-46a1-b448-fe4a5bbdf8d0@dfw1s10mta414.xt.local T="Ultimate African Luxury Safari | Maldives Grand Opening: All-Inclusive Indulgence | St Moritz Kempin" from <bounce-26_HTML-4166541-33937-100016247-743@bounce.em.luxuryescapes.com> for mike@financewa.com.au
+2019-10-16 18:14:22 1iKsUn-002aox-J1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 18:21:43 1iKsbt-002dio-Tx <= g-30020493648-30014-3000974410-1571268090202@bounce.loyalty.qantas.com H=onfize-twtwfi.uscluster.com [141.206.150.225]:47862 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=149124 id=3etfjt.k1twg9qy6jdlype@loyalty.qantas.com T="Michael, your October Qantas Points balance, great offers and our\n latest news" from <g-30020493648-30014-3000974410-1571268090202@bounce.loyalty.qantas.com> for mike@financewa.com.au
+2019-10-16 18:21:43 1iKsbt-002dio-Tx == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 18:22:38 H=(strainhut.best) [193.111.77.40]:23836 I=[192.254.233.244]:25 F=<preston@strainhut.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (strainhut.best) [193.111.77.40]:23836 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.40 , see Poor Reputation Sender"
+2019-10-16 18:49:16 H=(58.222.223.142) [58.222.223.142]:55279 I=[192.254.233.244]:25 X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no rejected MAIL <mike@financewa.com.au>: Access denied - Invalid HELO name (See RFC2821 4.1.3)
+2019-10-16 18:59:17 H=(mayorart.best) [193.111.77.41]:30384 I=[192.254.233.244]:25 F=<salon@mayorart.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (mayorart.best) [193.111.77.41]:30384 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.41 , see Poor Reputation Sender"
+2019-10-16 19:01:04 1iKtDz-002vKq-PY <= bounce-103222_HTML-457663718-5991816-6362994-18@bounce.e.nabbroker.com.au H=mta.e.nabbroker.com.au [136.147.184.196]:36520 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=22802 id=596e0324-3bc4-4357-95cb-c9fce5f44d69@ind1s06mta921.xt.local T="NAB's new rates, credit policy clarification and eSign" from <bounce-103222_HTML-457663718-5991816-6362994-18@bounce.e.nabbroker.com.au> for mike@financewa.com.au
+2019-10-16 19:01:04 1iKtDz-002vKq-PY == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:01:05 1iKtDz-002vK7-Vj <= b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au H=mta124d9.r.grouponmail.com.au [50.115.219.124]:18874 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=131277 id=431517767.32597016.1571270451865.JavaMail.rocketman@push-dispatcher11 T="In-Studio Photoshoot" from <b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au> for mike@financewa.com.au
+2019-10-16 19:01:05 1iKtDz-002vK7-Vj == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:01:10 1iKtE5-002vP3-J3 <= bounce-101_HTML-4793668-33949-100016251-23@bounce.em.scoopon.com.au H=mta6.em.scoopon.com.au [13.111.98.75]:59947 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=133444 id=773d4948-00f4-4522-8378-de83d92b83f0@dfw1s10mta413.xt.local T="HOYTS Movie Tickets from $11.99*" from <bounce-101_HTML-4793668-33949-100016251-23@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-16 19:01:11 1iKtE5-002vP3-J3 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:01:50 1iKtEj-002x3n-Nb <= bounce-3582_HTML-73896832-223832-7286220-422@bounce.s7.exacttarget.com H=cc11.mta.exacttarget.com [136.147.131.11]:48766 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=38912 id=21bd9533-e220-4a0a-b226-d37bbd1b48a7@xtgap4s7mta420.xt.local T="Need to upgrade your campsite? Deals end Sunday!" from <bounce-3582_HTML-73896832-223832-7286220-422@bounce.s7.exacttarget.com> for mike@financewa.com.au
+2019-10-16 19:01:50 1iKtEj-002x3n-Nb == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:02:35 1iKtFS-002xPH-C7 <= bounce+b37b4f.622925-mike=financewa.com.au@mail2.smrtermail.com H=a3.mail.smartrmail.co [69.72.47.165]:63781 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=119073 id=20191017000125.1.639661BD88B2B1C9@mail2.smrtermail.com T="End of Season Clearance" from <bounce+b37b4f.622925-mike=financewa.com.au@mail2.smrtermail.com> for mike@financewa.com.au
+2019-10-16 19:02:35 1iKtFS-002xPH-C7 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:03:45 1iKtGa-002xrL-44 <= m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2szovgcai7i1k1@bounce.linkedin.com H=maile-bd.linkedin.com [108.174.3.204]:51600 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=36851 id=1007653791.2651391.1571270612472.JavaMail.app@lva1-app47805.prod.linkedin.com T="Mike, you have 56 new updates, 1 message and 3 invitations waiting\n for you on LinkedIn" from <m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2szovgcai7i1k1@bounce.linkedin.com> for mike@financewa.com.au
+2019-10-16 19:03:45 1iKtGa-002xrL-44 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:15:58 H=(static.vnpt.vn) [14.172.85.160]:24618 I=[192.254.233.244]:25 F=<fukunaga@omibh.co.jp> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (static.vnpt.vn) [14.172.85.160]:24618 is in an RBL on rbl.websitewelcome.com, see Blocked - see https://www.abuseat.org/lookup.cgi?ip=14.172.85.160"
+2019-10-16 19:25:55 1iKtc2-0039Bo-6g <= do-not-reply@productsafety.gov.au H=oakey.sge.net [152.91.1.145]:60312 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=16840 id=20191017002540.ECBC536A@CBRVPLVZAPPS27.accc.local T="Latest updates from Product Safety Australia" from <do-not-reply@productsafety.gov.au> for mike@financewa.com.au
+2019-10-16 19:25:55 1iKtc2-0039Bo-6g == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:25:56 1iKtc3-0039Ct-W1 <= bounce-mc.us11_46175389.1224061-281a3a90f8@mail48.us4.mcsv.net H=mail48.us4.mcsv.net [205.201.128.48]:29874 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=49908 id=2dd842b9f73292f04c7d9e3b4.281a3a90f8.20191017002523.b987baff8c.99c05a62@mail48.us4.mcsv.net T="Banks Say No, We Say Yes." from <bounce-mc.us11_46175389.1224061-281a3a90f8@mail48.us4.mcsv.net> for mike@financewa.com.au
+2019-10-16 19:25:56 1iKtc3-0039Ct-W1 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 19:49:46 1iKtz7-003KuZ-G0 <= TheMFAA-pkldjlk1fdhyuihtu1i@cmail20.com H=mx29.a.outbound.createsend.com [203.55.21.29]:34340 I=[192.254.233.244]:25 P=esmtp S=39173 id=cm.1149317529960.pkldjlk.fdhyuihtu.i@cmail20.com T="Have you complete the Banking Code of Practice education module yet?" from <TheMFAA-pkldjlk1fdhyuihtu1i@cmail20.com> for mike@financewa.com.au
+2019-10-16 19:49:46 1iKtz7-003KuZ-G0 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 20:02:57 1iKuBr-003SdR-A7 <= b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au H=mta120d9.r.grouponmail.com.au [50.115.219.120]:15060 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=141013 id=1509289617.32668229.1571274163452.JavaMail.rocketman@push-dispatcher7 T="Bamboo Latex Mattress, 8x Oral-B Compatible Toothbrush Heads, Intex\n Challenger Inflatable Kayak, He" from <b12fd000-af52-46dd-b610-12a1c8909614@bounce.r.grouponmail.com.au> for mike@financewa.com.au
+2019-10-16 20:02:57 1iKuBr-003SdR-A7 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 20:11:53 1iKuKV-003X1s-RD <= nick.sjafrie@afgonline.com.au H=mail-eopbgr1360124.outbound.protection.outlook.com (AUS01-ME1-obe.outbound.protection.outlook.com) [40.107.136.124]:6224 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=211435 id=SYBPR01MB5211D05C863BB199EF38DBD7A16D0@SYBPR01MB5211.ausprd01.prod.outlook.com T="Personal Loans - Latitude and Now Finance" from <nick.sjafrie@afgonline.com.au> for mike@financewa.com.au
+2019-10-16 20:11:53 1iKuKV-003X1s-RD == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 20:32:05 1iKtc3-0039Ct-W1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKtFS-002xPH-C7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKtc2-0039Bo-6g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKpUG-001E0h-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKqRJ-001e11-Cm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKsbt-002dio-Tx == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKtz7-003KuZ-G0 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:06 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:07 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKpAC-0012qf-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKuKV-003X1s-RD == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKqSp-001eXk-Ex == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKsUn-002aox-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKtEj-002x3n-Nb == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKuBr-003SdR-A7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKoN6-000gJO-V1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKrS4-0027Oq-SB == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:09 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:10 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:10 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:10 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:10 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKraT-002B09-8m == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKtE5-002vP3-J3 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKtDz-002vK7-Vj == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKtDz-002vKq-PY == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKtGa-002xrL-44 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:32:11 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 20:37:43 H=(trainerlay.best) [193.111.77.44]:49185 I=[192.254.233.244]:25 F=<ample@trainerlay.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (trainerlay.best) [193.111.77.44]:49185 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://psbl.surriel.com/listing?ip=193.111.77.44"
+2019-10-16 20:40:29 1iKumB-003kzr-2Y <= accreditations@afgonline.com.au H=outbyoip1.pod19.use1.zdsys.com [192.161.149.1]:50236 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=80374 id=KZQP7Q79GQ_5da7c67e8123f_1d013fa6768bcf20504c8_sprut@zendesk.com T="[AFG] Re: WEF & ANZ Accreditation (AFGB)" from <accreditations@afgonline.com.au> for mike@financewa.com.au
+2019-10-16 20:40:29 1iKumB-003kzr-2Y == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 20:46:19 1iKurq-003nOd-Fe <= bounce-26_HTML-4793668-33644-100016251-14904@bounce.em.scoopon.com.au H=mta7.em.scoopon.com.au [13.111.98.76]:55152 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=177553 id=1c40fd9a-895e-48d6-9882-2f3a16587d7f@dfw1s10mta414.xt.local T="Sri Lanka All-Inclusive 5n from $1399 | NT Wilderness from $99/n | 12-Day Vietnam & Cambodia Tour w." from <bounce-26_HTML-4793668-33644-100016251-14904@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-16 20:46:19 1iKurq-003nOd-Fe == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 20:51:26 1iKuwm-003pug-Fj <= Bryan.Gan@anz.com H=mail1.bemta25.messagelabs.com [195.245.230.70]:45829 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=375963 id=C93786EAF575D24EA32A19D875FE8205727C85@EXUAU020HWT207.oceania.corp.anz.com T="Insufficient Advice 800720440" from <Bryan.Gan@anz.com> for mike@financewa.com.au
+2019-10-16 20:51:26 1iKuwm-003pug-Fj == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 21:06:24 H=(timberowe.best) [193.111.77.45]:62407 I=[192.254.233.244]:25 F=<pepper@timberowe.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (timberowe.best) [193.111.77.45]:62407 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.45 , see Poor Reputation Sender"
+2019-10-16 21:26:16 1iKvUV-0047Sd-CF <= noreply@latitudefinancial.com.au H=mail.artimini.com [188.165.126.241]:33840 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=6452 id=2a5c15bf46456f67dbde68c420042e23f2b36d@latitudefinancial.com.au T="Action Required" from <noreply@latitudefinancial.com.au> for mike@financewa.com.au
+2019-10-16 21:26:16 1iKvUV-0047Sd-CF == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 21:38:35 1iKvgQ-004DMa-0U <= Dipti.Shakya@anz.com H=mail1.bemta25.messagelabs.com [195.245.230.1]:49723 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=145790 id=7832AE4CDE00184EB0FD21729F101E5C5475B345@EXUAU182FRM207.oceania.corp.anz.com T="SSA doc as requested" from <Dipti.Shakya@anz.com> for mike@financewa.com.au
+2019-10-16 21:38:35 1iKvgQ-004DMa-0U == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 21:41:44 H=(185.41.96.38-ip.goufone.cat) [185.41.96.38]:16718 I=[192.254.233.244]:25 F=<waggoner.3@futaba.ne.jp> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (185.41.96.38-ip.goufone.cat) [185.41.96.38]:16718 is in an RBL on rbl.websitewelcome.com, see Blocked - see http://www.spamcop.net/w3m?action=checkblock&ip=185.41.96.38"
+2019-10-16 21:46:38 H=(wooddie.best) [193.111.77.46]:23814 I=[192.254.233.244]:25 F=<still@wooddie.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (wooddie.best) [193.111.77.46]:23814 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.46 , see Poor Reputation Sender"
+2019-10-16 21:49:20 1iKvqp-004IuI-Be <= mike@oneloans.com.au H=smtp.netregistry.net [202.124.241.204]:38980 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=8475 id=262CA220-0F5C-456F-865E-A5DE8AA5D5CD@oneloans.com.au T="1048" from <mike@oneloans.com.au> for mike@financewa.com.au
+2019-10-16 21:49:20 1iKvqp-004IuI-Be == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:04:27 1iKw5S-0002Tq-NZ <= app25.3734998473.a7a058de@clients.taguchimail.com H=clients.taguchimail.com [207.126.107.250]:59521 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=66553 id=F5.EC.21978.F2AD7AD5@clients.taguchimail.com T="\342\232\240 CAUTION - HOT OFFER! 50% Off Large Pizzas*" from <app25.3734998473.a7a058de@clients.taguchimail.com> for mike@financewa.com.au
+2019-10-16 22:04:27 1iKw5S-0002Tq-NZ == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:07:01 1iKw7w-0003bw-Gd <= bounce-20473_HTML-752492021-2972586-1341602-162@bounce.mailings.ticketmaster.com.au H=mta.mailings.ticketmaster.com.au [199.122.127.235]:56948 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=31494 id=89d89bd3-0af4-4379-a54c-4caee3ec612b@las1s04mta824.xt.local T="Tex Perkins & Cuban Club | My Ticketmaster Offers" from <bounce-20473_HTML-752492021-2972586-1341602-162@bounce.mailings.ticketmaster.com.au> for mike@financewa.com.au
+2019-10-16 22:07:01 1iKw7w-0003bw-Gd == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:07:11 1iKw86-0003fu-Ro <= 0100016dd7aec7e0-644d859f-e040-4a4c-88a2-612595119b15-000000@1.cpucommunication.com H=a9-41.smtp-out.amazonses.com [54.240.9.41]:59002 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-SHA256:128 CV=no S=11399 id=0100016dd7aec7e0-644d859f-e040-4a4c-88a2-612595119b15-000000@email.amazonses.com T="Computershare - Investor Center - Login from unknown device" from <0100016dd7aec7e0-644d859f-e040-4a4c-88a2-612595119b15-000000@1.cpucommunication.com> for mike@financewa.com.au
+2019-10-16 22:07:11 1iKw86-0003fu-Ro == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:11:19 1iKwC6-0005UU-K2 <= m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2vyzi83shlj4tw@bounce.linkedin.com H=mailc-db.linkedin.com [108.174.6.170]:44140 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=24749 id=595079788.2785953.1571281853616.JavaMail.app@ltx1-app46055.prod.linkedin.com T="Edith Cowan University shared a post:..." from <m-am6mqnxim0s3tvxllco30qsbidp8qke20ss0jgqi2msgik1c2vyzi83shlj4tw@bounce.linkedin.com> for mike@financewa.com.au
+2019-10-16 22:11:19 1iKwC6-0005UU-K2 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:12:44 1iKwDT-00069D-EE <= bounce-26_HTML-4166541-33958-100016247-956@bounce.em.luxuryescapes.com H=mta2.em.luxuryescapes.com [13.111.98.66]:56545 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=60964 id=4688eb81-fea9-4ab9-a1ea-ca65a7a58fc6@dfw1s10mta414.xt.local T="Win the ultimate luxury safari to Zimbabwe, discover Tropical North Queensland\342\200\231s road to paradise " from <bounce-26_HTML-4166541-33958-100016247-956@bounce.em.luxuryescapes.com> for mike@financewa.com.au
+2019-10-16 22:12:44 1iKwDT-00069D-EE == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:13:11 1iKwDu-0006OI-Qh <= bounce-101_HTML-4793668-33973-100016251-14@bounce.em.scoopon.com.au H=mta4.em.scoopon.com.au [13.111.98.73]:54992 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=61584 id=a8b7930e-afee-45c5-a515-1788648bb5c9@dfw1s10mta414.xt.local T="\342\214\232 World Of Watches: Early Xmas Edition - Save Up To 66% Off Casio, Fossil, Earnsaw & More!" from <bounce-101_HTML-4793668-33973-100016251-14@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-16 22:13:12 1iKwDu-0006OI-Qh == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:16:04 1iKwGi-0008Pp-5e <= mike@financewa.com.au H=gator3228.hostgator.com [198.57.247.192]:58937 I=[198.57.247.192]:587 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no A=dovecot_plain:mike@financewa.com.au S=792 id=20191016221602.Horde.8LDwD7LfNuOxbsuEmooXALt@gator3228.hostgator.com T="Hostgator17" from <mike@financewa.com.au> for cubecitytest@gmail.com
+2019-10-16 22:16:04 1iKwGi-0008Pp-5e Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 22:16:04 1iKwGi-0008Pp-5e Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 22:16:04 1iKwGi-0008Pp-5e Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 22:16:04 1iKwGi-0008Pp-5e => cubecitytest@gmail.com F=<mike@financewa.com.au> R=dkim_lookuphostHG T=dkim_remote_smtp S=2347 H=cm.websitewelcome.com [100.42.49.18] I=[198.57.247.192] X=TLSv1.2:AES256-GCM-SHA384:256 CV=yes DN="/OU=Domain Control Validated/OU=Hosted by HostGator.com, LLC./OU=PositiveSSL Wildcard/CN=*.websitewelcome.com" C="250 2.0.0 KwGiibTkrPUvSKwGii9RzF mail accepted for delivery"
+2019-10-16 22:16:52 1iKwHT-0008ce-N9 <= cubecitytest@gmail.com H=mail-wm1-f54.google.com [209.85.128.54]:53950 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=2926 id=CALPwLZNf+U1MmPAmtnTvCP-T8-RAWy8Q_0f8D+6WoWJbk+Couw@mail.gmail.com T="hostgator17" from <cubecitytest@gmail.com> for mike@financewa.com.au
+2019-10-16 22:16:52 1iKwHT-0008ce-N9 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:21:32 1iKwM0-000B3X-3H <= mike@financewa.com.au H=([192.168.18.17]) [144.139.121.96]:53961 I=[198.57.247.192]:587 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no A=dovecot_plain:mike@financewa.com.au S=9464 id=82E252B8-A1EF-46BE-B47F-0FF275DBF717@financewa.com.au T="Test" from <mike@financewa.com.au> for nicholas@financewa.com.au
+2019-10-16 22:21:32 1iKwM0-000B3X-3H => nicholas <nicholas@financewa.com.au> F=<mike@financewa.com.au> R=virtual_user T=dovecot_virtual_delivery S=9751 C="250 2.0.0 <nicholas@financewa.com.au> KLLRMDzep13LnQAAD3iwgg Saved"
+2019-10-16 22:25:52 H=(jacketmud.best) [193.111.77.47]:18897 I=[192.254.233.244]:25 F=<valid@jacketmud.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (jacketmud.best) [193.111.77.47]:18897 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.47 , see Poor Reputation Sender"
+2019-10-16 22:39:23 1iKwdG-000JiE-Cp <= noreply@afgonline.com.au H=mail.afgonline.com.au (postfix-2.prd.afg) [54.66.170.45]:54755 I=[192.254.233.244]:25 P=esmtp S=4752 id=20191017033909.AB5C1900061@flexbat-1.prd.afg T="- Haridasan Nair, Sarat - $2100792.00 - 1-3C5XA5D - Assessment -\n AFG/1-3C5XA5D" from <noreply@afgonline.com.au> for mike@financewa.com.au
+2019-10-16 22:39:23 1iKwdG-000JiE-Cp == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:48:10 1iKwll-000NVN-SU <= mike@oneloans.com.au H=smtp.netregistry.net [202.124.241.204]:55984 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=29895 id=!&!AAAAAAAAAAAuAAAAAAAAAPmbEPHJMdhIkz/VsbpCMAwBANlTnCJhprtFudq2LHCBs8EBACQA//8AABAAAAAe2VwTRegzT58qv5G/svZeAQAAAAA=@oneloans.com.au T="1142" from <mike@oneloans.com.au> for mike@financewa.com.au
+2019-10-16 22:48:10 1iKwll-000NVN-SU == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:50:08 H=(closeday.best) [193.111.77.48]:42543 I=[192.254.233.244]:25 F=<preston@closeday.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (closeday.best) [193.111.77.48]:42543 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.48 , see Poor Reputation Sender"
+2019-10-16 22:52:22 1iKwpp-000PuH-MO <= karry.plummer@ststephens.wa.edu.au H=mail.syd.seqta.com.au [54.66.249.142]:55578 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=12790 id=1354373599.71.1571284327766.JavaMail.root@seqta1 T="Christmas Hamper Appeal" from <karry.plummer@ststephens.wa.edu.au> for mike@financewa.com.au
+2019-10-16 22:52:22 1iKwpp-000PuH-MO == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 22:58:04 1iKwvM-000T4B-H3 <= nicholas@financewa.com.au H=(mail.outlook.com) [52.125.129.196]:37238 I=[192.254.233.244]:465 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-SHA384:256 CV=no A=dovecot_login:nicholas@financewa.com.au S=10910 id=B0610DE4575F3E5A.F9B944E4-9A1E-48DB-9762-BA5E62713EBE@mail.outlook.com T="Re: Test" from <nicholas@financewa.com.au> for mike@financewa.com.au
+2019-10-16 22:58:04 1iKwvM-000T4B-H3 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 23:00:58 1iKwy9-000UZJ-Bb == mike@financewa.com.au <MIKE@FINANCEWA.COM.AU> R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 23:04:07 1iKx1B-000XP0-1m <= mike@financewa.com.au H=([192.168.18.17]) [144.139.121.96]:54248 I=[198.57.247.192]:587 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no A=dovecot_plain:mike@financewa.com.au S=891048 id=A6619BCC-98E4-4720-BF24-218A51B9AE78@financewa.com.au T="Meeting today" from <mike@financewa.com.au> for melissa.hanson@greenlightauto.finance
+2019-10-16 23:04:07 1iKx1B-000XP0-1m Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 23:04:07 1iKx1B-000XP0-1m Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 23:04:07 1iKx1B-000XP0-1m Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-16 23:04:07 1iKx1B-000XP0-1m => melissa.hanson@greenlightauto.finance F=<mike@financewa.com.au> R=dkim_lookuphostHG T=dkim_remote_smtp S=904214 H=cm.websitewelcome.com [100.42.49.18] I=[198.57.247.192] X=TLSv1.2:AES256-GCM-SHA384:256 CV=yes DN="/OU=Domain Control Validated/OU=Hosted by HostGator.com, LLC./OU=PositiveSSL Wildcard/CN=*.websitewelcome.com" C="250 2.0.0 Kx1DihpVaW4frKx1DiIFZ2 mail accepted for delivery"
+2019-10-16 23:06:43 1iKx3i-000ZNp-Mq <= MikeFeltonMFAACEO-pklhtkl1fdhyuihtu1i@cmail19.com H=mx64.b.outbound.createsend.com [27.126.146.64]:55879 I=[192.254.233.244]:25 P=esmtp S=40429 id=cm.1506229914428.pklhtkl.fdhyuihtu.i@cmail19.com T="Draft NCCP Amendment Bill 2019: Post-submission update" from <MikeFeltonMFAACEO-pklhtkl1fdhyuihtu1i@cmail19.com> for mike@financewa.com.au
+2019-10-16 23:06:43 1iKx3i-000ZNp-Mq == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 23:12:05 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:05 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:05 1iKraT-002B09-8m == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:05 1iKwHT-0008ce-N9 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:05 1iKwDT-00069D-EE == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:05 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKqRJ-001e11-Cm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKtEj-002x3n-Nb == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKtc2-0039Bo-6g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKpUG-001E0h-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKwdG-000JiE-Cp == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKpAC-0012qf-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKsbt-002dio-Tx == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKumB-003kzr-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKuKV-003X1s-RD == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:06 1iKvUV-0047Sd-CF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKw5S-0002Tq-NZ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKtFS-002xPH-C7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKuwm-003pug-Fj == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:07 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKtc3-0039Ct-W1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKx3i-000ZNp-Mq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKqSp-001eXk-Ex == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKwpp-000PuH-MO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKvqp-004IuI-Be == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKvgQ-004DMa-0U == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKtz7-003KuZ-G0 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:09 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKtE5-002vP3-J3 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKtDz-002vK7-Vj == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKtDz-002vKq-PY == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKwll-000NVN-SU == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKuBr-003SdR-A7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKw7w-0003bw-Gd == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:10 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:11 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:11 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:11 1iKwvM-000T4B-H3 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:11 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:11 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKwy9-000UZJ-Bb == mike@financewa.com.au <MIKE@FINANCEWA.COM.AU> routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKoN6-000gJO-V1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKw86-0003fu-Ro == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKwC6-0005UU-K2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKrS4-0027Oq-SB == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKurq-003nOd-Fe == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKsUn-002aox-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:12 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:13 1iKtGa-002xrL-44 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:13 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:12:13 1iKwDu-0006OI-Qh == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-16 23:28:00 1iKxOJ-000k03-7j <= NoReply-Connect@education.wa.edu.au H=mx8.det.wa.edu.au [203.14.52.24]:10784 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=7832 id=1929335032.8709251571286463944.JavaMail.connect@cplx-ap23.det.wa.edu.au T="New Notice \"Uniform - skirts are IN!\" by Elizabeth Edwards" from <NoReply-Connect@education.wa.edu.au> for mike@financewa.com.au
+2019-10-16 23:28:00 1iKxOJ-000k03-7j == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 23:33:29 H=cluster-m.mailcontrol.com [116.50.58.190]:42846 I=[192.254.233.244]:25 X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no F=<Carla.Segaram@resimac.com.au> temporarily rejected RCPT <mike@financewa.com.au>: Could not complete sender verify
+2019-10-16 23:35:24 1iKxVT-000n8a-HH <= u-ff00538af3f4ef0c3c0fc503b045a36cc89f7e57@ecomms.cba.com.au H=mail.cecollect.com [62.73.189.146]:6508 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=20984 id=0.0.4.8.1D584A42E668E96.AEF27@mail.cecollect.com T="Important service announcement: CommBank systems interruptions." from <u-ff00538af3f4ef0c3c0fc503b045a36cc89f7e57@ecomms.cba.com.au> for mike@financewa.com.au
+2019-10-16 23:35:24 1iKxVT-000n8a-HH == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-16 23:44:09 1iKxdv-000rUZ-Sk <= dnh7j4-.fFhlfxLdWXZTkWLN7Pc3.menuju66@01071-mulesu984.dnh7j45.ml7scc9hvffsklz2gtkw.respondtokenid-11w7f886pjbq.me H=mail-yw1-f103.google.com [209.85.161.103]:45746 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=98211 id=5da7f18c.1c69fb81.5ed57.af29SMTPIN_ADDED_MISSING@mx.google.com T="RE : Unauthorized login attempt on your account from Aruba - IP\n 12.48.26.210" from <dnh7j4-.fFhlfxLdWXZTkWLN7Pc3.menuju66@01071-mulesu984.dnh7j45.ml7scc9hvffsklz2gtkw.respondtokenid-11w7f886pjbq.me> for mike@financewa.com.au
+2019-10-16 23:44:09 1iKxdv-000rUZ-Sk == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:01:00 1iKxuF-0010dR-2K <= bounce-101_HTML-4793668-33931-100016251-23@bounce.em.scoopon.com.au H=mta3.em.scoopon.com.au [13.111.98.72]:51464 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=134864 id=b1ef9377-8a5b-4b2d-9618-e2d35fddf880@dfw1s10mta413.xt.local T="Luxurious Two-Hour Pamper Package from $99" from <bounce-101_HTML-4793668-33931-100016251-23@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-17 00:01:00 1iKxuF-0010dR-2K == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:01:02 1iKxuH-0010dx-4s == mike@financewa.com.au <MIKE@FINANCEWA.COM.AU> R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:01:20 1iKxuZ-0011IN-Hr <= bounce-26_HTML-4793668-33986-100016251-56@bounce.em.scoopon.com.au H=mta4.em.scoopon.com.au [13.111.98.73]:56647 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=34542 id=5edc4141-fb94-4b1d-9d2c-f7ce47382e00@dfw1s10mta415.xt.local T="The Big Polo Ralph Lauren Sale For Men!" from <bounce-26_HTML-4793668-33986-100016251-56@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-17 00:01:20 1iKxuZ-0011IN-Hr == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:05:17 1iKxyN-00141T-Jl <= Carla.Segaram@resimac.com.au H=cluster-m.mailcontrol.com [116.50.58.190]:51386 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=90753 id=SY2PR01MB2795A4011BBA2206A5B6DC44D06D0@SY2PR01MB2795.ausprd01.prod.outlook.com T="FW: Neil Herbert - Loan Reference 2560473 8117-05900" from <Carla.Segaram@resimac.com.au> for mike@financewa.com.au
+2019-10-17 00:05:17 1iKxyN-00141T-Jl == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:11:29 H=(signtip.best) [193.111.77.50]:27998 I=[192.254.233.244]:25 F=<keitel@signtip.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (signtip.best) [193.111.77.50]:27998 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.50 , see Poor Reputation Sender"
+2019-10-17 00:18:40 1iKyBL-001AcY-Gq <= mail@email.e.entertainmentbook.com.au H=p1-100160.email.e.entertainmentbook.com.au [67.72.100.160]:26820 I=[192.254.233.244]:25 P=esmtps X=TLSv1:ECDHE-RSA-AES256-SHA:256 CV=no S=54194 id=442.442192512.201910170518242768130.0043033105@email.e.entertainmentbook.com.au T="WIN a $3000 shopping spree with WISH!" from <mail@email.e.entertainmentbook.com.au> for mike@financewa.com.au
+2019-10-17 00:18:40 1iKyBL-001AcY-Gq == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 00:35:19 H=(greentax.best) [193.111.77.51]:58423 I=[192.254.233.244]:25 F=<coach@greentax.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (greentax.best) [193.111.77.51]:58423 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.51 , see Poor Reputation Sender"
+2019-10-17 00:59:04 1iKyoR-001UUb-OG <= bounces+6234632-556c-mike=financewa.com.au@send.ksd1.klaviyomail.com H=o16824531x178.outbound-mail.sendgrid.net [168.245.31.178]:58136 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=52313 id=L2SVjc84TU2Zh7kzzHt5qw@ismtpd0061p1mdw1.sendgrid.net T="Don\342\200\231t Miss Out! Only 9 Days Left To\n Enter!\360\237\222\245" from <bounces+6234632-556c-mike=financewa.com.au@send.ksd1.klaviyomail.com> for mike@financewa.com.au
+2019-10-17 00:59:04 1iKyoR-001UUb-OG == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 01:01:16 1iKyqY-001Vco-SB <= bounce-101_HTML-4793668-33995-100016251-23@bounce.em.scoopon.com.au H=mta2.em.scoopon.com.au [13.111.98.71]:53075 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no S=138152 id=a0ed3f95-a866-4480-ac4b-2d7d8df9fdde@dfw1s10mta418.xt.local T="Style Cut Package from $29" from <bounce-101_HTML-4793668-33995-100016251-23@bounce.em.scoopon.com.au> for mike@financewa.com.au
+2019-10-17 01:01:16 1iKyqY-001Vco-SB == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 01:09:15 H=(meritjaw.best) [193.111.77.52]:22051 I=[192.254.233.244]:25 F=<difficult@meritjaw.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (meritjaw.best) [193.111.77.52]:22051 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.52 , see Poor Reputation Sender"
+2019-10-17 01:42:55 1iKzUs-001sli-Lz <= mike@oneloans.com.au H=smtp.netregistry.net [202.124.241.204]:54398 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=29894 id=!&!AAAAAAAAAAAuAAAAAAAAAPmbEPHJMdhIkz/VsbpCMAwBANlTnCJhprtFudq2LHCBs8EBACQA//8AABAAAABd69uc9UTCR5Nfq4Ygk67cAQAAAAA=@oneloans.com.au T="236" from <mike@oneloans.com.au> for mike@financewa.com.au
+2019-10-17 01:42:55 1iKzUs-001sli-Lz == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 01:46:16 1iKzY8-001uBu-8O <= mike@financewa.com.au H=([192.168.18.17]) [144.139.121.96]:54538 I=[198.57.247.192]:587 P=esmtpsa X=TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256 CV=no A=dovecot_plain:mike@financewa.com.au S=9257 id=7A516F2D-3807-4E0D-9E55-412669C5FCD9@financewa.com.au T="1446" from <mike@financewa.com.au> for mike@oneloans.com.au
+2019-10-17 01:46:16 1iKzY8-001uBu-8O Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-17 01:46:16 1iKzY8-001uBu-8O Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-17 01:46:16 1iKzY8-001uBu-8O Sender identification U=mikeh D=financewa.com.au S=mike@financewa.com.au
+2019-10-17 01:46:17 1iKzY8-001uBu-8O => mike@oneloans.com.au F=<mike@financewa.com.au> R=dkim_lookuphostHG T=dkim_remote_smtp S=10944 H=cm.websitewelcome.com [100.42.49.18] I=[198.57.247.192] X=TLSv1.2:AES256-GCM-SHA384:256 CV=yes DN="/OU=Domain Control Validated/OU=Hosted by HostGator.com, LLC./OU=PositiveSSL Wildcard/CN=*.websitewelcome.com" C="250 2.0.0 KzY8i1jPvVUVYKzY9iihVS mail accepted for delivery"
+2019-10-17 01:50:54 1iKzcb-001w1m-PL <= hgcubecitytest@aol.com H=sonic308-8.consmr.mail.gq1.yahoo.com [98.137.68.32]:33204 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=3374 id=1250140959.3904124.1571295039375@mail.yahoo.com T="Test from HG" from <hgcubecitytest@aol.com> for mike@financewa.com.au
+2019-10-17 01:50:54 1iKzcb-001w1m-PL == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 01:51:36 H=(sellerend.best) [193.111.77.53]:10984 I=[192.254.233.244]:25 F=<ruth@sellerend.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (sellerend.best) [193.111.77.53]:10984 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.53 , see Poor Reputation Sender"
+2019-10-17 01:52:05 1iKgMh-000hy7-Vf == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:05 1iKcU0-003I1t-LH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:05 1iKXr0-000rS6-2D == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:05 1iKcr0-003TeB-6x == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKcP0-003FjX-EF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKvgQ-004DMa-0U == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKtz7-003KuZ-G0 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKZl7-001oNA-D1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKeUg-004EwX-IR == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKd7H-003aIJ-Qq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKxuH-0010dx-4s == mike@financewa.com.au <MIKE@FINANCEWA.COM.AU> routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKdMS-003hYE-0N == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKw5S-0002Tq-NZ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKZrS-001rHN-Fk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKX7S-000USO-G6 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKtFS-002xPH-C7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKumB-003kzr-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKwDu-0006OI-Qh == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKXid-000nQF-D2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKiBd-001adk-6l == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:06 1iKbQL-002gFR-0c == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKyBL-001AcY-Gq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKuwm-003pug-Fj == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKvUV-0047Sd-CF == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKuKV-003X1s-RD == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKtDz-002vK7-Vj == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKtDz-002vKq-PY == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKXxO-000v6h-Kc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKh3O-0011JX-4q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKeGP-004957-NQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKdxA-003zkW-3s == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKXfA-000kKV-VL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKfKe-000DVF-Hc == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKeFe-0048dR-H2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKauX-002R4d-Dm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKzdn-001wbc-Ah <= <> R=1iKauX-002R4d-Dm U=mailnull P=local S=2498 T="Warning: message 1iKauX-002R4d-Dm delayed 24 hours" from <> for mike@financewa.com.au
+2019-10-17 01:52:07 1iKzdn-001wbc-Ah == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 01:52:07 1iKuBr-003SdR-A7 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKzcb-001w1m-PL == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKxyN-00141T-Jl == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKZLN-001ayU-9i == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:07 1iKbSo-002jQB-0Z == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKcPR-003FvA-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKyoR-001UUb-OG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKtc2-0039Bo-6g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKwDT-00069D-EE == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKwHT-0008ce-N9 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKZ9T-001VPc-Ec == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKxVT-000n8a-HH == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKraT-002B09-8m == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKtE5-002vP3-J3 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKehn-004KOA-BG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKsUn-002aox-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKzdn-001wbc-Ah == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKxuZ-0011IN-Hr == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKawi-002RrV-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKgUi-000lSk-NG == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKx3i-000ZNp-Mq == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKgLk-000hRv-Kv == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:08 1iKast-002QJ3-Qt == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:09 1iKfLt-000E3e-3f == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:09 1iKsbt-002dio-Tx == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:09 1iKxuF-0010dR-2K == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:09 1iKcEF-0038iY-NA == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKwdG-000JiE-Cp == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKZgG-001ljJ-0T == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKpUG-001E0h-2Y == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKX7W-000UTK-7Q == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKw7w-0003bw-Gd == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKwvM-000T4B-H3 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKtEj-002x3n-Nb == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKZ1I-001Rr8-94 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKpAC-0012qf-J1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKwy9-000UZJ-Bb == mike@financewa.com.au <MIKE@FINANCEWA.COM.AU> routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKzUs-001sli-Lz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKcO8-003FFS-8g == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKw86-0003fu-Ro == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKwC6-0005UU-K2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:10 1iKoN6-000gJO-V1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKxdv-000rUZ-Sk == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKYI3-0015lq-Fz == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKtc3-0039Ct-W1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKai1-002Kun-HP == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKYV1-001CQP-U2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKqRJ-001e11-Cm == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKxOJ-000k03-7j == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKa8Y-0021WI-HS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKyqY-001Vco-SB == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKg3c-000YLj-KS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKXEc-000Xzo-AS == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKqSp-001eXk-Ex == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKvqp-004IuI-Be == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKwpp-000PuH-MO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKenp-004MkA-Ej == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKejp-004L8a-VO == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKwll-000NVN-SU == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKh34-0010bb-F2 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKrS4-0027Oq-SB == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKeFq-0048fZ-F1 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKX4q-000T0n-CK == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKurq-003nOd-Fe == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:12 1iKcpa-003T7l-QQ == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:52:13 1iKtGa-002xrL-44 == mike@financewa.com.au routing defer (-51): retry time not reached
+2019-10-17 01:59:10 1iKzkc-001z9M-45 <= hgcubecitytest@aol.com H=sonic317-22.consmr.mail.gq1.yahoo.com [98.137.66.148]:33267 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=3388 id=1644103762.3888025.1571295534313@mail.yahoo.com T="Another mail from Hosting Provider" from <hgcubecitytest@aol.com> for mike@financewa.com.au
+2019-10-17 01:59:10 1iKzkc-001z9M-45 == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 02:06:53 1iKzs4-0023ou-RU <= hgcubecitytest@aol.com H=sonic313-21.consmr.mail.gq1.yahoo.com [98.137.65.84]:39263 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=3393 id=983534602.3904322.1571295996752@mail.yahoo.com T="Another Test Email from Hosting Provider" from <hgcubecitytest@aol.com> for mike@financewa.com.au
+2019-10-17 02:06:53 1iKzs4-0023ou-RU == mike@financewa.com.au R=virtual_user_filter defer (-17): error in filter file: "and" or "or" or "then" expected near line 223 of filter file, but found "$header_from:"
+2019-10-17 02:13:05 1iKzy5-0026J6-Cw <= hgcubecitytest@aol.com H=sonic305-19.consmr.mail.gq1.yahoo.com [98.137.64.82]:42574 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=3355 id=564894948.3886483.1571296370727@mail.yahoo.com T="Test 4" from <hgcubecitytest@aol.com> for mike@financewa.com.au
+2019-10-17 02:13:06 1iKzy5-0026J6-Cw </home2/mikeh/mail/financewa.com.au/mike/>: address_directory transport output: lda(mike@financewa.com.au): Error: net_connect_unix(/var/run/dovecot/stats-writer) failed: Permission denied
+2019-10-17 02:13:06 1iKzy5-0026J6-Cw => /home2/mikeh/mail/financewa.com.au/mike/ <mike@financewa.com.au> F=<hgcubecitytest@aol.com> R=virtual_user_filter T=address_directory S=3474
+2019-10-17 02:16:33 1iL01R-0028AJ-4Y <= hgcubecitytest@aol.com H=sonic313-21.consmr.mail.gq1.yahoo.com [98.137.65.84]:40872 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=3337 id=1253481597.3901706.1571296580860@mail.yahoo.com T="Test 5" from <hgcubecitytest@aol.com> for mike@financewa.com.au
+2019-10-17 02:16:33 1iL01R-0028AJ-4Y => mike <mike@financewa.com.au> F=<hgcubecitytest@aol.com> R=virtual_user T=dovecot_virtual_delivery S=3517 C="250 2.0.0 <mike@financewa.com.au> ADNYJFEVqF3TaQcAD3iwgg Saved"
+2019-10-17 02:16:33 1iL01R-0028AJ-4Y => |/usr/local/cpanel/bin/autorespond mike@financewa.com.au /home2/mikeh/.autorespond (mike@financewa.com.au) <mike@financewa.com.au> F=<hgcubecitytest@aol.com> R=virtual_aliases_nostar T=jailed_virtual_address_pipe S=3390
+2019-10-17 02:17:39 1iL02U-0028aX-SF <= gabnotarte@gmail.com H=mail-ua1-f52.google.com [209.85.222.52]:46785 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=2700 id=CACU0514R4OxPBgJSP0suNPTM5rHDujmZrdeOW6PCEJao4H3_pg@mail.gmail.com T="My personal Email, Test from HG" from <gabnotarte@gmail.com> for mike@financewa.com.au
+2019-10-17 02:17:39 1iL02U-0028aX-SF => mike <mike@financewa.com.au> F=<gabnotarte@gmail.com> R=virtual_user T=dovecot_virtual_delivery S=2881 C="250 2.0.0 <mike@financewa.com.au> mNfcEpMVqF3JpAcAD3iwgg Saved"
+2019-10-17 02:17:39 1iL02U-0028aX-SF => |/usr/local/cpanel/bin/autorespond mike@financewa.com.au /home2/mikeh/.autorespond (mike@financewa.com.au) <mike@financewa.com.au> F=<gabnotarte@gmail.com> R=virtual_aliases_nostar T=jailed_virtual_address_pipe S=2752
+2019-10-17 02:18:00 1iL02p-0028iU-8M <= mike@oneloans.com.au H=smtp.netregistry.net [202.124.241.204]:57210 I=[192.254.233.244]:25 P=esmtps X=TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128 CV=no S=8475 id=D221E02F-3696-4309-BD84-1A3E9CE206DE@oneloans.com.au T="1517" from <mike@oneloans.com.au> for mike@financewa.com.au
+2019-10-17 02:18:00 1iL02p-0028iU-8M => mike <mike@financewa.com.au> F=<mike@oneloans.com.au> R=virtual_user T=dovecot_virtual_delivery S=8747 C="250 2.0.0 <mike@financewa.com.au> gLIiBagVqF3TaQcAD3iwgg Saved"
+2019-10-17 02:18:00 1iL02p-0028iU-8M => |/usr/local/cpanel/bin/autorespond mike@financewa.com.au /home2/mikeh/.autorespond (mike@financewa.com.au) <mike@financewa.com.au> F=<mike@oneloans.com.au> R=virtual_aliases_nostar T=jailed_virtual_address_pipe S=8527
+2019-10-17 02:18:38 H=(pyramidfur.best) [193.111.77.54]:5703 I=[192.254.233.244]:25 F=<contact@pyramidfur.best> rejected RCPT <mike@financewa.com.au>: "JunkMail rejected - (pyramidfur.best) [193.111.77.54]:5703 is in an RBL on csi.cloudmark.com/reset-request/?ip=193.111.77.54 , see Poor Reputation Sender"
+2019-10-17 02:20:23 1iL058-002AC0-DG => |/usr/local/cpanel/bin/autorespond mike@financewa.com.au /home2/mikeh/.autorespond (MIKE@financewa.com.au) <MIKE@financewa.com.au> F=<mike@oneloans.com.au> R=virtual_aliases_nostar T=jailed_virtual_address_pipe S=8642

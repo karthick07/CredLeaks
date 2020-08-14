@@ -1,0 +1,22 @@
+{
+    "scrape_url": "https://scrape.pastebin.com/api_scrape_item.php?i=drwy5ZzC",
+    "full_url": "https://pastebin.com/drwy5ZzC",
+    "date": "1594458660",
+    "key": "drwy5ZzC",
+    "size": 310,
+    "expire": "0",
+    "title": "mydance.lua",
+    "syntax": "lua",
+    "user": "",
+    "filename": "drwy5ZzC",
+    "pasteid": "drwy5ZzC",
+    "pastesite": "pastebin.com",
+    "@timestamp": "2020-07-11T09:11:00",
+    "MD5": "f48b75c3f4d43c2b4080cff72d1a550c",
+    "SHA256": "029ae81b6b74a4863f277471fae09fdd57a4fd62d01e4f7b21ca60a7e4a6fd21",
+    "raw_paste": "print('Time to dance!')\r\nturtle.forward()\r\nturtle.back()\r\nturtle.turnRight()\r\nturtle.forward()\r\nturtle.back()\r\nturtle.back()\r\nturtle.turnLeft()\r\nturtle.turnLeft()\r\nturtle.back()\r\nturtle.turnRight()\r\n\r\n-- Turtle krutitsya\r\nfor i = 1, 4 do\r\n  turtle.turnRight()\r\nend\r\nturtle.up()\r\nturtle.down()\r\nprint('Doooone')",
+    "YaraRule": [
+        "enable_org32",
+        "core_keywords"
+    ]
+}
