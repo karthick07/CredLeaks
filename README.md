@@ -1,5 +1,7 @@
-# PASTEHUNTER
-## Applying a text classification model after scraping Pastes using Pastehunter to predict PII.
+# Pastehunter
+## Applying a text classification model on the scraped Pastes to predict PII (Only Tested on Pastebin).
+
+###### This research was carried out as part of my Masters Thesis. The developed scripts is a Proof of concept to demonstrate how text classification models along with keywords/Yara rules can aid in identifying PII from pastes.  
 
 PasteHunter
 PasteHunter is a python3 application that is designed to query a collection of sites that host publicly pasted data. For all the pastes it finds it scans the raw contents against a series of Yara rules looking for information that can be used by an organisation or a researcher.
@@ -34,3 +36,6 @@ Cuckoo
 Viper
 ```
 For examples of data discovered using pastehunter check out my posts https://techanarchy.net/blog/hunting-pastebin-with-pastehunter and https://techanarchy.net/blog/pastehunter-the-results
+
+
+
