@@ -1,3 +1,5 @@
+__author__ = "Karthick Thambidurai"
+__status__ = "Prototype"
 import pandas as pd
 import re
 import nltk
