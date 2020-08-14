@@ -1,7 +1,16 @@
 # Pastehunter
-## Applying a text classification model on the scraped Pastes to predict PII (Only Tested on Pastebin).
+## Applying a text classification model on the scraped pastes to predict PII (only tested on Pastebin).
 
-###### This research was carried out as part of my Masters Thesis. The developed scripts is a Proof of concept to demonstrate how text classification models along with keywords/Yara rules can aid in identifying PII from pastes.  
+###### This research was carried out as part of my Masters Thesis. The developed scripts is a Proof of concept to demonstrate how text classification model along with keywords/Yara rules can aid in identifying PII from pastes. Pastehunter was used as a scraper and I made use of the repo (https://github.com/secbug/PasteHunter) for scraping and all additional scripts were developed as part of the thesis.
+
+## Text Classification
+Following are the components developed:
+
+```
+Prefilter - Eliminate source code and empty pastes using keywords and MIME types.
+Model - Feeding the filtered pastes to a Machine Learning model to predict PII.
+Database - Filtered pastes are stored in a sqlite database and predicted paste IDs can be fetched from the database.
+```
 
 PasteHunter
 PasteHunter is a python3 application that is designed to query a collection of sites that host publicly pasted data. For all the pastes it finds it scans the raw contents against a series of Yara rules looking for information that can be used by an organisation or a researcher.
