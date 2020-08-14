@@ -48,5 +48,7 @@ Viper
 ```
 For examples of data discovered using pastehunter check out my posts https://techanarchy.net/blog/hunting-pastebin-with-pastehunter and https://techanarchy.net/blog/pastehunter-the-results
 
+If your interested in my thesis or need more information about the work done feel free to contact me. Thanks :)
+
 
 
