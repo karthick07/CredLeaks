@@ -1,5 +1,5 @@
 # Pastehunter
-## Applying a text classification model on the scraped pastes to predict PII (only tested on Pastebin).
+## Applying a text classification model on scraped pastes to predict PII (only tested on Pastebin).
 
 ###### This research was carried out as part of my Masters Thesis and the developed scripts is a Proof of concept to demonstrate how text classification model along with keywords/Yara rules can aid in identifying PII from pastes. Pastehunter was used as a scraper and I made use of the repo (https://github.com/secbug/PasteHunter) for scraping pastes from Pastebin. All additional scripts in the repository were developed as part of my thesis and the current setup is intended for Linux.
 
